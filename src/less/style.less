@@ -1,0 +1,276 @@
+/*!
+
+ * Customization on Bootstrap by Joy  
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+//import bootstrap
+// @import "bootstrap/bootstrap.less";
+@import "variables.less";
+@import "bootstrap/dropdowns.less";
+
+// alert.less
+.alert{
+	padding: @alert-padding;
+	border: 1px solid transparent;
+	border-radium: @alert-border-radius;
+	margin: @margin-base;
+}
+
+.alert-dismiss{
+	padding-right: (@alert-padding + 20);
+
+	.close {
+		position:relative;
+		top:-2px;
+		right: -21px;
+		color: inherit;
+	}
+}
+
+.alert-success{
+	background-color: @alert-success-bg;
+	border-color: @alert-success-border; 
+	color: @alert-success-text;
+}
+
+.alert-info {
+	background-color: @alert-info-bg;
+	border-color: @alert-info-border; 
+	color: @alert-info-text;
+}
+
+.alert-warning {
+	background-color: @alert-warning-bg;
+	border-color: @alert-warning-border; 
+	color: @alert-warning-text;
+}
+
+.alert-danger {
+	background-color: @alert-danger-bg;
+	border-color: @alert-danger-border; 
+	color: @alert-danger-text;
+  
+}
+
+
+// badge.less
+.badge{
+	display: inline-block;
+
+	color: @badge-color;
+	border-radius: @badge-border-radius;
+	background-color: @badge-bg;
+	font-size: @font-size-h6;	
+	// line-height: @badge-line-height;
+	padding: @padding-small;
+	text-align: center;
+
+}
+
+// button.less
+.btn{
+	display: inline-block;
+	font-weight: @btn-font-weight;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	white-space: nowrap;
+
+	padding: @padding-base-vertical @padding-base-horizontal;
+	font-size: @font-size-base;
+	border-radius: @border-radius-base;
+
+
+	&.disabled,
+  	&[disabled],
+  	fieldset[disabled] & {
+	    cursor: @cursor-disabled;
+	    opacity:@disable-opacity;
+  	}
+
+	a& {
+	  &.disabled,
+	  fieldset[disabled] & {
+	    pointer-events: none; // Future-proof disabling of clicks on `<a>` elements
+	  }
+	}
+
+}
+
+
+.btn-default {
+  	color: @btn-default-text; 
+  	background-color: @btn-default-bg; 
+  	border-color:@btn-default-border;
+
+  	&:hover,
+    &:focus{
+    	&:not([disabled]){
+    		background-color: @btn-default-hover;
+    	}
+    }
+
+}
+// Action button highlighted 
+.btn-primary {
+	color: @btn-primary-text; 
+  	background-color: @btn-primary-bg; 
+  	border-color:@btn-primary-border;
+
+  	&:hover,
+    &:focus{
+    	&:not([disabled]){
+    		background-color: @btn-primary-hover;
+    	}
+    }
+}
+
+// Danger and error appear as red
+.btn-danger {
+	color: @btn-danger-text; 
+  	background-color: @btn-danger-bg; 
+  	border-color:@btn-danger-border;
+
+  	&:hover,
+    &:focus{
+    	&:not([disabled]){
+    		background-color: @btn-danger-hover;
+    	}
+    }
+  
+}
+
+.btn-link{
+	color: @link-color;
+	border-radius: 0;
+	background-color: transparent;
+
+  	&:hover,
+    &:focus{
+    	&:not([disabled]){
+    		color:@link-hover-color;
+    		text-decoration: @link-hover-decoration;
+    	}
+    }
+}
+
+//== Dropdowns
+//
+//## Dropdown menu container and contents.
+
+//** Background for the dropdown menu.
+@dropdown-bg:                    #fff;
+//** Dropdown menu `border-color`.
+@dropdown-border:                rgba(0,0,0,.15);
+//** Dropdown menu `border-color` **for IE8**.
+@dropdown-fallback-border:       #ccc;
+//** Divider color for between dropdown items.
+@dropdown-divider-bg:            #e5e5e5;
+
+//** Dropdown link text color.
+@dropdown-link-color:            @gray-dark;
+//** Hover color for dropdown links.
+@dropdown-link-hover-color:      darken(@gray-dark, 5%);
+//** Hover background for dropdown links.
+@dropdown-link-hover-bg:         #f5f5f5;
+
+//** Active dropdown menu item text color.
+@dropdown-link-active-color:     @component-active-color;
+//** Active dropdown menu item background color.
+@dropdown-link-active-bg:        @component-active-bg;
+
+//** Disabled dropdown menu item background color.
+@dropdown-link-disabled-color:   @gray-light;
+
+//** Text color for headers within dropdown menus.
+@dropdown-header-color:          @gray-light;
+
+//** Deprecated `@dropdown-caret-color` as of v3.1.0
+@dropdown-caret-color:           #000;
+
+
+@caret-width-base:          4px;
+
+//-- Z-index master list
+//
+// Warning: Avoid customizing these values. They're used for a bird's eye view
+// of components dependent on the z-axis and are designed to all work together.
+//
+// Note: These variables are not generated into the Customizer.
+
+@zindex-navbar:            1000;
+@zindex-dropdown:          1000;
+
+@line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
+@component-active-color    @link-color;
+
+.box-shadow (@x: 0px, @y: 3px, @blur: 5px, @alpha: 0.5) {
+	-webkit-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+	-moz-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+	box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+}
+
+
+.nav-divider(@color: #e5e5e5) {
+  height: 1px;
+  margin: ((@line-height-computed / 2) - 1) 0;
+  overflow: hidden;
+  background-color: @color;
+}
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+
+
+// // Core variables and mixins
+// @import "variables.less";
+// @import "mixins.less";
+
+// // // Reset and dependencies
+// // @import "normalize.less";
+// // @import "print.less";
+// // @import "glyphicons.less";
+
+// // Core CSS
+// @import "scaffolding.less";
+// @import "type.less";
+// @import "code.less";
+// @import "grid.less";
+// @import "tables.less";
+// @import "forms.less";
+// @import "buttons.less";
+
+// // Components
+// @import "component-animations.less";
+// @import "dropdowns.less";
+// @import "button-groups.less";
+// @import "input-groups.less";
+// @import "navs.less";
+// @import "navbar.less";
+// @import "breadcrumbs.less";
+// @import "pagination.less";
+// @import "pager.less";
+// @import "labels.less";
+// @import "badges.less";
+// @import "jumbotron.less";
+// @import "thumbnails.less";
+// @import "alerts.less";
+// @import "progress-bars.less";
+// @import "media.less";
+// @import "list-group.less";
+// @import "panels.less";
+// @import "responsive-embed.less";
+// @import "wells.less";
+// @import "close.less";
+
+// // Components w/ JavaScript
+// @import "modals.less";
+// @import "tooltip.less";
+// @import "popovers.less";
+// @import "carousel.less";
+
+// Utility classes
+// @import "utilities.less";
+// @import "responsive-utilities.less";

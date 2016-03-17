@@ -1,0 +1,76 @@
+.modal-close {
+  float: right;
+  padding: 10px;
+  font-size: 1.3em;
+  cursor: pointer;
+  cursor: hand;
+}
+
+#shortcut-content {
+  border: 1px solid rgba(0,0,0,0.12);
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.08);
+  -moz-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.08);
+  -webkit-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.08);
+  display: block !important;
+  z-index: 100;
+  position: relative;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  tr {
+    padding: 3px 0 4px 0 !important;
+  }
+  width: 600px;
+}
+
+.context-bar #shortcut-content {
+  top: 25px;
+}
+
+#shortcut-table {
+  margin: 30px 10px;
+  color: #4A4A4A;
+  height: 276px;
+  width: 580px;
+  >tbody {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+td.shortcut-instruction {
+  text-align: right;
+  margin-right: 10px;
+}
+
+td.shortcut-colon {
+  width: 18px;
+  text-align: center;
+}
+
+td.shortcut-description {
+  font-family: @text-font;
+  font-weight: 400;
+  font-size: 14px;
+  padding-right: 55px;
+}
+
+.shortcut-command {
+  font-family: "LucidaGrande", sans-serif;
+  font-size: 12px;
+  background-color: #F9F9F9;
+  padding: 2px 5px 2px 5px;
+  color: #B37900;
+
+  &.command-key::before {
+    content: "<"
+  }
+
+  &.command-key::after {
+    content: ">"
+  }
+}
+
+.plus-sign {
+  margin-left: 5px;
+  margin-right: 5px;
+}

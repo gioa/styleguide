@@ -1,85 +1,92 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Databricks Style Guide</title>
 	<link href="css/reset.css" type="text/css" rel="stylesheet" />
+	<link href="css/style.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
 </head>
 
 <body >
-
-
-
 	<div class="container">	
 
 	<div class="nav">
 		<div class="logo">
 			<!-- <span class="logo_color">Databricks</span><span>API</span> -->
 		</div>
+
 		<nav>
-		<ul>
-			<li><a href="#DesignGuidelines">Design Guidelines</a></li>
-	     	<li><a href="#CurrentProduct">Current Product</a></li>
-	     		<ul>
-					<li><a href="#topbar">Topbar</a></li> 
-					<li><a href="#sidebar">Sidebar & File Browser</a></li>
-					<li><a href="#notebook">Notebook</a></li>
-					<li><a href="#clusters">Clusters</a></li>
-					<li><a href="#jobdetail">Job Detail</a></li>
-				</ul> 
-	    
-	     	<li><a href="#Styles">Styles</a></li>
-	     		<ul>
-					<li><a href="#color">Color</a></li> 
-					<li><a href="#icons">Icons</a></li>
-					<li><a href="#typography">Typography</a></li>
-					<li><a href="#spacing">Spacing</a></li>
-					
-				</ul> 
-	     	<!-- <li><a href="#Layout">Layout</a></li> -->
+			<ul>
+				<li><a href="#DesignGuidelines">Design Guidelines</a>
+		     	<!-- <li><a href="#CurrentProduct">Current Product</a></li>
+		     		<ul>
+						<li><a href="#topbar">Topbar</a></li> 
+						<li><a href="#sidebar">Sidebar & File Browser</a></li>
+						<li><a href="#notebook">Notebook</a></li>
+						<li><a href="#clusters">Clusters</a></li>
+						<li><a href="#jobdetail">Job Detail</a></li>
+					</ul>  
+				-->
+				</li>
+		    
+		     	<li><a href="#Styles">Styles</a>
+		     		<ul>
+						<li><a href="#color">Color</a></li> 
+						<li><a href="#icons">Icons</a></li>
+						<li><a href="#typography">Typography</a></li>
+						<li><a href="#spacing">Spacing</a></li>
+						
+					</ul> 
+				</li>
+		     	<!-- <li><a href="#Layout">Layout</a></li> -->
 
-	     	<li><a href="#Components">Components</a></li>
-	     	 	<ul>
-	     	 		<li><a href="#buttons">Buttons</a></li> 
-					<li><a href="#menu">Context Menu</a></li>
-					<li><a href="#dialog">Dialog</a></li> 
-					<!-- <li><a href="#">Dropdown</a></li> -->
-					<li><a href="#table">Table</a></li>
-					<li><a href="#tab">Tabs</a></li>
-					<li><a href="#textfield">Text Field</a></li>
-					<li><a href="#tooltip">Tooltips</a></li>
-				<!-- </ul>  -->
+		     	<li><a href="#Components">Components</a>
+		     	 	<ul>
+		     	 		<li><a href="#buttons">Buttons</a></li> 
+						<li><a href="#menu">Context Menu</a></li>
+						<li><a href="#dialog">Dialog</a></li> 
+						<!-- <li><a href="#">Dropdown</a></li> -->
+						<li><a href="#table">Table</a></li>
+						<li><a href="#tab">Tabs</a></li>
+						<li><a href="#textfield">Text Field</a></li>
+						<li><a href="#tooltip">Tooltips</a></li>
+					<!-- </ul>  -->
 
-			<!--  <li><a href="#Patterns">Patterns</a></li>
-	     	 	<ul>
-	     	 		<li><a href="#">Empty States</a></li>  -->
-					<li><a href="#errors">Error Messages</a></li>
-					<!-- <li><a href="#">Search</a></li> 
-					<li><a href="#">Breadscrumbs</a></li> -->
-					<li><a href="#field">Field Validation</a></li>
-					<li><a href="#others">Others</a></li>
-				</ul> 
-			<!-- <li><a href="#resources">Resources</a></li> -->
-		</ul>
+				<!--  <li><a href="#Patterns">Patterns</a></li>
+		     	 	<ul>
+		     	 		<li><a href="#">Empty States</a></li>  -->
+						<li><a href="#errors">Error Messages</a></li>
+						<!-- <li><a href="#">Search</a></li> 
+						<li><a href="#">Breadscrumbs</a></li> -->
+						<li><a href="#field">Field Validation</a></li>
+						<li><a href="#others">Others</a></li>
+					</ul> 
+				</li>
+				<!-- <li><a href="#resources">Resources</a></li> -->
+			</ul>
 		</nav>
+
 		<br><br>
 	</div> <!-- end of nav div -->
 
+
 	<div class="content">
 		<div class="container">
-			<!-- <h2 class="page_title">Getting Started<h2> -->
+			
 			<h2 class="page_title">Databricks Style Guide</h2>
-			<p><!-- <strong>long message 1 </strong> -->This style guide reflects the patterns and components of the current Databricks product. It aims to provide a unified language and consistent look and feel within the Databrick ecosystem.</p>
+			<p>This style guide reflects the patterns and components of the current Databricks product. It aims to provide a unified language and consistent look and feel within the Databrick ecosystem.</p>
 		
+
 			<h3 class="section_title" id="DesignGuidelines">Design Guildlines</h3>
-		
-
-			<p><strong>Clarity:</strong> People must be able to recognize and understand what it is, predict what will happen when they use it. Clarity eliminate confusion and inspire confidence.</p>
-
+			<p><strong>Clarity:</strong> People must be able to recognize and understand what it is, predict what will happen when they use it. </p>
 			<p><strong>Simplicity:</strong> Reduce cognitive load.</p>
-
 			<p><strong>Efficiency:</strong> Optimize workflows. Provide shortcuts to help people work faster.</p>
 		
-			<h3 class="section_title" id="CurrentProduct">Current Product</h3>
+		<!-- Current Product Screenshots -->
+<!-- 			<h3 class="section_title" id="CurrentProduct">Current Product</h3>
 
 			<p class="para_title" id="topbar">Topbar</p>
 
@@ -356,23 +363,283 @@
 			</table>
 
 
-
+ -->
 		
 			<h3 class="section_title" id="Styles">Styles</h3>
 			<!-- <p>This comment should belong to MyService This public comment should belong only to the public version of Message1 This internal comment should only belong to the internal documentation Since this is markdown, here is a big fat link to a message. Here is a link to a field</p> -->
 
 			<p class="para_title" id="color">Color</p>
-			<img src="./img/Colors.png"/>
+			<!-- <img src="./img/Colors.png"/> -->
+			<div class="para_section">
 
+			<table>
+			    <thead>
+			    	 <colgroup>
+					    <col style="width:33%">
+					    <col style="width:33%">
+					    <col style="width:33%">
+					 </colgroup>  
+			    </thead>
+			    <tbody>
+			        <tr>
+			           <td>
+							<div class="col_title">Primary Colors: </div>
+
+								<div class="color db_orange">#FF5224 <span class="desc">Logo</span></div>
+								<div class="color btn_blue">#258bd2 <span class="desc">Button & Link</span></div>
+								<div class="color invalid_bg">#ffecec<span class="desc">Invalid/Error Bg</span></div>
+							
+						</td>
+			            <td>
+			            	 
+			            	<div class="col_title">Text Colors: </div>
+
+								<div class="color primary_text">#333333 <span class="desc">Text</span></div>
+								<div class="color sec_text">#000 52% <span class="desc">Secondery Text</span></div>
+								<div class="color hint_text">#000 34% <span class="desc">Hint & Disabled</span></div>
+
+								<div class="color error_text">#b63e2b <span class="desc">Error</span></div>
+
+								<!-- <div class="color warning_text">#55555 <span class="desc">Warning</span></div>
+
+								<div class="color success_text">#55555 <span class="desc">Success</span></div> -->
+
+								
+						</td>
+			            <td>
+							<div class="col_title">Background & Border: </div>
+
+								<div class="color sidebar_bg">#464644 <span class="desc">Sidebar Bg</span></div>			
+								<!-- <div class="color welcome_bg">#fcfcfa<span class="desc">Welcome Bg</span></div> -->
+								<div class="color table_bg">#fafafa <span class="desc">Table Header Bg</span></div>
+								<div class="color table_border">#ccccc<span class="desc">Table Border</span></div>
+								<div class="color divider_border">#e6e8ea<span class="desc">Divider</span></div>
+
+
+
+			            </td>
+			        </tr>
+			    </tbody>
+			</table>
+				
+			</div>
 
 			<p class="para_title" id="icons">Icons</p>
-			<img src="./img/icons.png"/>
+
+			<table>
+			    <thead>
+			    	 <colgroup>
+					    <col style="width:20%">
+					    <col style="width:20%">
+					    <col style="width:20%">
+					    <col style="width:20%">
+					    <col style="width:20%">
+					 </colgroup>  
+			    </thead>
+			    <tbody>
+			        <tr>
+			           <td>
+							<div class="col_title">Sidebar: </div>
+
+							<span class="icon"><i class="fa"></i> Home </span><br> 
+							<!-- fa-home -->
+
+							<span class="icon"><i class="fa"></i> Workspace </span><br>
+							<!-- fa-folder-open-o -->
+
+							<span class="icon"><i class="fa "></i> Recent</span><br>
+							<!-- fa-clock-o -->
+
+							<span class="icon"><i class="fa "></i> Table</span><br>
+							<!-- fa-table -->
+
+							<span class="icon"><i class="fa "></i> Cluster</span><br>
+							<!-- fa-sitemap -->
+
+							<span class="icon"><i class="fa "></i> Job</span><br>
+							<!-- fa-calendar -->
+
+							<span class="icon"><i class="fa"></i> Search</span><br>
+							<!-- fa-search-->
+							
+
+
+							
+						</td>
+			            <td>
+			            	 
+			            	<div class="col_title">Topbar: </div>
+
+								
+								<span class="icon"><i class="fa "></i> User</span><br>
+								<!-- fa-user -->
+								<span class="icon"><i class="fa "></i> Help</span><br>
+								<!-- fa-question -->
+								<span class="icon"><i class="fa "></i> Activity</span><br>
+								<!-- fa-clock-o -->
+								<span class="icon"><i class="fa "></i> Guide</span><br>
+								<!-- fa-book -->
+								<span class="icon"><i class="fa "></i> Contact Us</span><br>
+								<!-- fa-envelope -->
+								<span class="icon"><i class="fa"></i> Shortcut</span><br>
+								<!-- fa-keyboard-o -->
+
+								<span class="icon"><i class="fa"></i> Upgrade</span><br>
+								<!-- fa-arrow-circle-up -->
+								
+						</td>
+			            <td>
+							<div class="col_title">File Browser:</div>
+
+							<span class="icon"><i class="fa fa-code"></i>Code</span><br>
+							<span class="icon"><i class="fa fa-graduation-cap"></i>Training</span><br>
+							<span class="icon"><i class="fa fa-question"></i> Guide</span><br>
+							<span class="icon"><i class="fa fa-share-alt-square"></i> Shared</span><br>
+							<span class="icon"><i class="fa fa-users"></i> Users</span><br>
+
+							<span class="icon"><i class="fa fa-folder-o"></i> Folder </span><br>
+							<span class="icon"><i class="fa fa-folder"></i> Owner's Folder </span><br>
+							<span class="icon"><i class="fa fa-book"></i> Library </span><br>
+							<span class="icon"><i class="fa fa-home"></i> Home</span><br>
+
+
+							<span class="icon"><i class="fa fa-chevron-down"></i> Actions</span><br>
+							
+							<span class="icon"><i class="fa fa-thumb-tack"></i>  Pin</span><br>
+							
+
+
+			            </td>
+			            <td>
+			            	<div class="col_title">Contextbar: </div>
+
+								<span class="icon"><i class="fa fa-sitemap"></i> Cluster</span><br>
+
+								<span class="icon"><i class="fa fa-image"></i> View</span><br>
+
+								
+								<span class="icon"><i class="fa fa-file-text-o"></i>File</span><br>
+								<span class="icon"><i class="fa  fa-play-circle-o"></i> Run All</span><br>
+								<span class="icon"><i class="fa fa-lock"></i> Permission</span><br>
+
+								<span class="icon"><i class="fa fa-unlock-alt"></i> Unlock</span><br>
+
+
+								<span class="icon"><i class="fa fa-keyboard-o"></i> Shortcut</span><br>
+
+								<span class="icon"><i class="fa fa-share-square-o"></i> Publish</span><br>
+								<span class="icon"><i class="fa fa-comments"></i> Comments</span><br>
+								<span class="icon"><i class="fa fa-history"></i> Revision</span><br>
+
+
+								<span class="icon"><i class="fa fa-github"></i> Github</span><br>
+
+								<span class="icon"><i class="fa fa-cloud-upload"></i> Import</span><br>
+								
+							
+			            </td>
+			            <td>
+			            	<div class="col_title">Notebook: </div>
+
+			        			<span class="icon"><i class="fa fa-bar-chart"></i> Dashboard</span><br>
+			        			<span class="icon"><i class="fa fa-chevron-down"></i> Actions</span><br>
+								<span class="icon"><i class="fa fa-minus"></i> Minimize</span><br>
+								<span class="icon"><i class="fa fa-remove"></i> Delete</span><br>
+
+
+								<span class="icon"><i class="fa fa-pencil"></i> Edit</span><br>
+								<span class="icon"><i class="fa fa-play"></i> Present</span><br>
+								<span class="icon"><i class="fa fa-trash"></i> Delete</span><br>
+								
+								<span class="icon"><i class="fa fa-gear"></i> Settings</span><br>
+								<span class="icon"><i class="fa fa-search-plus"></i> Zoom in</span><br>
+								<span class="icon"><i class="fa fa-search-minus"></i> Zoom out</span><br>
+								<span class="icon"><i class="fa fa-expand"></i>Expand</span><br>
+			            	
+
+			            </td>
+			            
+			        </tr>
+			        <tr>
+			        	<td>
+			        		<div class="col_title">Actions: </div>
+			        			<span class="icon"><i class="fa fa-plus"></i> Add New</span><br>
+
+								<span class="icon"><i class="fa fa-clone"></i> Clone </span><br>
+								<span class="icon"><i class="fa fa-refresh"></i> Restart </span><br>
+			            		
+								<span class="icon"><i class="fa fa-close"></i> Terminate </span><br>
+
+			            		<span class="icon"><i class="fa fa-angle-double-down"></i> More</span><br>
+								<span class="icon"><i class="fa fa-external-link"></i> External Link</span><br>
+
+								<span class="icon"><i class="fa fa-unsorted"></i> Selector</span><br>
+
+								
+							
+								
+								
+			        	</td>
+			        	<td>
+			        		<div class="col_title">Status: </div>
+
+			        			<span class="icon"><i class="fa fa-spinner"></i> Spinner </span><br>
+								<span class="icon"><i class="fa fa-check"></i> Selected</span><br>
+
+								<span class="icon"><i class="fa fa-info-circle"></i> Info</span><br>
+								<span class="icon"><i class="fa fa-exclamation-circle"></i> Exclamation </span><br>
+								
+								<span class="icon"><i class="fa fa-question-circle"></i> Tooltip</span><br>
+
+
+								<span class="icon"><i class="fa fa-exclamation-triangle"></i> Warning</span><br>
+								
+								 
+
+			        	</td>
+			        	<td>
+			        		<div class="col_title">Directional: </div>
+			    				<span class="icon"><i class="fa fa-caret-down"></i> Caret-down</span><br>
+								<span class="icon"><i class="fa fa-caret-right"></i> Caret-right</span><br>
+								<span class="icon"><i class="fa fa-chevron-right"></i> Chevron-right</span><br>
+			        			
+								
+
+			        	</td>
+			        	<td>
+			        		<div class="col_title">Future Use: </div>
+			        			<span class="icon"><i class="fa fa-database"></i> Database</span><br>
+								<span class="icon"><i class="fa fa-angle-down"></i> angle-down </span><br>
+								<!-- <span class="icon"><i class="fa fa-asterisk"></i> Required </span><br> -->
+								
+								<span class="icon"><i class="fa fa-cloud-download"></i>Download</span><br>
+
+			        	</td>
+
+			        </tr>
+			    </tbody>
+			</table>
+
+				
+
+			<!-- <img src="./img/icons.png"/> -->
 
 			<p class="para_title" id="typography">Typography</p>
-			<img src="./img/Typography.png"/>
+			<!-- <img src="./img/Typography.png"/> -->
+			<div class="typo_sec">
+			    <p class="typo_52px"> Welcome - 52px</p><br>
+			    <p class="typo_26px"> Cluster/Job Title - 26px</p><br>
+			    <p class="typo_22px"> Sign In to Databricks - 22px</p><br>
+			     <p class="typo_18px"> Organization Name - 18px</p><br>
+			    <p class="typo_16px"> Tabs & Breadcrumb - 16px</p><br>
+			    <p class="typo_14px"> Normal Text - 14px</p><br>
+			    <p class="typo_13px"> Table/Dialog Text - 13px</p><br>
+			     <p class="typo_11px"> Sidebar Text - 11px</p><br>
+			   
+			</div>
 
 				<p class="para_title" id="spacing">Spacing</p>
-			<img src="./img/spacing.png"/>
+			<!-- <img src="./img/spacing.png"/> -->
 
 			<p><strong>Component Height:</strong> Topbar:48px; Sidebar item:43px; File browser item:24px; Acitivity icon height:26px;</p>
 
@@ -392,46 +659,91 @@
 			<h3 class="section_title" id="Components">Components</h3>
 
 			<p class="para_title" id="buttons">Buttons</p>
-			<img src="./img/Buttons.png"/>
-			<p class="para_title" id="menu">Context Menu & Dropdown</p>
-			<img src="./img/Contextmenu.png"/>
+
+			 	<p>
+			        <button type="button" class="btn  btn-default">Default</button>
+			        <button type="button" class="btn  btn-primary">Primary</button>
+			        <button type="button" class="btn  btn-danger">Danger</button>
+			        <button type="button" class="btn  btn-link">Link</button>
+      			</p>
+			 	<p> 
+			        <button type="button" class="btn  btn-default" disabled>Default</button>
+			        <button type="button" class="btn  btn-primary" disabled>Primary</button>
+			        <button type="button" class="btn  btn-danger" disabled>Danger</button>
+			        <button type="button" class="btn  btn-link" disabled>Link</button>
+      			</p>
+      			<br>
+
+
+			<!-- <img src="./img/Buttons.png"/>
+			 -->
+			 <p class="para_title" id="menu">Context Menu & Dropdown</p>
+
+			<ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+             </ul>
+
+			<!-- <img src="./img/Contextmenu.png"/> -->
 			<p class="para_title" id="dialog">Dialog</p>
 
-			<img src="./img/Dialog.png"/>
+
+			<!-- <img src="./img/Dialog.png"/> -->
 
 
-
+			<p class="para_title" id="dialog">Badge</p>
+			<p>
+				Invitation <span class="badge">2</span>
+			</p>
 
 			<p class="para_title" id="table">Table</p>					
 			
-			<img src="./img/tables.png"/>
+			<!-- <img src="./img/tables.png"/> -->
 
 			<p>The first one is used in Cluster list page, Jobs list page, and Admin page. The second one with veritcal divider is used in Tables.</p>
 
 			<p class="para_title" id="tab">Tabs</p>				
-			<img src="./img/tabs.png"/>
+			<!-- <img src="./img/tabs.png"/> -->
 
 			<p>The tabs logocially chunk the content and allow the users to alternate between views where they don't need to simultaneously see content from multiple tabs. </p>
 
 
 			<p class="para_title" id="textfield">Text field</p>
-			<img src="./img/textfield.png"/>
+			<!-- <img src="./img/textfield.png"/> -->
 
 			<!-- <p>Text fields can be single-line, or multi-line. </p> -->
 
 			<p class="para_title" id="tooltip">Tooltips</p>
-			<img src="./img/tooltips.png"/>
+			<!-- <img src="./img/tooltips.png"/> -->
 
 			<p class="para_title" id="errors">Error Messages</p>
-			<img src="./img/errormessages.png"/>
+
+		 	  <div class="alert alert-success" role="alert">
+		        <strong>Well done!</strong> You successfully read this important alert message.
+		      </div>
+		      <div class="alert alert-info" role="alert">
+		        <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+		      </div>
+		      <div class="alert alert-warning" role="alert">
+		        <strong>Warning!</strong> Best check yo self, you're not looking too good.
+		      </div>
+		      <div class="alert alert-danger" role="alert">
+		        <strong>Oh snap!</strong> Change a few things up and try submitting again.
+		      </div>
+		<!-- <img src="./img/errormessages.png"/> -->
 
 			<p class="para_title" id="field">Field Validation</p>
-			<img src="./img/Fieldvalidation.png"/>
+			<!-- <img src="./img/Fieldvalidation.png"/> -->
 
 
 
 			<p class="para_title" id="others">Others</p>
-			<img src="./img/Others.png"/>
+			<!-- <img src="./img/Others.png"/> -->
 <!-- 
 			<h3 class="section_title" id="Patterns">Patterns</h3>
 

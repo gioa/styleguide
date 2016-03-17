@@ -1,0 +1,50 @@
+/* key frames: pulse by increasing in size and opacity */
+@keyframes highlight-animation-frames {
+  from {
+    transform: scale(1.0);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1.0;
+  }
+  to {
+    transform: scale(1.0);
+    opacity: 0.9;
+  }
+}
+
+/* same as above but with a smaller increase in size */
+@keyframes sm-highlight-animation-frames {
+  from {
+    transform: scale(1.0);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.01);
+    opacity: 1.0;
+  }
+  to {
+    transform: scale(1.0);
+    opacity: 0.9;
+  }
+}
+
+/* highlight animation class: this class is applied to each element animated by Highlight */
+.highlight-animation {
+  /* highlight animation: pulse the element */
+  &:not(.small-frame) {
+    animation-name: highlight-animation-frames;
+  }
+  &.small-frame {
+    animation-name: sm-highlight-animation-frames;
+  }
+
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+/* highlight active class: this class is applied to each element highlighted by Highlight */
+.highlight-active {
+  // blank style, just for tests
+}

@@ -1,0 +1,209 @@
+@import "variables.less";
+
+.stage-details {
+  max-height: 100px;
+  overflow-y: auto;
+  margin: 0;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+}
+
+.stage-details.collapsed {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: none;
+}
+
+span.expand-additional-metrics {
+  cursor: pointer;
+}
+
+span.additional-metric-title {
+  cursor: pointer;
+}
+
+.additional-metrics.collapsed {
+  display: none;
+}
+
+.arrow-open {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+  float: left;
+  margin-top: 6px;
+}
+
+.arrow-closed {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid black;
+  display: inline-block;
+}
+
+/* Hide all additional metrics by default. This is done here rather than using JavaScript to
+ * avoid slow page loads for stage pages with large numbers (e.g., thousands) of tasks. */
+.scheduler_delay, .gc_time, .deserialization_time, .serialization_time, .getting_result_time {
+  display: none;
+}
+
+span.expand-details {
+  font-size: 10pt;
+  cursor: pointer;
+  color: grey;
+  float: right;
+}
+
+.navbar-static-top {
+  position: fixed;
+  z-index: 1000;
+  width:100%;
+  background-color: rgb(230, 232, 234);
+  font-size: 13px;
+  font-weight: 200;
+  height: 26px;
+  z-index: 500;
+}
+
+.navbar-static-top .navbar-inner {
+  background-image: none;
+  border-style: none;
+  height: 26px;
+  min-height: 26px;
+  padding-left: 0;
+  box-shadow: none;
+  border-bottom: 1px solid #e6e8ea;
+}
+
+.navbar div.brand {
+  display: none;
+  width: 0;
+}
+
+.navbar li {
+  height: 26px;
+}
+
+.navbar .nav > .active a, .navbar .nav > .active a:hover, .navbar .nav > .active a:focus {
+  box-shadow: none;
+  background-color: inherit;
+}
+
+.navbar .nav {
+  height: inherit;
+  margin-left: 8px;
+
+  li {
+    height: inherit;
+
+    a {
+      height: inherit;
+      color: rgb(155,155,155);
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    &.active a {
+      &, &:hover, &:focus {
+        background-color: #DDDDDD;
+        border-radius: 10px;
+        margin: 3px 8px;
+        line-height: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+p.navbar-text {
+  display: none;
+}
+
+.navbar + .container-fluid {
+  padding-top: 26px;
+}
+
+table.sortable thead {
+  cursor: pointer;
+}
+
+table.sortable td {
+  word-wrap: break-word;
+  max-width: 600px;
+}
+
+span.kill-link {
+  margin-right: 2px;
+  margin-left: 20px;
+  color: gray;
+  float: right;
+}
+
+span.kill-link a {
+  color: gray;
+}
+
+h1 {
+  font-family: @header-font;
+  font-weight: 200;
+  line-height: 36px;
+  font-size: 33px;
+}
+
+h2, h2 .job-name {
+  font-family: @header-font;
+  font-weight: 200;
+  line-height: 30px;
+  font-size: 27px;
+}
+
+h3 {
+  font-family: @header-font;
+  font-weight: 200;
+  line-height: 24px;
+  font-size: 22px;
+}
+
+h4 {
+  font-family: @header-font;
+  font-weight: 200;
+  line-height: 21px;
+  font-size: 18px;
+}
+
+h5 {
+  font-family: @header-font;
+  font-weight: 200;
+  line-height: 19px;
+  font-size: 16px;
+}
+
+a {
+  color: @linkcolor;
+}
+
+a:hover, a:active {
+  color: @linkhovercolor;
+}
+
+a[disabled] {
+  color: #bbb;
+  cursor: text;
+  pointer-events: none;
+}
+
+body, input, .command-dots, .ui-widget, .ui-widget textarea, .ui-widget input,
+.ui-widget select, .ui-widget button, thead {
+  font-family: @text-font;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.btn, input, select, option {
+  font-family: @text-font;
+}

@@ -1,0 +1,47 @@
+.nestify div {
+  display: inline;
+}
+
+.nestify ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 14px;
+}
+
+.nestify li * {
+  text-indent: 0;
+}
+
+.nestify li {
+  padding-left: 14px;
+  text-indent: -14px;
+}
+
+.nestify li ul {
+  margin-left: 0;
+}
+
+.nestify i {
+  color: #999;
+  padding-right: 3px;
+  font-weight: bold;
+  display: inline;
+  min-width: 12px;
+  text-align: center;
+}
+
+i.nestify-expand, i.nestify-collapse {
+  cursor: pointer;
+}
+
+.nestify-key {
+  color: #30a;
+}
+
+.nestify.nestify-array > .nestify-key {
+  color: #164;
+}
+
+.nestify-object {
+  color: #888;
+}
