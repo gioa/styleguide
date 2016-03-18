@@ -20,7 +20,7 @@ html, body{
 
 
 /* Nav Style */
-.nav{
+.theme_nav{
 
 	width:20%;
 	min-width: 300px; 
@@ -346,3 +346,17 @@ background-color: #464644;
 	float: right;
 	
 }
+
+/* dropdown 
+*/
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme_form{
+	width: 500px;
+}
+

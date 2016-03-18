@@ -4,16 +4,23 @@
 <html>
 <head>
 	<title>Databricks Style Guide</title>
+	<link href="css/style.css" type="text/css" rel="stylesheet" />	
 	<link href="css/reset.css" type="text/css" rel="stylesheet" />
-	<link href="css/style.css" type="text/css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
 </head>
 
 <body >
 	<div class="container">	
 
-	<div class="nav">
+	<div class="theme_nav">
 		<div class="logo">
 			<!-- <span class="logo_color">Databricks</span><span>API</span> -->
 		</div>
@@ -51,7 +58,7 @@
 						<!-- <li><a href="#">Dropdown</a></li> -->
 						<li><a href="#table">Table</a></li>
 						<li><a href="#tab">Tabs</a></li>
-						<li><a href="#textfield">Text Field</a></li>
+						<li><a href="#textfield">Form</a></li>
 						<li><a href="#tooltip">Tooltips</a></li>
 					<!-- </ul>  -->
 
@@ -61,7 +68,7 @@
 						<li><a href="#errors">Error Messages</a></li>
 						<!-- <li><a href="#">Search</a></li> 
 						<li><a href="#">Breadscrumbs</a></li> -->
-						<li><a href="#field">Field Validation</a></li>
+						<!-- <li><a href="#field">Field Validation</a></li> -->
 						<li><a href="#others">Others</a></li>
 					</ul> 
 				</li>
@@ -679,20 +686,44 @@
 			 -->
 			 <p class="para_title" id="menu">Context Menu & Dropdown</p>
 
-			<ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-             </ul>
+			 <div class="dropdown theme-dropdown clearfix">
+		        <!-- <a id="dropdownMenu1" href="#" class="sr-only dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a> -->
+		        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+		          <li class="active"><a href="#">Action</a></li>
+		          <li><a href="#">Another action</a></li>
+		          <li><a href="#">Something else here</a></li>
+		          <li role="separator" class="divider"></li>
+		          <li><a href="#">Separated link</a></li>
+		        </ul>
+		     </div>
 
 			<!-- <img src="./img/Contextmenu.png"/> -->
 			<p class="para_title" id="dialog">Dialog</p>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Open Modal</button>
 
+			<!-- Modal -->
+			<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+			  <div class="modal-dialog">
 
+			    <!-- Modal content-->
+			    <div class="modal-content">
+			      <div class="modal-header">
+			       <!--  <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+			        <h4 class="modal-title">Modal Header</h4>
+			      </div>
+			      <div class="modal-body">
+			        <p>Some text in the modal.</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+			        <button type="button" class="btn btn-primary" data-dismiss="modal">Action</button>
+			      </div>
+			    </div>
+
+			  </div>
+			</div>
+			<!-- end of Modal -->
+			<br><br>
 			<!-- <img src="./img/Dialog.png"/> -->
 
 
@@ -700,26 +731,149 @@
 			<p>
 				Invitation <span class="badge">2</span>
 			</p>
+			<br>
 
 			<p class="para_title" id="table">Table</p>					
 			
+			<p>The first one is used in Cluster list page, Jobs list page, and Admin page.</p>
+			<table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <br>
+          <p> The second one with veritcal divider is used in Tables.</p>
+          <table class="table table-col-bordered">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
 			<!-- <img src="./img/tables.png"/> -->
 
-			<p>The first one is used in Cluster list page, Jobs list page, and Admin page. The second one with veritcal divider is used in Tables.</p>
+			
 
-			<p class="para_title" id="tab">Tabs</p>				
+			<p class="para_title" id="tab">Tabs</p>	
+
 			<!-- <img src="./img/tabs.png"/> -->
 
 			<p>The tabs logocially chunk the content and allow the users to alternate between views where they don't need to simultaneously see content from multiple tabs. </p>
+			<br>
+			<div>
+				<ul class="nav nav-tabs">
+				  <li class="tab-nav-item active"><a href="#">Users</a></li>
+				  <li class="tab-nav-item"><a href="#">Access Control</a></li>
+				  <li class="tab-nav-item"><a href="#">2-Factor Authentication</a></li>
+				</ul>
+			</div>
+			<br>
 
+			<br>
 
-			<p class="para_title" id="textfield">Text field</p>
+			<p class="para_title" id="textfield">Form</p>
+			<div class="theme_form">
+				<label>User Name </label><input type="text" class="form-control" placeholder="Input field">
+				<br>
+				<label>Comments</label><textarea class="form-control" rows="3"></textarea>
+				<br>	
+
+				<div class="checkbox">
+					  <label>
+					    <input type="checkbox" value="">
+					    Use spot instance
+					  </label>
+				</div>
+				<br>
+
+			<!-- 	<div class="checkbox disabled">
+					  <label>
+					    <input type="checkbox" value="" disabled>
+					    Disabled Checkbox
+					  </label>
+				</div>
+				<br> -->
+
+				<div class="radio">
+					  <label>
+					    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+					    Option one 
+					  </label>
+				</div>
+				<div class="radio">
+					  <label>
+					    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+					    Option two 
+					  </label>
+				</div>
+			<!-- 	<div class="radio disabled">
+					  <label>
+					    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+					    Option three is disabled
+					  </label>
+				</div>	 -->
+			</div>
+			<br>
+
 			<!-- <img src="./img/textfield.png"/> -->
 
 			<!-- <p>Text fields can be single-line, or multi-line. </p> -->
 
 			<p class="para_title" id="tooltip">Tooltips</p>
 			<!-- <img src="./img/tooltips.png"/> -->
+			<i class="fa fa-question-circle"  data-toggle="tooltip" data-placement="right" title="Hooray!"></i>
+	
+			<br>
+			<br>
 
 			<p class="para_title" id="errors">Error Messages</p>
 
@@ -735,9 +889,12 @@
 		      <div class="alert alert-danger" role="alert">
 		        <strong>Oh snap!</strong> Change a few things up and try submitting again.
 		      </div>
+		      
+			<br>
+			<br>
 		<!-- <img src="./img/errormessages.png"/> -->
 
-			<p class="para_title" id="field">Field Validation</p>
+		<!-- 	<p class="para_title" id="field">Field Validation</p> -->
 			<!-- <img src="./img/Fieldvalidation.png"/> -->
 
 
@@ -757,6 +914,7 @@
 
 
 </div>
-<script src="js/jquery-2.1.1.min.js" ></script>
+<!-- <script src="js/jquery-2.1.1.min.js" ></script> -->
+
 </body>
 </html>
