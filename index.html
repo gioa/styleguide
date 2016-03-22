@@ -3,29 +3,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Databricks Style Guide</title>
+
 	<link href="css/style.css" type="text/css" rel="stylesheet" />	
 	<link href="css/reset.css" type="text/css" rel="stylesheet" />
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	
 	<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<script>
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-</script>
+		$(function () {
+		  $('[data-toggle="tooltip"]').tooltip()
+		})
+	</script>
 </head>
 
 <body >
 	<div class="container">	
-
 	<div class="theme_nav">
 		<div class="logo">
-			<!-- <span class="logo_color">Databricks</span><span>API</span> -->
 		</div>
 
-		<nav>
+		<nav id="sidebar">
 			<ul>
 				<li><a href="#DesignGuidelines">Design Guidelines</a>
 		     	<!-- <li><a href="#CurrentProduct">Current Product</a></li>
@@ -83,6 +85,9 @@ $(function () {
 	<div class="content">
 		<div class="container">
 			
+			<a class="open_sidebar" href="#sidebar"><i class="fa fa-navicon"></i></a>
+
+
 			<h2 class="page_title">Databricks Style Guide</h2>
 			<p>This style guide reflects the patterns and components of the current Databricks product. It aims to provide a unified language and consistent look and feel within the Databrick ecosystem.</p>
 		
@@ -878,18 +883,18 @@ $(function () {
 			<p class="para_title" id="errors">Error Messages</p>
 
 		 	  <div class="alert alert-success" role="alert">
-		        <strong>Well done!</strong> You successfully read this important alert message.
+		        <!-- <strong>Well done!</strong>  -->An email has been sent with further instructions.
 		      </div>
-		      <div class="alert alert-info" role="alert">
+		    <!--   <div class="alert alert-info" role="alert">
 		        <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
-		      </div>
+		      </div> -->
 		      <div class="alert alert-warning" role="alert">
-		        <strong>Warning!</strong> Best check yo self, you're not looking too good.
+		        <!-- <strong>Warning!</strong>  -->You have made changes that you need to confirm.
 		      </div>
 		      <div class="alert alert-danger" role="alert">
-		        <strong>Oh snap!</strong> Change a few things up and try submitting again.
+		        <!-- <strong>Oh snap!</strong>  -->Invalid email address.
 		      </div>
-		      
+
 			<br>
 			<br>
 		<!-- <img src="./img/errormessages.png"/> -->

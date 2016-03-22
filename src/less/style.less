@@ -53,9 +53,9 @@
 
 // alert.less
 .alert{
-	padding: @alert-padding;
+	padding: @padding-small-vertical @alert-padding;
 	border: 1px solid transparent;
-	border-radium: @alert-border-radius;
+	border-radius: @alert-border-radius;
 	margin: @margin-base;
 }
 
@@ -655,7 +655,7 @@ table {
       position: relative;
       display: block;
       padding: @nav-link-padding;
-
+      color: @link-color;
 
       &:hover,
       &:focus {
@@ -963,6 +963,7 @@ input[type="checkbox"]:focus {
 
 
 // Base class
+
 .tooltip {
   position: absolute;
   z-index: @zindex-tooltip;

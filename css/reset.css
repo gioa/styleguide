@@ -7,7 +7,6 @@
  	text-decoration: none;
  	color: #333;
  	font-weight: normal;
-
  }
 
 html, body{
@@ -29,8 +28,7 @@ html, body{
 	border-right:1px solid #e6e8ea; 
 	overflow-y: auto;
 	position: fixed;
-
-  	
+ 	
 }
 
 .logo{
@@ -359,4 +357,39 @@ background-color: #464644;
 .theme_form{
 	width: 500px;
 }
+
+
+/* responsive layout */
+
+.open_sidebar{
+	display: none;
+	padding: 8px 10px 8px 12px; 
+	font-size: 1.6em;
+	text-align: center;
+	color: white;
+	background: #ddd;
+}
+
+
+
+@media (max-width: 520px) {
+  .theme_nav {
+    width: 0;
+    overflow-y: hidden;
+  }
+
+   .theme_nav:target {
+    width: 200px;
+    overflow-y: scroll;
+  }
+
+  .content .container {
+    margin-left: 0;
+  }
+
+  .open_sidebar {
+    display: inline-block;
+  }
+}
+
 
