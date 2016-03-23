@@ -443,7 +443,7 @@
 .modal-footer {
   padding: @modal-inner-padding;
   text-align: right; // right align buttons
-  // border-top: 1px solid @modal-footer-border-color;
+  border-top: 0;
   &:extend(.clearfix all); // clear it in case folks use .pull-* classes on buttons
 
   // Properly space out buttons
@@ -661,6 +661,8 @@ table {
       &:focus {
         text-decoration: none;
         color:@link-hover-color;
+        background-color: transparent;
+        border: 0;
       }
     }
 
@@ -691,6 +693,10 @@ table {
     color: @link-color;
     font-size: @nav-tabs-font-size;
 
+    > a {
+      border:0;
+    }
+
     // Actual tabs (as links)
     // > a {
     //   margin-right: 2px;
@@ -710,7 +716,7 @@ table {
         color: @nav-tabs-active-link-bottom-border-color;
         // background-color: @nav-tabs-active-link-hover-bg;
 
-        // border: 1px solid @nav-tabs-active-link-hover-border-color;
+        border: 0;
         // border-bottom-color: transparent;
         border-bottom: 3px solid  @nav-tabs-active-link-bottom-border-color;
         cursor: default;
