@@ -1,0 +1,265 @@
+@import "modal.less";
+
+.workspace-acl {
+  .set-modal-width(560px);
+
+  a {
+    cursor: pointer;
+  }
+
+  hr {
+    margin: 10px 0;
+  }
+
+  .modal-body-workspace-acl {
+    max-height: none;
+  }
+
+  .modal-header-workspace-acl {
+    .title {
+      display: inline;
+      color: #00000;
+      font-weight: 500;
+      padding-left: 5px;
+    }
+  }
+
+  .modal-body-workspace-acl {
+    overflow-y: visible;
+
+    .save-changes-hint {
+      background-color: #f9edbe;
+      border: 1px solid #f0c36d;
+      border-radius: 3px;
+      display: inline-block;
+      padding: 0 5px;
+      float: right;
+    }
+  }
+
+  select, option {
+    border-radius: 0;
+    border: 1px solid #d9d9d9;
+    background: none;
+    font-family: inherit;
+    display: inline-block;
+    height: 31px;
+    padding-left: 1em;
+    box-sizing: border-box;
+    width: 115px;
+    border-collapse: collapse;
+
+    &[disabled] {
+      background-color: #eee !important;
+      cursor: not-allowed;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      line-height: normal;
+    }
+  }
+
+  .acl-buttons {
+    display: inline-block;
+  }
+
+  .acl-links {
+    display: inline-block;
+    a {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  .permission-selection {
+    .help-icon {
+      color: #737373;
+    }
+  }
+
+  .acl-user-list {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 230px;
+    border: 1px solid #d9d9d9;
+
+    .acl-user {
+      display: block;
+      border-bottom: 1px solid #d9d9d9;
+      height: 34px;
+      width: 100%;
+      color: #515151;
+
+      .acl-user-name {
+        width: 58%;
+        max-width: 58%;
+        overflow: hidden;
+        float: left;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 5px 12px;
+        white-space: nowrap;
+        box-sizing: border-box;
+
+        .user-email {
+          margin-left: 3px;
+          color: #737373;
+        }
+      }
+
+      .acl-user-permission {
+        width: 33%;
+        float: left;
+        padding: 4px 0 0 18px;
+        select, option {
+          height: 26px;
+          width: 125px;
+          margin: 0 5px;
+        }
+      }
+
+      .acl-user-control {
+        float: left;
+        margin-left: 7px;
+        line-height: 24px;
+        padding: 5px 0;
+        font-size: 14px;
+        a {
+          color: #515151;
+          &:hover {
+            color: #919191;
+          }
+        }
+      }
+
+      &.changed {
+        background-color: #f9edbe;
+
+        select, option {
+          border-color: #f0c36d;
+          &:focus, &:active {
+            border-color: #f0c36d;
+            outline: none;
+          }
+        }
+      }
+
+      .clearfix
+    }
+  }
+
+  .user-list-title {
+    margin: 0 0 5px 0;
+  }
+
+  .add-user-title {
+    margin: 15px 0 5px 0;
+  }
+
+  .add-user {
+    .permission-selection, .btn {
+      float: right;
+      margin-left: 12px;
+    }
+
+    select, option {
+      width: 120px;
+      margin: 0 5px;
+    }
+
+    .select-user {
+      float: left;
+      width: 58%;
+      position: relative;
+
+      &.select-user-tooltip {
+        min-width: 307px;
+      }
+
+      .username-input {
+        padding-right: 20px;
+        padding-left: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        line-height: 25px;
+
+        &[disabled] {
+          background-color: #e6e6e6;
+          opacity: .65;
+        }
+
+        &[disabled] + .auto-complete-btn {
+          cursor: not-allowed;
+        }
+      }
+
+      .auto-complete-btn {
+        cursor: pointer;
+        display: inline-block;
+        position: absolute;
+        top: 5px;
+        right: 7px;
+        font-size: 14px;
+      }
+
+      .auto-complete-list {
+        display: none;
+        &.visible {
+          display: block;
+        }
+
+        max-height: 164px;
+        position: absolute;
+        z-index: 1;
+        border: 1px solid #aaa;
+        background: #fff;
+        top: 100%;
+        padding: 5px 0px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        font-size: 12px;
+        width: 100%;
+        box-sizing: border-box;
+
+        ul {
+          margin: 0;
+          li {
+            list-style-type: none;
+            line-height: 22px;
+            font-size: 12px;
+            padding: 0 10px;
+            cursor: pointer;
+            white-space: nowrap;
+
+            &.focused, &:hover {
+              color: #000000;
+              background-color: #EFEFEF;
+            }
+
+            span {
+              margin-left: 2px;
+            }
+          }
+        }
+      }
+    }
+
+    .clearfix
+  }
+
+  &.move-preview {
+    .set-modal-width(940px);
+
+    .preview-lists-wrapper {
+      .permission-list {
+        width: 50%;
+        float: left;
+
+        .acl-user-list {
+          margin-right: 5px;
+        }
+      }
+      .clearfix
+    }
+  }
+}

@@ -1,0 +1,522 @@
+/** TODO(lauren) switch to these styles when new job view is ready
+    (see additional comment below)
+
+i.job-upgrade-tooltip {
+  padding-left: 3px;
+}
+
+.runs-nav-top {
+  padding-top: 20px;
+}
+
+.job-subheader {
+  font-weight: bold;
+}
+
+.active-run-job-cancel {
+  padding-left: 3px;
+}
+
+.job-name h2, .job-name input {
+  cursor: text;
+  margin: -3px -4px 0 !important;
+  padding: 2px 60px 2px 3px !important;
+  border: 1px solid transparent !important;
+  border-radius: 4px;
+  line-height: 37px !important;
+  height: 37px;
+  display: inline-block !important;
+  min-width: 252px;
+  font-size: 27px;
+}
+
+.job-name h2:hover {
+  border: 1px solid #ccc !important;
+}
+
+.job-name.editing input {
+  padding-right: 30px;
+  min-width: 500px;
+  border: none !important;
+
+  &:focus {
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(112,172,233,1);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(112,172,233,1);
+    box-shadow: 0px 0px 5px 2px rgba(112,172,233,1);
+  }
+}
+
+i.job-name-edit {
+  font-size: 15pt;
+  pointer-events: none;
+  margin-left: -30px;
+  color: #bbb;
+}
+
+.job-name-wrapper {
+  margin: 8px auto 8px;
+  height: 40px;
+}
+
+.job-name:hover i.job-name-edit {
+  color: #888;
+}
+**/
+
+input.job-name {
+  margin: -3px -4px;
+  padding: 2px 3px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  min-width: 0;
+  line-height: 37px;
+}
+
+input.job-name:hover, input.job-name:focus {
+  border: 1px solid #ccc;
+}
+
+input.job-name:focus, .link-active input.job-name {
+  padding-right: 30px;
+  min-width: 500px;
+}
+
+.link-active .job-name {
+  pointer-events: none;
+  color: #bbb;
+}
+
+i.job-name-edit {
+  pointer-events: none;
+  margin-left: -30px;
+  color: #bbb;
+}
+
+.job-name-wrapper:hover i.job-name-edit {
+  color: #888;
+}
+
+.job-name-wrapper.active i.job-name-edit {
+  display: none;
+}
+
+.link-active i.job-name-edit {
+  display: none;
+}
+
+// TODO(lauren) styles above can be removed when new job view implemented
+
+a.job-remove-link {
+  float: right;
+}
+
+i.link-active {
+  color: #bbb;
+}
+
+a.link-active {
+  color: #bbb;
+  text-decoration: none;
+  cursor: text;
+  pointer-events: none;
+}
+
+.job-run-command {
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 7px 4px;
+}
+
+.job-run-command:hover {
+  border: 1px solid #E5E8EA;
+}
+
+.job-run-command .prompt {
+  font-weight: bold;
+  color: #CCC6B6;
+  float: left;
+  margin-left: 3px;
+}
+
+.job-run-command-text {
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+
+.job-run-command-output {
+  margin-left: 16px;
+  margin-right: 10px;
+}
+
+.job-run-command-output .results {
+  margin-left: 4px;
+}
+
+.job-run-command-output table {
+  margin: 0px !important;
+}
+
+.job-run-command-output p {
+  margin-left: 4px;
+  margin-bottom: 0px !important;
+}
+
+#newJobName, #newJobWorkers, #newJobMemory {
+  float: left;
+}
+
+.dialog-new-job .multi-input-row label {
+  width: 120px;
+}
+
+.dialog-new-job .multi-input-row > div {
+  width: 400px;
+}
+
+.jar-jobs-dialog {
+  .jar-upload-dropzone {
+    margin-left: 27px !important;
+    width: 425px !important;
+
+    a.dz-remove {
+      cursor: pointer;
+      cursor: hand;
+    }
+
+    .dz-size {
+      display: none; // hide size as it's currently not served by the backend
+    }
+
+    .dz-details {
+      margin-bottom: 10px;
+    }
+
+    .dz-default.dz-message {
+      height: 40px;
+    }
+  }
+
+  .modal-body-jar-jobs-dialog {
+    position: initial;
+    max-height: initial;
+
+    .main-class-field, .parameters-field {
+      height: auto;
+      margin: 15px auto 15px 25px;
+
+      label {
+        display: inline-block;
+        padding-right: 10px;
+      }
+    }
+  }
+
+  .jar-dialog-notice {
+    margin: auto auto 15px 28px;
+
+    >span {
+      display: inline-block;
+    }
+
+    >i.toggle-jar-notice {
+      float: right;
+      margin-top: -31px;
+      cursor: pointer;
+      cursor: hand;
+      padding: 15px 15px 0 15px;
+      display: inline;
+    }
+
+    >.expanded-jar-notice {
+      margin: 15px 33px auto auto;
+      color: #9B9B9B;
+
+      a {
+        color: @linkcolor;
+
+        &:hover {
+          color: @linkhovercolor;
+        }
+      }
+    }
+  }
+
+  .edit-jar-modal .dz-filename > span {
+    word-wrap: break-word;
+  }
+
+  .run-as-notebook-field {
+    margin-top: 5px;
+    display: inline-block;
+
+    label {
+      display: inline-block;
+      margin-left: 5px;
+      cursor: default;
+    }
+
+    #legacy-jar-input {
+      margin: 0 auto 4px 26px;
+    }
+  }
+}
+
+#emailAlertsHelpText {
+  margin-left: -100px;
+  width: 500px;
+}
+
+#onStartEmail, #onSuccessEmail, #onErrorEmail {
+  width: 300px;
+}
+
+#jobTimeoutHelpText {
+  margin-left: -100px;
+}
+
+.dialog-set-retry {
+  width: 600px;
+}
+
+.dialog-set-retry .multi-input-row > div {
+  width: 500px;
+}
+
+.dialog-set-retry .multi-input-row > div > div {
+  margin-left: 0px;
+}
+
+.dialog-multifield-container {
+  width: 525px;
+}
+
+.dialog-set-timeout .multi-input-row label {
+  width: 120px;
+}
+
+.dialog-set-timeout .multi-input-row > div {
+  width: 400px;
+}
+
+.dialog-set-cluster .multi-input-row > div {
+  width: 450px;
+}
+
+.job-paginate-prev {
+  float: left;
+}
+
+.job-paginate-next {
+  float: right;
+}
+
+.table.completed-runs-table {
+  margin-bottom: 2px;
+}
+
+.runs-nav-bottom {
+  margin-bottom: 40px;
+}
+
+.jobs-advanced {
+  margin-left: 10px;
+}
+
+.job-show-advanced-options {
+  cursor: pointer;
+  user-select: none;
+}
+
+.job-list-filter {
+  float: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+
+.jobs-list-view {
+  h5 {
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 10px;
+  }
+  .job-list-warning {
+    color: @font-error;
+  }
+  .jobs-table {
+    a {
+      cursor: pointer;
+    }
+
+    .job-task {
+      padding-right: 6px;
+    }
+
+    .job-task-column {
+      position: relative;
+    }
+
+    .tooltip-edit-jar-link {
+      padding-top: 10px;
+
+      a {
+        color: @linkcolor;
+
+        &:hover {
+          color: @linkhovercolor;
+        }
+      }
+    }
+  }
+}
+
+.active-runs-table, .completed-runs-table {
+  position: relative;
+}
+
+.job-notebook-modal .modal-body {
+  max-height: 500px;
+}
+
+.job-cluster-dialog {
+  width: 576px !important;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 80%;
+}
+
+#notebookRevision {
+  width: 500px;
+}
+
+.job-run-output {
+  .new-notebook.command.locked.mainCommand:hover {
+    box-shadow: 0px 0px 0px 1px rgba(229, 232, 234, 1);
+
+    .command-buttons {
+      display: initial;
+
+      a {
+        display: none;
+      }
+
+      a.toggle-collapse-button {
+        display: initial;
+      }
+
+      a.edit-button {
+        display: initial;
+      }
+
+      .command-edit-menu {
+        a {
+          display: none;
+        }
+
+        a.copy-item {
+          display: initial;
+        }
+
+        hr {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .dashboard-present-view-wrapper {
+    /**
+     * We do not show the Run button in the job output since it has no affect.
+     */
+    .run-btn-wrapper {
+      display: none;
+    }
+  }
+}
+
+.job-run-view-header {
+  transition: opacity 200ms;
+
+  .job-run-view-breadcrumb {
+    margin-top: 5px;
+
+    .job-run-view-menu {
+      display: inline;
+      margin-left: 10px;
+      line-height: 25px;
+
+      label {
+        display: inline;
+        margin-right: 4px;
+      }
+
+      select {
+        position: relative;
+        top: -2px;
+      }
+    }
+  }
+}
+
+.job-latest-run {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: scroll;
+  background-color: rgba(0,0,0,0.02);
+
+  .job-latest-run-info {
+    float: right;
+    margin: 10px;
+    color: rgb(152, 152, 152);
+    opacity: 0;
+  }
+
+  .job-run-view-header {
+    opacity: 0;
+  }
+
+  &:hover {
+    .job-latest-run-info, .job-run-view-header {
+      opacity: 1;
+    }
+  }
+
+  .dashboard-present-view-wrapper {
+    margin-top: 15px;
+  }
+}
+
+.disabled-jobslist {
+  .disabled-jobslist-overlay {
+    background: rgba(0, 0, 0, 0.25);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 0;
+    transition: opacity .5s;
+  }
+
+  .disabled-jobslist-inner {
+    width: 500px;
+    margin: 100px auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    borderRadius: 5px;
+    padding: 15px;
+    z-index: 1000;
+    text-align: center;
+  }
+
+  .disabled-jobslist-h2 {
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px
+  }
+}

@@ -1,0 +1,114 @@
+@import "variables.less";
+
+#searchpanel-popup {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: @sidebarwidth;
+  bottom: 0;
+  z-index: 501;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.searchpanel {
+  position: absolute;
+  height: 100%;
+  width: 196px;
+  box-sizing: border-box;
+  margin: 0;
+  background: white;
+  border-right: 1px solid #e6e8ea;
+  color: @filetree-link-color;
+  padding: 0 12px;
+
+  input, input:focus {
+    font-size: 16px;
+    /*line-height: 32px;*/
+    height: 30px;
+    font-weight: 200;
+    outline: none;
+    box-shadow: none;
+    padding: 7px 0;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #d6d8da;
+    width: 100%;
+  }
+
+  ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    top: 58px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    .noselect;
+  }
+
+  a, a:hover {
+    display: block;
+    margin-right: 1px;
+    margin-left: 1px;
+    padding: 2px 8px;
+    cursor: default;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #686261;
+    text-decoration: none;
+
+    &.selected, &:active {
+      background: #f1f1f1;
+      text-decoration: none;
+    }
+  }
+
+  .category {
+    background: @link-filetree-hover;
+    color: @fontcolor-context;
+    padding: 2px 8px;
+    margin: 1px 1px 1px 1px;
+    font-weight: bold;
+    cursor: default;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  div {
+    border: none;
+    width: 100%;
+  }
+
+  input, input:focus {
+    .input-underline;
+    font-size: 16px;
+    font-weight: 200;
+    height: 30px;
+    outline: none;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    padding-left: 0;
+    padding-right: 5px;
+    width: calc(100% - 16px);
+  }
+}
+
+/** span around the spinner for in-progress searches */
+.search-mixin-spinner {
+  opacity: 0;
+  transition: opacity .5s ease-in;
+
+  /** ease in spinner so very fast searches don't show it */
+  &.visible {
+    opacity: 1;
+  }
+}
+
+.highlight {
+  background-color: #FFFF88;
+}

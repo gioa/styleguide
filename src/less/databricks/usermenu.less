@@ -1,0 +1,167 @@
+
+// the menu in the upper-right corner with account settings and organization switching links
+#user-menu {
+  position: fixed;
+  left: auto;
+  right: 3px;
+  top: 45px;
+  width: 200px;
+  max-height: 800px;
+  z-index: 600;
+  overflow-y: auto;
+  overflow-x: hidden;
+  cursor: default;
+  padding: 0px;
+
+  @small-vertical-margin: 8px;
+  @large-vertical-margin: 13px;
+
+  .user-menu-view {
+    margin-top: @large-vertical-margin;
+    margin-bottom: @large-vertical-margin;
+
+    // header of each section in the menu
+    .header {
+      display: block;
+      padding-left: 15px;
+      margin-bottom: @small-vertical-margin;
+      cursor: default;
+      color: @fontcolor;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 165px;
+
+      // header of the invitations section
+      &.invited-header {
+        cursor: pointer;
+
+        .invited-text {
+          display: inline-block;
+
+          .invite-count {
+            color: @white;
+            background-color: rgba(0, 0, 0, 0.52);
+            border-radius: 6px;
+            padding: 0 6px;
+            margin-left: 5px;
+          }
+        }
+
+        .expand-icon {
+          display: inline-block;
+          color: @linkcolor;
+          vertical-align: top;
+          margin-left: 15px;
+          float: right;
+        }
+
+        &:hover {
+          .invited-text {
+            color: @fontcolorhover;
+            .invite-count {
+              background-color: rgba(0, 0, 0, 0.64);
+            }
+          }
+          .expand-icon {
+            color: @linkhovercolor;
+          }
+        }
+      }
+    }
+
+    // divider between sections
+    hr {
+      margin-top: @small-vertical-margin;
+      margin-bottom: @large-vertical-margin;
+    }
+
+    // list of menu items within each section
+    ul {
+      margin-left: 0px;
+      margin-bottom: 0px;
+
+      li {
+        list-style: none;
+        cursor: pointer;
+
+        a {
+          // copy of bootstrap .dropdown-menu>li>a
+          display: block;
+          font-weight: normal;
+          color: #333;
+          white-space: nowrap;
+          padding-left: 15px;
+          cursor: pointer;
+
+          &:hover {
+            color: #fff;
+            text-decoration: none;
+            background-color: @linkhovercolor;
+            background-repeat: repeat-x;
+
+            &.workspace-link .workspace-item .workspace-owner {
+              color: #fff;
+            }
+          }
+
+          // icon-width + text-margin = full-margin
+          @icon-width: 12px;  // width of icon left of the text
+          @text-margin: 8px;  // left margin of text on same line as icon
+          @full-margin: 20px; // left margin of text on subsequent lines
+
+          // links in the accounts section
+          &.accounts-link {
+            line-height: 26px;
+
+            .accounts-text {
+              vertical-align: middle;
+              margin-left: @full-margin;
+            }
+          }
+
+          // links in the workspace section
+          &.workspace-link {
+            line-height: 46px;
+
+            .workspace-item {
+              display: inline-block;
+              vertical-align: middle;
+              line-height: 14px;
+
+              .workspace-text {
+                display: block;
+                overflow-x: hidden;
+
+                .icon {
+                  display: inline-block;
+                  width: @icon-width;
+                  vertical-align: top;
+                }
+
+                .workspace-name {
+                  margin-left: @text-margin;
+                  display: inline-block;
+                  white-space: nowrap;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  width: 160px;
+                }
+              }
+
+              .workspace-owner {
+                display: block;
+                margin-left: @full-margin;
+                color: @fontcolor;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 160px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

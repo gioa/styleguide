@@ -1,0 +1,43 @@
+/**
+ * Styles for the CronSchedule.jsx component
+ */
+
+.modal .modal-narrow.job-schedule-dialog {
+  width: 530px;
+
+  .modal-body {
+    overflow: hidden;
+  }
+}
+
+
+div.dialog-cron-container {
+  width: 580px;
+}
+
+/*
+ * Move over the child div of the dialog. Can't move over the modal-body-job-schedule-dialog div
+ * because it sets the a top-border to separate the title from the body. Shifting it would shift
+ * that too.
+*/
+.modal-body-job-schedule-dialog > div {
+  margin-left: -100px;
+}
+
+#showManualCronExpr {
+  padding-left: 2px;
+  margin-top: 5px;
+}
+
+#manualCronExpr {
+  width: 250px;
+  margin-top: 5px;
+}
+
+.cron-widget-invalid {
+  text-decoration: line-through;
+}
+
+.dialog-cron-container.cron-widget-invalid select {
+  text-decoration: line-through;
+}

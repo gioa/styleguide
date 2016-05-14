@@ -1,0 +1,25 @@
+{
+  "name": "styleguide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gioa/styleguide.git"
+  },
+  "author": "Joy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gioa/styleguide/issues"
+  },
+  "homepage": "https://github.com/gioa/styleguide#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jit-grunt": "^0.10.0"
+  }
+}

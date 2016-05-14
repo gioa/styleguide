@@ -1,0 +1,44 @@
+// The style for the ML decision tree.
+svg.ml-tree {
+  circle.internal {
+    stroke: steelblue;
+    stroke-width: 1.5px;
+    fill: rgb(176, 196, 222);
+  }
+
+  circle.leaf {
+    stroke: steelblue;
+    stroke-width: 1.5px;
+    fill: rgb(255, 255, 255);
+  }
+
+  text.linklabel {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 10px;
+    line-height: normal;
+    font-family: sans-serif;
+  }
+
+  g.node text {
+    fill-opacity: 1;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 10px;
+    line-height: normal;
+    font-family: sans-serif;
+  }
+
+
+  // The links between the nodes.
+  path.link {
+    fill: none;
+    stroke: rgb(204, 204, 204);
+    stroke-width: 1.5px;
+  }
+
+}

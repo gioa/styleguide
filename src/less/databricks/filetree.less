@@ -1,0 +1,464 @@
+@import "variables.less";
+
+.filetree {
+  position: absolute;
+  height: 100%;
+  white-space: nowrap;
+  box-sizing: border-box;
+  margin: 0;
+  .noselect;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li.filetree-list-item, li.sidebar-panel-element {
+      position: relative;
+
+      &:not(.big) {
+        a.filetree-link,
+        a.sidebar-panel-link {
+          i.fa-fw {
+            width: 21px;
+            margin-left: -1px;
+          }
+        }
+      }
+
+      &:not(.heading):not(.top-link) {
+        a.filetree-link,
+        a.sidebar-panel-link {
+          transition: background .15s;
+          :not(i) {
+            transition: color .15s;
+          }
+        }
+      }
+
+      &:not(.heading):not(.top-link):not(.selected) {
+        a.filetree-link:hover,
+        a.sidebar-panel-link:hover {
+          background: @link-filetree-hover;
+          :not(i) {
+            color: @filetree-link-active-color;
+          }
+        }
+      }
+
+      &.selected {
+        background: @filetree-selected-bg;
+        border-radius: 0px;
+      }
+
+      &.top-link {
+        .filetree-display-name {
+          box-sizing: border-box;
+          // Ensure we always have room to show the dropdown arrow.
+          max-width: calc(100% - 15px);
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: inline-block;
+        }
+
+        .dropdown {
+          // The position of the top-link requires that its arrow be relatively positioned.
+          position: relative;
+          top: -5px;
+        }
+      }
+
+      &:not(.top-link),
+      &:not(.has-menu).top-link {
+        .dropdown {
+          top: 0px;
+          right: 6px;
+          width: 16px;
+          padding-top: 2px;
+          text-align: center;
+          color: @fontcolor-context;
+          cursor: pointer;
+          opacity: 0.1;
+          transition: opacity 150ms;
+        }
+      }
+    }
+
+  }
+
+  .dropdown {
+    position: absolute;
+  }
+
+  a.filetree-link, a.sidebar-panel-link {
+    &, &:hover {
+      display: block;
+      margin: 0px;
+      border-radius: 0px;
+      padding: 4px 8px 4px 28px;
+      text-indent: -20px;
+      cursor: default;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-decoration: none;
+      outline: 0;
+      line-height: 20px;
+      -webkit-user-drag: none;
+      user-drag: none;
+    }
+    // Clear text-indent on block elements inside this one because it gets inherited
+    * {
+      text-indent: 0;
+    }
+
+    color: @filetree-link-color;
+  }
+
+  .top-link {
+    a.filetree-link, a.sidebar-panel-link {
+      &, &:hover {
+        padding: 8px 8px 10px 28px;
+      }
+    }
+  }
+
+  .inner {
+    height: 100%;
+    vertical-align: bottom;
+  }
+
+  /* style for home folders */
+  .home-folder {
+    // the ellipsis should be grey
+    color: #dbdbdb;
+
+    // for the icon and the username part of emails
+    i, span {
+      color: #797979;
+    }
+    // for the @... part of emails
+    .email-domain {
+      color: #dbdbdb !important;
+    }
+  }
+}
+
+.filetree .ft-panel {
+  height: 100%;
+  width: 196px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  border-right: 1px solid #e6e8ea;
+  display: inline-block;
+  white-space: normal;
+  background: @bg-filetree;
+  vertical-align: bottom;
+
+  &.ui-droppable {
+    width: 196px;
+  }
+
+  .ui-resizable-e {
+    cursor: ew-resize;
+    width: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    top: 50%;
+    right: 0;
+    height: 50px;
+    margin-top: -25px;
+    background-color: #e6e8ea;
+  }
+}
+
+.filetree .has-annotation a, .filetree .has-annotation a:hover {
+  width: 135px;
+}
+
+.filetree li.selected:not(.has-menu) a, .filetree li:not(.has-menu) a:active {
+  :not(i) {
+    color: @filetree-link-active-color;
+  }
+  background: @filetree-selected-bg;
+  text-decoration: none;
+}
+
+.filetree li.selected.being-dragged a, .filetree li.being-dragged a:active {
+  background: none;
+}
+
+.filetree li.filetree-disabled a {
+  background: @filetree-selected-bg;
+  border-radius: 0;
+}
+
+.filetree li:hover .dropdown, .filetree .dropdown.active {
+  opacity: 0.4;
+}
+
+.filetree li .dropdown:hover, .filetree li .dropdown.active {
+  opacity: 1;
+}
+
+.filetree li>a>i {
+  margin-right: 1px;
+}
+
+.filetree li.multiline a {
+  white-space: normal;
+  max-height: 38px;
+}
+
+.filetree li.top-link {
+  a.filetree-link, a.sidebar-panel-link {
+    color: @fontcolor-context;
+    background: @bg-contextbar-filetree;
+    border-bottom: 1px solid @border-bottom;
+    margin: 0 3px;
+
+    &:hover {
+      i.fa {
+        color: @fontcolor-context-hover;
+      }
+    }
+  }
+
+  &.has-menu {
+    text-align: center;
+
+    .dropdown {
+      cursor: pointer;
+      display: inline-block;
+      margin-left: 5px;
+      opacity: 0.8;
+    }
+
+    i {
+      color: @icon-context-menu;
+    }
+
+    a, i {
+      font-size: 13px;
+    }
+  }
+
+  &:not(.has-menu) a {
+    cursor: pointer;
+    i {
+      color: #999;
+    }
+    &:hover {
+      text-decoration: none;
+      i {
+        color: #333;
+      }
+    }
+  }
+}
+
+.filetree li.heading {
+  font-size: 12px;
+  margin-top: 16px;
+}
+
+.filetree li.heading i {
+  display: none;
+}
+
+.filetree li.heading a, .filetree li.heading a:hover {
+  color: #999190;
+}
+
+.filetree li.heading.selected a, .filetree li.heading a:active {
+  background: none;
+}
+
+#filebrowser-popup {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0px;
+  left: @sidebarwidth;
+  bottom: 0;
+  z-index: 500;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.filetree .fb-annotation {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 25px;
+  width: 35px;
+  padding-top: 2px;
+  text-align: right;
+}
+
+.filetree .fb-annotation span {
+  font-size: 14px;
+  color: #686261;
+}
+
+/* Styles for drag and drop */
+
+.filetree a.drop-hover {
+  background: @filetree-selected-bg;
+}
+
+.filetree a.ui-draggable-dragging {
+  background: @filetree-selected-bg;
+}
+
+.ft-panel.drop-hover, .filetree a.drop-hover {
+  box-shadow:
+    1px 0 rgba(104, 197, 247, 1) inset,
+    -1px 0 rgba(104, 197, 247, 1) inset,
+    0 1px rgba(104, 197, 247, 1) inset,
+    0 -1px rgba(104, 197, 247, 1) inset;
+}
+
+.filetree a.ft-pin-button {
+  &, &:hover, &:active, &:visited {
+    cursor: pointer;
+    text-indent: 0;
+    display: block;
+    position: absolute;
+    left: 170px;
+    bottom: 6px;
+    color: #686261;
+    text-decoration: none;
+    opacity: 0.4;
+    padding: 3px 5px;
+    transform-origin: 50% 50%;
+    transform: rotate(-40deg);
+    transition: bottom 150ms, transform 150ms 150ms;
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &.active, &.active:hover {
+    opacity: 1;
+    transform: rotate(0deg);
+    bottom: 5px;
+    transition: transform 150ms, bottom 150ms 150ms;
+  }
+}
+
+/* Containers for the file tree used in table import pages, dialog boxes, etc */
+
+.filetree-container {
+  height: 400px;
+  display: block;
+  overflow-x: auto;
+  position: relative;
+  border: 2px solid #e5e5e5;
+}
+
+.dialog-filetree-container {
+  height: 360px;
+  display: block;
+  overflow-x: auto;
+  border: 2px solid #e5e5e5;
+  position: relative;
+  width: 665px;
+  margin-left: -100px;
+}
+
+/* Container for the move file dialog */
+
+.move-file-dialog {
+  .modal-body {
+    max-height: 500px;
+
+    .multi-input-row[data-row-for='moveContentsOnly'] > div {
+      width: 100%;
+
+      div {
+        display: inline-block;
+        margin-left: 20px;
+
+        input {
+          margin-bottom: 7px;
+          width: 12px;
+        }
+      }
+
+      label {
+        float: initial;
+        text-align: left;
+        display: inline-block;
+        width: 580px;
+        margin-left: 18px;
+      }
+    }
+  }
+}
+
+.filebrowser-context-menu {
+  position: absolute;
+  top: 0px;
+  z-index: 1000;
+
+  li {
+    a {
+      text-indent: 0;
+    }
+  }
+
+  &:not(.above) {
+    &:before {
+      position: absolute;
+      top: -8px;
+      display: inline-block;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid #ccc;
+      border-left: 8px solid transparent;
+      border-bottom-color: rgba(0, 0, 0, 0.2);
+      content: '';
+    }
+    &:after {
+      position: absolute;
+      top: -7px;
+      display: inline-block;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid #ffffff;
+      border-left: 8px solid transparent;
+      content: '';
+    }
+  }
+  &.above {
+    &:before {
+      position: absolute;
+      bottom: -8px;
+      display: inline-block;
+      border-right: 8px solid transparent;
+      border-top: 8px solid #ccc;
+      border-left: 8px solid transparent;
+      border-top-color: rgba(0, 0, 0, 0.2);
+      content: '';
+    }
+    &:after {
+      position: absolute;
+      bottom: -7px;
+      display: inline-block;
+      border-right: 8px solid transparent;
+      border-top: 8px solid #ffffff;
+      border-left: 8px solid transparent;
+      content: '';
+    }
+  }
+
+  &:not(.left):before, &:not(.left):after {
+    left: 10px;
+  }
+
+  &.left:before, &.left:after {
+    right: 10px;
+  }
+}
+
+.filebrowser-node-name {
+  margin-left: 5px;
+}

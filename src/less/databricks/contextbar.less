@@ -1,0 +1,145 @@
+#context-bar {
+  background: @tbcolor;
+  height: 26px;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e6e8ea;
+  z-index: 550;
+  display: none;
+  .noselect;
+  min-width: @mainContentMidWidth;
+}
+
+#context-bar div {
+  display: inline;
+}
+
+#context-bar .dropdown {
+  &.history-panel-on {
+    cursor: default;
+  }
+}
+
+#context-bar span.context-bar-item {
+  display: inline-block;
+  padding: 0 16px;
+  opacity: inherit;
+  color: #9b9b9b;
+  line-height: 26px;
+  font-weight: 200;
+  user-select: text;
+}
+
+#context-bar a.context-bar-item {
+  display: inline-block;
+  /* Align the right most link with the expand tree button in the top left corner */
+  padding: 0 16px;
+  opacity: inherit;
+  color: rgba(0,0,0,0.57);
+  line-height: 26px;
+  cursor: pointer;
+  font-weight: 200;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &.no-click {
+    cursor: default;
+  }
+
+  &:not(.no-click) {
+    &:hover {
+      color: rgba(0,0,0,0.84);
+    }
+    &:link, &:visited, &:active {
+      color: rgba(0,0,0,0.57);
+    }
+  }
+
+  &[disabled] {
+    opacity: 0.52;
+  }
+
+  &.inset {
+    background-color: rgba(0,0,0, .1);
+    border-radius: 30px;
+    margin: 3px;
+    height: 20px;
+    line-height: 22px !important;
+    position: relative;
+    padding: 0 13px !important;
+  }
+}
+
+#context-bar .disable-contextbar-link {
+  cursor: default;
+}
+
+#context-bar .heading {
+  text-decoration: none;
+  cursor: default;
+}
+
+.dashboard-views.heading {
+  padding-left: 8px;
+  line-height: 24px;
+}
+
+.dashboard-views.divider {
+  margin: 6px 1px;
+}
+
+#context-bar .selected {
+  color: #2f2f2f !important;
+  background-color: #E7E7E7;
+  pointer-events: none;
+}
+
+.context-bar-right-links {
+  z-index: 50;
+  background-color: inherit;
+  height: 25px;
+  position: relative;
+  right: 0;
+  float: right;
+}
+
+/* Shortcut Menu */
+
+.shortcut-menu-icon {
+  color: rgba(0,0,0,0.57);
+  cursor: pointer;
+  padding: 0 16px;
+  line-height: 26px;
+  font-weight: 200;
+  font-size: 16px;
+  &:hover {
+    color: #2f2f2f;
+  }
+}
+
+// PROD-7218: quirk in Chrome 45.0.2454.85 needs "display: inline-block" for bootstrap submenus to
+// work correctly
+#context-bar .dropdown {
+  display: inline-block;
+}
+
+.view-dropdown .dropdown-menu .fa {
+  // line-hight of bootstrap dropdown menu items: .dropdown-menu>li>a
+  line-height: 20px;
+  left: 5px;
+  position: absolute;
+}
+
+/* Make sizing of plus consistent with sizing of check for menu alignment. */
+#context-bar .dropdown-menu .fa.fa-plus {
+  width: 13px;
+  text-align: center;
+}
+
+/*
+  The first menu item for the context bar is aligned with the left side of window. Move the drop
+  away from the side of the window so it doesn't look crowded onto side.
+*/
+#context-bar > .dropdown:first-child > .dropdown-menu {
+  margin-left: 7px;
+}
