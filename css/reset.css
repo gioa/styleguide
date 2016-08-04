@@ -358,3 +358,7 @@ background-color: #464644;
 	}
 }
 
+@font-face {font-family: "Newslab";
+    src: url("../fonts/Newslab.otf");
+}
+
