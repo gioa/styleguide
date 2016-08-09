@@ -403,7 +403,17 @@
 
 
 						<p class="para_title" id="table">Table</p>	
-						<div class="para_section">									
+						<div class="para_section">	
+						<p>
+						When implementing a new table, please use 
+						<a href="https://github.com/databricks/universe/blob/master/webapp/web/js/ui_building_blocks/tables/ReactTable.jsx">this abstraction</a>. 
+
+						For example usage, see here:
+						<a href="https://github.com/databricks/universe/blob/master/webapp/web/js/clusters/ClusterDetailsList.jsx">Wrapper component</a>, 
+  						<a href="https://github.com/databricks/universe/blob/master/webapp/web/js/clusters/ClusterDetailsListView.jsx">Presentational component</a>.
+  						</p>
+  						<br>
+  														
 							<p>The first one is used in Cluster list page, Jobs list page, and Admin page.</p>
 							<table class="table">
 					            <thead>
