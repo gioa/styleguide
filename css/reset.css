@@ -248,6 +248,11 @@ background-color: #464644;
 	padding-right: 5px;
 	padding-bottom: 5px;
 }
+
+.color-status .status_green{
+	color:@green;
+}
+
 /*end of icons*/
 
 /*typography*/

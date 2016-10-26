@@ -5,144 +5,255 @@
 
 //== Colors
 //
-@black:					#000000;
-@white: 				#ffffff;
+@black:								#000000;
+@white: 							#ffffff;
 
-@black-alpha-800:     	rgba(0, 0, 0, 0.80); // #333333
-@black-alpha-700:     	rgba(0, 0, 0, 0.70); // #4c4c4c
-@black-alpha-500:     	rgba(0, 0, 0, 0.52); // #7a7a7a
-@black-alpha-400:     	rgba(0, 0, 0, 0.34); // #a8a8a8
-@black-alpha-300:     	rgba(0, 0, 0, 0.25); // #bfbfbf
-@black-alpha-100:     	rgba(0, 0, 0, 0.12); // #e0e0e0
+@white-alpha-50:					rgba(255, 255, 255, 0.05); 
+@white-alpha-100:					rgba(255, 255, 255, 0.12); 
+@white-alpha-500:					rgba(255, 255, 255, 0.5); 
 
-@gray-800:              #333333; 
-@gray-700:              #464644;
-@gray-600:				#9b9b9b;
-@gray-500:				#797979;
-@gray-400:              #cccccc;   
-@gray-200:            	#eeeeee;		
-@gray-150:				#e6e8ea;  
-@gray-100:          	#f5f5f5;
-@gray-50:         		#fafafa;
+@black-alpha-800:     				rgba(0, 0, 0, 0.80); // #333333
+@black-alpha-700:     				rgba(0, 0, 0, 0.70); // #4c4c4c
+@black-alpha-500:     				rgba(0, 0, 0, 0.52); // #7a7a7a
+@black-alpha-300:     				rgba(0, 0, 0, 0.34); // #a8a8a8
+@black-alpha-200:     				rgba(0, 0, 0, 0.25); // #bfbfbf
+@black-alpha-100:     				rgba(0, 0, 0, 0.12); // #e0e0e0 
 
-@blue:					#2568d2;
-@blue_dark:				#1B69A0;
-@blue_light:			#68c5f7;
+@disable-opacity:					0.34;
 
-@blue_green:			#1CB1C2;
+@gray-900:							#272727;    //tooltip bg						
+@gray-800:              			#333333;	//primary text 
+@gray-700:              			#464644;   	//sidebar bg - rgb(70, 70, 68);
+@gray-600:							#797979;	//secondary text
+@gray-500:							#9b9b9b;	//tertiary text
+@gray-400:              			#cccccc;    //dark border
+@gray-300:							#dddddd;	//table border
+@gray-200:            				#eeeeee;	//light bg	
+@gray-150:							#e6e8ea;  	//light border
+@gray-100:          				#f5f5f5; 	//lighter bg
+@gray-50:         					#fafafa;	//lightest bg - replace #fcfcfb rgba(252, 252, 250, 0.8);
 
-@green:					#16b169;
-@green_light:			#ECFDEC;
+@blue:								#2568d2;	//rgba(37, 139, 210, 1.0);
+@blue-dark:							#1B69A0;    //rgb(27, 105, 160);
+@blue-light:						#64c3ff;    //rgba(100,195,255);
 
-@red:					#db1905;
-@red_dark:				#b63e2b;
-@red_light:				#f05e57;
+@green:								#16b169;
+@green-dark:							#468847;
+@green-light:						#D6E9C6;
+@green-lighter:						#ECFDEC;
 
-@orange:				#FF5224;
+@red:								#db1905;    //replace #da4f49
+@red-dark:							#b63e2b;	//replace #bd362f 
+@red-light:							#f05e57;
+@red-lighter:						#ffecec;
 
+@yellow:							#fdbc40;
+@yellow-dark:						#F0C36D;
+@yellow-darker:						#B37900;
+@yellow-lighter:					#F9EDBE;
+
+@orange:							#FF5224;
+@blue-green:						#1CB1C2;
 
 //== Colors used in products
 //
+@primary-bg-color: 					@white;
+@brand-primary:         			@orange; 
 
+//text
+@text-color:						@black-alpha-800;
+@secondary-text:					@black-alpha-500;
+@disabled-text:						@black-alpha-300;
 
-@brand-primary:          #FF5224; 
-@text-color:             @gray-dark;
+@link-color:						@blue;
+@link-active-color:					@blue-dark;
+@link-tooltip-color:				@blue-light;
 
+@error-text:						@red-dark;
 
-//databricks
-@linkcolor: 			rgba(37, 139, 210, 1.0);
-@linkhovercolor: 		rgb(27, 105, 160);
+// btn
+@btn-default-text-color:			@gray-800;
+@btn-default-border-color:			@gray-400;
+@btn-default-bg-color:				@gray-100;
+@btn-default-active-bg-color:		@gray-200;
 
-@link-color:            #258bd2;
-//** Link hover color set via `darken()` function.
-@link-hover-color:      @linkhovercolor;
-//** Link hover decoration.
-@link-hover-decoration: underline;
+@btn-primary-text-color:    		@white;
+@btn-primary-border-color:			@blue-dark;
+@btn-primary-bg-color:				@blue;
+@btn-primary-active-bg-color:		@blue-dark;
 
-//== Form states and alerts
-//
-//## Define colors for form feedback states and, by default, alerts.
+@btn-danger-text-color:    			@white;
+@btn-danger-border-color:			@red-dark;
+@btn-danger-bg-color:				@red;
+@btn-danger-active-bg-color:		@red-dark;
 
-@state-success-text:             #3c763d;
-@state-success-bg:               #ECFDEC;
-@state-success-border:           darken(spin(@state-success-bg, -10), 10%);
+//menu
+@menu-hover-bg-color:				@blue-dark;
+@menu-hover-text-color:				@white;
 
-@state-info-text:                @text-color;
-@state-info-bg:                  #ECFDEC;
-@state-info-border:              darken(spin(@state-info-bg, -10), 7%);
+//form
+@input-disabled-bg-color:			@gray-100;
+@dropdown-divider-color:			@gray-150;
 
-@state-warning-text:             @text-color;
-@state-warning-bg:               #F9EDBE;
-@state-warning-border:           #F0C36D; //darken(spin(@state-warning-bg, -10), 5%);
+@checkbox-checked-color:			@blue;
 
-@state-danger-text:              #b63e2b;  // databricks @font-error: cb1d38;
-@state-danger-bg:                #ffecec;
-@state-danger-border:            #f05e57; // darken(spin(@state-danger-bg, -10), 5%);
+// status 
+@state-success-text:            	@green-dark;
+@state-success-bg:             	 	@green-lighter;
+@state-success-border:          	@green-light; //darken(spin(@state-success-bg, -10), 10%);
 
+@state-info-text:               	@text-color;
+@state-info-bg:                 	@gray-700;
+@state-info-border:             	@gray-800;//darken(spin(@state-info-bg, -10), 7%);
+
+@state-warning-text:            	@text-color;
+@state-warning-bg:             	 	@yellow-lighter;
+@state-warning-border:          	@yellow-dark;
+
+@state-danger-text:            		@red-dark;  
+@state-danger-bg:               	@red-lighter;
+@state-danger-border:          	 	@red-light; 
+
+//sign in: sign in form, choose organization
+@signin-bg-color:					@gray-50;
+@signin-org-active-color:			@gray-100;
+@signin-border-color:   			@gray-400;
+   
+//sidebar
+@sidebar-bg-color:					@gray-700;
+@sidebar-border-color:  			@gray-150;
+
+@sidebar-btn-text-color:			@white-alpha-500;
+@sidebar-btn-icon-color:			@white-alpha-500;
+@sidebar-btn-outline-color:			@white-alpha-100;
+@sidebar-btn-bg-color:				@white-alpha-50;
+
+@sidebar-btn-hover-color:			@gray-50;//for all text, icon and outline colors. Replace rgba(252, 252, 250, 0.8) 
+
+@sidebar-btn-selected-text-color:	@white-alpha-500;
+@sidebar-btn-selected-icon-color:	@gray-700;
+@sidebar-btn-selected-outline-color:@gray-50;
+@sidebar-btn-selected-bg-color:		@gray-50;
+
+//filetree: pin, caret, search spinner...
+@filetree-head-text-color:			@gray-700;
+@filetree-divider-color:			@gray-150;
+	
+@filetree-section-bg-color:			@gray-50; //search result sections
+@filetree-item-hover-color:			@gray-100;
+@filetree-item-selected-color:  	@gray-200;
+
+@filetree-primary-text-color:		@gray-600;
+@filetree-secondary-text-color: 	@gray-400;  //replace domain(#dbdbdb),search placeholder with #cccccc.
+
+@filetree-caret-color:				@gray-400;
+
+//topbar
+@topbar-breadcrumb-active-color:	@black-alpha-500;
+@topbar-breadcrumb-inactive-color: 	@black-alpha-300;
+@topbar-icon-color:					@gray-800;
+@topbar-icon-active-color:			@blue-dark;
+
+@topbar-presence-border-color:		@gray-400;
+@topbar-presence-bg-color:			@gray-100;  //replace fcfcfc
+
+@usermenu-invite-bg-color:			@black-alpha-500;
+@helpmenu-text-color:				@gray-600;
+
+//homeview
+@welcome-section-title-color:		@gray-500; //replace #919191 with #9b9b9b
+@welcome-section-news-color:		@gray-600;
+@welcome-section-bg-color:			@gray-50;
+@welcome-section-border-color:  	@gray-150;
+@welcome-text-color:				@black-alpha-300;
+@welcome-lastlogin-color:			@black-alpha-500;
+
+//notebook
+@nb-menu-text-color:				@gray-500;	//fontcolor
+@nb-menu-text-active-color: 		@gray-600;   
+
+//cells
+@nb-cells-bg-color:					@gray-50;
+@nb-cells-divider-color:			@gray-150;
+
+//panel
+@github-icon-color:					@gray-500;
+@github-icon-hover-color:			@gray-600;
+@github-icon-success-color:			@green;
+@github-icon-error-color:			@red;
+@github-icon-warning-color:			@yellow;
+@github-timestamp-color:			@gray-400;
+
+@history-diff-insert-color:			@green-lighter;
+@history-diff-delete-color:			@red-lighter;
+
+@shortcut-command-key-color:		@yellow-darker;
+@shortcut-command-key-bg-color:		@gray-50;
+
+//table 
+@table-header-bg-color:				@gray-50;
+@table-header-text-color:			@gray-600;
+@table-row-hover-color:				@gray-100;
+@table-border-color:				@gray-500;
+
+//tab color
+
+//tooltip color
+@tooltip-bg-color:					@gray-900;
 
 //== Typography
 //
-//## Font, line-height, and color for body text, headings, and more.
-// @font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-// @font-family-base:        @font-family-sans-serif;
 
-@font-size-base:          14px;
-@font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
-@font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
+@text-font:				 			"Helvetica Neue", "Helvetica", "Arial", sans-serif;
+@code-font: 			 			"Source Code Pro", "Menlo", monospace;
+@newslab-font: 			 			"Newslab", serif;
 
+//size
+@font-size-base:          			14px;
 
-@font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
-@font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
-@font-size-h3:            ceil((@font-size-base * 1.7)); // ~24px
-@font-size-h4:            ceil((@font-size-base * 1.25)); // ~18px
-@font-size-h5:            @font-size-base;
-@font-size-h6:            ceil((@font-size-base * 0.85)); // ~12px
+@font-size-largest:       			52px; //welcome to
+@font-size-larger:		  			33px;// workspace access control
+@font-size-h1:            			26px; //page title, modal title
+@font-size-h2:            			22px; //sign in to Databricks, choose organization
+@font-size-h3:            			18px; //section title
+@font-size-h4:            			16px; 
+@font-size-h5:           			@font-size-base;
+@font-size-h6:            			13px; // file tree title, notebook menu, user menu, dialog text.
+@font-size-smaller:       			12px; //language, shift+enter to run
+@font-size-smallest:      			11px; //sidebar text
 
-
-//databricks
-@text-font:				 "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-@code-font: 			 "Source Code Pro", "Menlo", monospace;
-@newslab-font: 			 "Newslab", serif;
-@font-family-base:        @font-family-sans-serif;
-@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:       Georgia, "Times New Roman", Times, serif;
-
-
-//** Unit-less `line-height` for use in components like buttons.
-@line-height-base:          1.428571429; // 20/14
-@line-height-large:         1.3333333; // extra decimals for Win 8.1 Chrome
-@line-height-small:         1.5;
-
-@line-height-computed:      floor((@font-size-base * @line-height-base)); // ~20px
+//line height
+@line-height-base:         			1.428571429; // 20/14
+@line-height-small:         		1.3333333; // extra decimals for Win 8.1 Chrome
+@line-height-large:        			1.5;
 
 // weight
-@font-base-weight:          400;
-@font-bold-weight:			bold;
+@font-base-weight:          		400;
+@font-light-weight:          		400;
+@font-lighter-weight:				200;
 
-//== Components
+//== Icons
 //
-//## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).
-@padding-base-vertical:     6px;
-@padding-base-horizontal:   12px;
+@icon-mini-width: 					16px;
+@icon-mini-height: 					16px;
 
-@padding-large-vertical:    10px;
-@padding-large-horizontal:  16px;
+//== Layout
+//
+@sidebar-width: 					76px;
 
-@padding-small-vertical:    5px;
-@padding-small-horizontal:  10px;
+//== Spacing
+//
+@spacing-unit-base: 				8px;
+@horizontal-spacing-unit: 			4px;
 
-@padding-xs-vertical:       1px;
-@padding-xs-horizontal:     5px;
+//== Misc
+//
+@border-radius-base:        		4px;
 
 
-@padding-small:				0px @padding-small-horizontal;		
 
-@border-radius-base:        4px;
-@border-radius-large:       6px;
-@border-radius-small:       3px;
-
-@margin-base:               10px 0px;
+/*//== Components
+//
 
 //== Buttons
 //
@@ -444,6 +555,5 @@
 @screen-md-max:              (@screen-lg-min - 1);
 
 
-
 //== Others
-@cursor-disabled:                not-allowed;
+@cursor-disabled:                not-allowed;*/
