@@ -1,0 +1,29 @@
+.table-view {
+  margin: 12px;
+
+  h1 {
+    font-size: 26px;
+
+    span.header-separator {
+      font-weight: 100;
+      margin-left: 16px;
+      margin-right: 16px;
+      color: @borderColor;
+    }
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .plot-controls, .download-controls {
+    display: none;
+  }
+
+  &.error {
+    .text-danger {
+      color: #a94442;
+      margin-right: 10px;
+    }
+  }
+}

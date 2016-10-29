@@ -1,0 +1,361 @@
+.accounts-view {
+  position: relative;
+}
+
+.accounts-prefs-area {
+  padding-left: 8px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.accounts-git-area {
+  padding-left: 8px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+
+  .git-button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  #gitToken {
+    margin-left: 40px;
+    width: 300px;
+  }
+}
+
+.acl-settings-wrapper {
+  .load-spinner {
+    display: block;
+    margin-left: 0;
+  }
+}
+
+.acl-settings-control {
+  padding: 20px 50px;
+  margin: 30px;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+
+  a.expand {
+    cursor: pointer;
+    display: block;
+    margin-bottom: 15px;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    span {
+      margin-right: 8px;
+    }
+  }
+
+  h1, .btn {
+    margin-bottom: 24px;
+    display: inline-block;
+
+    b {
+      font-weight: 400;
+    }
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .btn {
+    margin-top: 11px;
+    margin-left: 30px;
+  }
+}
+
+.accounts-table {
+  margin-bottom: 50px;
+
+  .checkbox-wrapper {
+    text-align: center;
+
+    input.admin-checkbox {
+      cursor: default;
+    }
+  }
+}
+
+.table-header {
+  &:hover {
+    text-decoration: none;
+  }
+
+  &.username-header, &.name-header {
+    &:hover {
+      cursor: pointer;
+      cursor: hand;
+    }
+  }
+
+  &.basic-header {
+    color: #888888 !important;
+  }
+}
+
+.table-header-wrapper {
+  width: 100%;
+  height: 26px;
+  background-color: #FAFAFA;
+  display: block;
+}
+
+.header-container {
+  background-color: #FAFAFA !important;
+  background-image: none !important;
+  border: none;
+}
+
+.cell-container {
+  background-color: #FFFFFF !important;
+  border-bottom: solid 1px #d3d3d3 !important;
+  border: none;
+  div > div > div {
+    padding: 0 !important;
+  }
+}
+
+input.user-pref-key {
+  margin-top: -3px;
+  margin-right: 5px;
+}
+
+.remove-user {
+  h4 {
+    color: #d3d3d3;
+  }
+
+  .confirm-button {
+    .btn-error;
+  }
+
+  .resource-list {
+    overflow: visible;
+    margin-top: 15px;
+
+    .header {
+      color: #555;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    table {
+      border: 0;
+      width: 93%;
+      margin-left: auto;
+      margin-right: auto;
+
+      tbody {
+        border: solid 1px #d3d3d3;
+        tr {
+          border: 0;
+          td {
+            border: 0;
+          }
+        }
+      }
+    }
+
+    .user-resource {
+      padding: 2px 5px;
+      line-height: 24px;
+      border-top: solid 1px #d3d3d3;
+      border-bottom: none;
+
+      &:hover {
+        background-color: rgba(0,0,0,0.1);
+      }
+
+      .name {
+        .ellipsis;
+        display: inline-block;
+        max-width: 395px; /* Ellipsis leaving some room for the open in new window icon */
+      }
+
+      i {
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+.iam-role-delete-dialog {
+  .hint-msg {
+    margin-top: 10px;
+  }
+
+  div.collapsible-header {
+    margin-top: 15px;
+  }
+
+  .fixedDataTableCellLayout_main {
+    i.fa {
+      margin-top: 2px;
+    }
+  }
+
+  .modal-footer {
+    padding-top: 6px;
+    border-top: 1px solid @modal-border-color;
+  }
+}
+
+/* Single Sign-On Tab */
+@column-width: 460px;
+@left-indent: 28px;
+
+.single-sign-on-admin-settings {
+  padding: 0 8px;
+
+  .required-field-notice {
+    font-size: 11.5px;
+    padding-left: 27px;
+    font-style: italic;
+    opacity: 0.5;
+  }
+
+  .fa-stack {
+    width: 1em;
+  }
+
+  .left-indent {
+    margin-left: @left-indent;
+  }
+
+  .help-icon {
+    color: rgba(0, 0, 0, 0.25);
+    margin-left: 5px;
+  }
+
+  .star {
+    color: #F00;
+    display: inline-block;
+  }
+
+  .saml-settings-form {
+    margin-top: 10px;
+
+    .saml-setting-input-container {
+      &.disable {
+        input, textarea {
+          color: rgba(0,0,0,0.34);
+          background: rgba(0,0,0,0.04);
+          box-shadow: none;
+        }
+      }
+
+      .saml-setting-input {
+        .invalid-warning, .invalid-cert {
+          padding-left: 10px;
+          color: @invalidcolor;
+          display: inline-block;
+          line-height: 20px;
+        }
+
+        .invalid-warning {
+          // vertically center
+          position: relative;
+          top: 50%;
+          transform: translateY(-25%);
+        }
+
+        .invalid-cert {
+          position: absolute;
+          padding-top: 7px;
+        }
+
+        .invalid-input {
+          background-color: #FFECEC;
+          border: 1px solid @invalidcolor;
+        }
+
+        .saml-input-label {
+          color: @instructionscolor;
+          position: relative;
+        }
+
+        input, textarea {
+          margin: 3px 0 12px 0;
+          padding: 4px 6px 4px 6px;
+          width: @column-width - (@left-indent + 12px);
+        }
+      }
+    }
+  }
+
+  .static-idp-url-section {
+    .static-idp-url-container {
+      width: @column-width - @left-indent;
+
+      .static-idp-url-header, .static-idp-url {
+        position: relative;
+        border: 1px solid rgba(0, 0, 0, 0.16);
+        padding: 5px 5px 5px 10px;
+        color: @instructionscolor;
+      }
+
+      .static-idp-url-header {
+        border-bottom: none;
+        background-color: rgba(0, 0, 0, 0.06);
+      }
+    }
+  }
+
+  .subheader {
+    color: @instructionscolor;
+  }
+
+  .step-help-text {
+    font-weight: 500;
+    margin: 3px 0 12px 10px;
+  }
+
+  h1.sso-header {
+    font-size: 24px;
+    display: inline-block;
+    padding-right: 8px;
+    margin-top: 0;
+  }
+
+  .get-started-text {
+    width: @column-width;
+    color: @instructionscolor;
+  }
+
+  .disable-btn-wrapper {
+    margin-top: 8px;
+  }
+
+  .btn {
+    margin: 0 8px 3px auto;
+    text-shadow: none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-25%);
+
+    &.left-indent {
+      margin-left: @left-indent;
+      color: #FFF;
+      background-color: #2D8CCF;
+    }
+  }
+
+  .enable-btn-msg {
+    opacity: 0.5;
+    width: 320px;
+    display: inline-block;
+    font-size: 12px;
+  }
+}
+
+.add-user-dialog {
+  .add-user-help {
+    padding-bottom: 15px;
+  }
+}

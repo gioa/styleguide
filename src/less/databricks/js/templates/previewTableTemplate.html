@@ -1,0 +1,28 @@
+<table class="table table-bordered table-condensed table-hover">
+  <thead class="table-preview">
+  <tr>
+    <% for (i in colNames) { %>
+    <th class="table-preview-header">
+      <% if (canModifySchema) { %>
+        <input type=text class='column-name' value="<%- colNames[i] %>" />
+        <select class='column-type'> <%= typeOptions[i] %> </select>
+      <% } else { %>
+        <p><span class="fixed-column-name"><%- colNames[i] %></span> [<%- i %>]</p>
+        <p><%- colTypes[i] %></p>
+      <% } %>
+    </th>
+    <% } %>
+  </tr>
+  </thead>
+  <tbody class="table-preview">
+  <% for (row in rows) { %>
+  <tr>
+    <% for (col in colNames) { %>
+    <td>
+      <p><%- rows[row][col] %></p>
+    </td>
+    <% } %>
+  </tr>
+  <% } %>
+  </tbody>
+</table>

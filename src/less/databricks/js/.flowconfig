@@ -1,0 +1,12 @@
+[ignore]
+.*/main\.js
+.*/notebook-main\.js
+.*/cell-main\.js
+
+[include]
+../node_modules/underscore
+../node_modules/react
+
+[libs]
+
+[options]

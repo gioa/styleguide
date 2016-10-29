@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +5,7 @@
 	<title>Databricks Style Guide</title>
 	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />	
 	<link href="css/style.css" type="text/css" rel="stylesheet" />	
-	<link href="css/reset.css" type="text/css" rel="stylesheet" />
+	<link href="css/styleguide.css" type="text/css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
 </head>
@@ -29,11 +27,9 @@
 							<li><a href="#color">Color</a></li> 
 							<li><a href="#icons">Icons</a></li>
 							<li><a href="#typography">Typography</a></li>
-							<li><a href="#spacing">Spacing</a></li>
-							
+							<li><a href="#spacing">Spacing</a></li>						
 						</ul> 
 					</li>
-
 					<li><a href="#Components">Components</a>
 			     	 	<ul>
 			     	 		<li><a href="#buttons">Buttons</a></li> 
@@ -47,7 +43,7 @@
 						</ul> 
 					</li>
 				</ul> <!-- end of sidebar-nav -->
-			</div>
+			</div><!-- end of col-xs-6 col-sm-3 sidebar-offcanvas -->
 
 			<div class="col-xs-12 col-sm-9 hidden_scrollable">
 
@@ -72,21 +68,21 @@
 						<p class="para_title" id="color">Color</p>
 
 						<div class="row para_section">
-							<!-- <img src='img/ColorPalette.svg'/> -->
 							<p>All the colors we use in Databricks:</p>
 							<object type="image/svg+xml" data="img/ColorPalette.svg">
   								Color Palette <!-- fallback image in CSS -->
 							</object>
 						</div>
+
 						<div class="row para_section">
 							<p>How we should use those colors (work in progress):</p><br>
-							<ul>
+<!-- 							<ul>
 								<li><p><i class="fa  fa-circle-thin"></i>The gray and blue make up a majority of the product's interface.</p></li>					
 								<li><p><i class="fa  fa-circle-thin"></i>Other colors like red, orange, and green are used sparingly to visualize notifications and alerts.</p></li>
-								<li><p><i class="fa  fa-circle-thin"></i>For accessbility, follow AAA standards of a contrast ratio of 7:1 for normal text and 4.5:1 for large text. Compute the contrast ratio with <a href="http://leaverou.github.io/contrast-ratio/ " target="_blank">this tool</a>.</p></li>					
-								
+								<li><p><i class="fa  fa-circle-thin"></i>For accessbility, follow AAA standards of a contrast ratio of 7:1 for normal text and 4.5:1 for large text. Compute the contrast ratio with <a href="http://leaverou.github.io/contrast-ratio/ " target="_blank">this tool</a>.</p></li>				
 							</ul>
-							<br>
+							 -->
+						
 
 							<div class="col-xs-6 col-sm-4">
 								<div class="col_title">Gray and Blue: </div>
@@ -94,9 +90,9 @@
 								<div class="color primary_text">#333333 <span class="desc">Text</span></div>
 								<div class="color sec_text">#000 52% <span class="desc">Secondery Text</span></div>
 								<div class="color hint_text">#000 34% <span class="desc">Hint & Disabled</span></div>
-								<div class="color btn_blue">#258bd2 <span class="desc">Button & Link</span></div>
-								
+								<div class="color btn_blue">#258bd2 <span class="desc">Button & Link</span></div>			
 							</div>
+
 							<div class="col-xs-6 col-sm-4">
 							
 								<div class="col_title">Gray Background & Border: </div>
@@ -119,11 +115,7 @@
 									<i class="fa fa-circle status_grey">rgba(0,0,0,0.25)</i>
 									<i class="fa fa-ban status_ban">rgba(0,0,0,0.8)</i> 
 								</div>
-
-								
-							</div>
-
-							
+							</div>							
 						</div>
 
 						<!-- <div class="row para_section">
@@ -336,7 +328,7 @@
 						<p>Different text styles we use in Databricks:</p><br>
 						<object type="image/svg+xml" data="img/TextStyles.svg">
   								Text Styles <!-- fallback image in CSS -->
-							</object>
+						</object>
 						<!-- <div class="row para_section">
 						    <p class="typo_52px"> Welcome to - 52px</p>
 						    <p class="typo_26px"> Cluster/Job Title - 26px</p>
@@ -359,32 +351,64 @@
 
 						<h3 class="section_title" id="Components">Components (work in progress)</h3>
 						<p class="para_title" id="buttons">Buttons</p>
-						<div class="para_section">			
-						 	<p>
-						        <button type="button" class="btn  btn-default">Default</button>
-						        <button type="button" class="btn  btn-primary">Primary</button>
-						        <button type="button" class="btn  btn-danger">Danger</button>
-						        <button type="button" class="btn  btn-link">Link</button>
-			      			</p>
-						 	<p> 
-						        <button type="button" class="btn  btn-default" disabled>Default</button>
-						        <button type="button" class="btn  btn-primary" disabled>Primary</button>
-						        <button type="button" class="btn  btn-danger" disabled>Danger</button>
-						        <button type="button" class="btn  btn-link" disabled>Link</button>
-			      			</p>
+						<div class="para_section">	
+							<div class="component_example">	
+							<div class = "example_ui">	
+							 	<p class="inline">
+							        <button type="button" class="btn  btn-default">Default</button>
+							        <button type="button" class="btn  btn-primary">Primary</button>
+							        <button type="button" class="btn  btn-danger">Danger</button>
+							        <button type="button" class="btn  btn-link">Link</button>
+				      			</p>
+							 	<p class="inline"> 
+							        <button type="button" class="btn  btn-default" disabled>Default</button>
+							        <button type="button" class="btn  btn-primary" disabled>Primary</button>
+							        <button type="button" class="btn  btn-danger" disabled>Danger</button>
+							        <button type="button" class="btn  btn-link" disabled>Link</button>
+				      			</p>
+			      			</div>
+			      			<div class='example_code'>
+			      				<pre>
+						        	<button type="button" class="btn  btn-default">Default</button>
+							        <button type="button" class="btn  btn-primary">Primary</button>
+							        <button type="button" class="btn  btn-danger">Danger</button>
+							        <button type="button" class="btn  btn-link">Link</button>
+	
+			      				</pre>
+			      			</div>
 		      			</div>
 
+
 				      	<p class="para_title" id="menu">Context Menu & Dropdown</p>
-				      	<div class="para_section">			
-							<div class="dropdown theme-dropdown clearfix">
-						        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						          <li class="active"><a href="#">Action</a></li>
-						          <li><a href="#">Another action</a></li>
-						          <li><a href="#">Something else here</a></li>
-						          <li role="separator" class="divider"></li>
-						          <li><a href="#">Separated link</a></li>
-						        </ul>
-						    </div>
+				      	<div class="para_section">
+					      	<div class="component_example">	
+								<div class = "example_ui">				
+									<div class="dropdown theme-dropdown clearfix">
+								        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+								          <li class="active"><a href="#">Action</a></li>
+								          <li><a href="#">Another action</a></li>
+								          <li><a href="#">Something else here</a></li>
+								          <li role="separator" class="divider"></li>
+								          <li><a href="#">Separated link</a></li>
+								        </ul>
+								    </div>
+								 </div>
+							    <div class='example_code'>
+				      				<pre>
+							        	<div class="dropdown theme-dropdown clearfix">
+									        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+									          <li class="active"><a href="#">Action</a></li>
+									          <li><a href="#">Another action</a></li>
+									          <li><a href="#">Something else here</a></li>
+									          <li role="separator" class="divider"></li>
+									          <li><a href="#">Separated link</a></li>
+									        </ul>
+									    </div>
+		
+				      				</pre>
+				      			
+								</div>
+							</div>
 						</div>
 
 					    <p class="para_title" id="dialog">Dialog</p>
@@ -583,6 +607,13 @@
 	$(function () {
 	  $('[data-toggle="tooltip"]').tooltip()
 	});
+
+	// $(".example_code").text($(".example_code").html());
+	$(".example_code").each(function() {
+    $(this).html(
+        $(this).html().replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    );
+});
 	</script>
 
 </body>

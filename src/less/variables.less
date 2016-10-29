@@ -19,8 +19,6 @@
 @black-alpha-200:     				rgba(0, 0, 0, 0.25); // #bfbfbf
 @black-alpha-100:     				rgba(0, 0, 0, 0.12); // #e0e0e0 
 
-@disable-opacity:					0.34;
-
 @gray-900:							#272727;    //tooltip bg						
 @gray-800:              			#333333;	//primary text 
 @gray-700:              			#464644;   	//sidebar bg - rgb(70, 70, 68);
@@ -38,7 +36,7 @@
 @blue-light:						#64c3ff;    //rgba(100,195,255);
 
 @green:								#16b169;
-@green-dark:							#468847;
+@green-dark:						#468847;
 @green-light:						#D6E9C6;
 @green-lighter:						#ECFDEC;
 
@@ -60,32 +58,40 @@
 @primary-bg-color: 					@white;
 @brand-primary:         			@orange; 
 
-//text
+//text colors 
 @text-color:						@black-alpha-800;
 @secondary-text:					@black-alpha-500;
 @disabled-text:						@black-alpha-300;
 
 @link-color:						@blue;
-@link-active-color:					@blue-dark;
+@link-hover-color:					@blue-dark;
 @link-tooltip-color:				@blue-light;
 
 @error-text:						@red-dark;
 
+//default light border colors
+@border-default-color:				@gray-150;
+
+//default light background colors
+@bg-default-color:					@gray-50;
+@bg-default-hover-color:			@gray-100;
+
+
 // btn
-@btn-default-text-color:			@gray-800;
-@btn-default-border-color:			@gray-400;
-@btn-default-bg-color:				@gray-100;
-@btn-default-active-bg-color:		@gray-200;
+@btn-default-color:					@gray-800;
+@btn-default-border:				@gray-400;
+@btn-default-bg:					@gray-100;
+@btn-default-hover:					@gray-200;
 
-@btn-primary-text-color:    		@white;
-@btn-primary-border-color:			@blue-dark;
-@btn-primary-bg-color:				@blue;
-@btn-primary-active-bg-color:		@blue-dark;
+@btn-primary-color:    				@white;
+@btn-primary-border:				@blue-dark;
+@btn-primary-bg:					@blue;
+@btn-primary-hover:					@blue-dark;
 
-@btn-danger-text-color:    			@white;
-@btn-danger-border-color:			@red-dark;
-@btn-danger-bg-color:				@red;
-@btn-danger-active-bg-color:		@red-dark;
+@btn-danger-color:	    			@white;
+@btn-danger-border:					@red-dark;
+@btn-danger-bg:						@red;
+@btn-danger-hover:					@red-dark;
 
 //menu
 @menu-hover-bg-color:				@blue-dark;
@@ -93,7 +99,7 @@
 
 //form
 @input-disabled-bg-color:			@gray-100;
-@dropdown-divider-color:			@gray-150;
+@dropdown-divider-color:			@border-default-color;
 
 @checkbox-checked-color:			@blue;
 
@@ -121,7 +127,7 @@
    
 //sidebar
 @sidebar-bg-color:					@gray-700;
-@sidebar-border-color:  			@gray-150;
+@sidebar-border-color:  			@border-default-color;
 
 @sidebar-btn-text-color:			@white-alpha-500;
 @sidebar-btn-icon-color:			@white-alpha-500;
@@ -139,11 +145,11 @@
 @filetree-head-text-color:			@gray-700;
 @filetree-divider-color:			@gray-150;
 	
-@filetree-section-bg-color:			@gray-50; //search result sections
+@filetree-section-title-bg-color:	@gray-50;  
 @filetree-item-hover-color:			@gray-100;
 @filetree-item-selected-color:  	@gray-200;
 
-@filetree-primary-text-color:		@gray-600;
+@filetree-primary-text-color:		@gray-600;   //! sidebar color low contrast < 3.8
 @filetree-secondary-text-color: 	@gray-400;  //replace domain(#dbdbdb),search placeholder with #cccccc.
 
 @filetree-caret-color:				@gray-400;
@@ -155,7 +161,7 @@
 @topbar-icon-active-color:			@blue-dark;
 
 @topbar-presence-border-color:		@gray-400;
-@topbar-presence-bg-color:			@gray-100;  //replace fcfcfc
+@topbar-presence-bg-color:			@gray-100;  //replace #fcfcfc
 
 @usermenu-invite-bg-color:			@black-alpha-500;
 @helpmenu-text-color:				@gray-600;
@@ -244,7 +250,12 @@
 //== Spacing
 //
 @spacing-unit-base: 				8px;
-@horizontal-spacing-unit: 			4px;
+@spacing-unit-sm:					4px;
+@spacing-unit-lg:				   16px;
+
+@padding-base-vertical:				@spacing-unit-sm;
+@padding-base-horizontal:			@spacing-unit-base;	
+
 
 //== Misc
 //
@@ -252,31 +263,15 @@
 
 
 
-/*//== Components
+//== Components
 //
+@disable-opacity:					0.34;
 
 //== Buttons
 //
-//## For each of Bootstrap's buttons, define text, background and border color.
+@btn-font-weight:					@font-base-weight;
 
-@btn-font-weight:			@font-base-weight;
-
-@btn-default-bg:            #f5f5f5;
-@btn-default-text:          @text-color;
-@btn-default-hover:         #e6e6e6;
-@btn-default-border:        darken(@btn-default-bg, 5%);
-
-@btn-primary-bg:            @link-color;
-@btn-primary-text:          #fff;
-@btn-primary-hover:         @link-hover-color;
-@btn-primary-border:		darken(@btn-primary-bg, 5%);
-
-@btn-danger-bg:             #da4f49;
-@btn-danger-text:           #fff;
-@btn-danger-hover:          #db362f;
-@btn-danger-border:         darken(@btn-danger-bg, 5%);
-
-@disable-opacity:			0.5;
+/*
 
 //== Dropdowns
 //
@@ -554,6 +549,6 @@
 @screen-sm-max:              (@screen-md-min - 1);
 @screen-md-max:              (@screen-lg-min - 1);
 
-
+*/
 //== Others
-@cursor-disabled:                not-allowed;*/
+@cursor-disabled:                not-allowed;

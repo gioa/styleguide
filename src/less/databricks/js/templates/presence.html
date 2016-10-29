@@ -1,0 +1,19 @@
+<!-- presenceTemplate -->
+
+<ul class="noselect">
+  <% _.each(sessions, function(session) { %>
+    <li class="presence-user"
+        style="opacity: <%- session.opacity %>;
+               border-color: <%- session.bgColor %>;
+               background-color: <%- session.bgColor %>;"
+        title="<%- NameUtils.capitalizeAllNames(session.userName) %>">
+      <div class="presence-avatar" data-sessionid="<%- session.sessionId %>">
+        <%- session.displayInitial %>
+      </div>
+    </li>
+  <% }); %>
+  <li title="Recent Activity" class="presence-history">
+    <div><i class="fa fa-clock-o"></i></div>
+  </li>
+</ul>
+

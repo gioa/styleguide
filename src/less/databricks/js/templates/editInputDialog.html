@@ -1,0 +1,39 @@
+<!-- editInputDialogTemplate -->
+<div class="modal">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3><%= mode === "create" ? "Create" : "Edit" %> Input Widget</h3>
+  </div>
+  <div class="modal-body">
+    <form style="margin: 0;">
+      <label>Label:</label>
+      <input type="hidden" name="guid" value="<%- guid %>">
+      <input type="text" class="input-label" value="<%- label %>" spellcheck="false">
+      <label>Bound variable:</label>
+      <input type="text" class="input-binding" value="<%- binding %>" spellcheck="false">
+      <label>Control type:</label>
+      <select class="input-control-type" >
+        <option value="text" <%= controlType === "text" ? "selected" : "" %> >
+        Text box
+        </option>
+        <option value="dropdown" <%= controlType === "dropdown" ? "selected" : "" %> >
+        Dropdown
+        </option>
+        <option value="comboBox" <%= controlType === "comboBox" ? "selected" : "" %> >
+        Combo box
+        </option>
+        <option value="multiSelect" <%= controlType === "multiSelect" ? "selected" : "" %> >
+        Multi-selection list
+        </option>
+      </select>
+      <div class="choices-area">
+        <label>Choices (comma-separated):</label>
+        <textarea class="input-choices" spellcheck="false"><%- choices.join(", ") %></textarea>
+      </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <a href="#" data-dismiss="modal" class="btn">Cancel</a>
+    <a href="#" class="btn btn-primary save-button">Save</a>
+  </div>
+</div>

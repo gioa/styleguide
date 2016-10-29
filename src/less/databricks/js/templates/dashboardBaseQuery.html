@@ -1,0 +1,19 @@
+<!-- dashboardBaseQueryTemplate -->
+<div class="dashboard-base-query">
+  <div class="left-controls">
+    <i class="fa fa-move"></i>
+  </div>
+  <div class="right-controls">
+    <div class="delete-control-div">
+      <a class="delete-query-button border-box" href="#"><i class="fa fa-remove"></i></a>
+    </div>
+    <select class="border-box command-type" style="width: 100%;">
+      <option value="sql" <%= model.type === "sql" ? "selected" : "" %>>SQL</option>
+      <option value="scala" <%= model.type === "scala" ? "selected" : "" %>>Scala</option>
+       <option value="python" <%= model.type === "python" ? "selected" : "" %>>Python</option>
+    </select>
+  </div>
+  <div class="edit-div">
+    <textarea rows="5" class="border-box source-code command-box"><%= model.command %></textarea>
+  </div>
+</div>

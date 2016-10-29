@@ -1,0 +1,32 @@
+<div id="history-head">
+  <% if(!history || history.length === 0) { %>
+  <h3 class="history-title">
+    No Recent Activity
+    <i class="hide-recent-activity fa fa-remove fa-fw"></i>
+  </h3>
+  <% } else {  %>
+  <h3 class="history-title">
+    Recent Activity
+    <i class="hide-recent-activity remove-button fa fa-remove fa-fw"></i>
+  </h3>
+  <% } %>
+</div>
+
+<div id="history-list">
+  <ul>
+    <% _.each(history.reverse(), function(item) { %>
+    <li class="history-item">
+      <div class="history-user-avatar" style="background-color: <%- item.bgColor %>">
+        <%- item.displayInitial %>
+      </div>
+      <div class="history-item-action">
+        <p class="user-name"><%- item.userName %>:</p>
+        <p class="user-message"><%- item.text %></p>
+      </div>
+      <div class="history-item-timestamp">
+        <p><%- item.date.toLocaleString()  %></p>
+      </div>
+    </li>
+    <% }); %>
+  </ul>
+</div>

@@ -1,0 +1,18 @@
+<!-- comboBoxTemplate -->
+<div><%= label %>
+  <div class="input-append">
+    <input class="input-box" type="text" value="<%- value %>" />
+    <div class="btn-group">
+      <button class="btn btn-small dropdown-toggle combo-box-button" data-toggle="dropdown">
+        <b class="caret"></b>
+      </button>
+      <ul class="dropdown-menu">
+        <% for (var i = 0; i < choices.length; i++) { %>
+        <li>
+          <a href="#" class="dropdown-item"><%- choices[i] %></a>
+        </li>
+        <% } %>
+      </ul>
+    </div>
+  </div>
+</div>
