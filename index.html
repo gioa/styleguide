@@ -21,7 +21,6 @@
 					<li>
 						<a href="#DesignGuidelines">Design Guidelines</a>
 					</li>
-
 					<li><a href="#Styles">Styles</a>
 			     		<ul>
 							<li><a href="#color">Color</a></li> 
@@ -46,19 +45,18 @@
 			</div><!-- end of col-xs-6 col-sm-3 sidebar-offcanvas -->
 
 			<div class="col-xs-12 col-sm-9 hidden_scrollable">
-
 				<div class="main_scrollable">
+					<!-- responsive button -->
 					<P class="visible-xs">
 						<button type="button" class="sidebar-menu" data-toggle="offcanvas">
 							<i class="fa fa-navicon"></i>
 						</button>
 					</p>
-
+					<!-- main content -->
 					<div class="container main">
 						<h2 class="page_title">Databricks Style Guide</h2>
 						<p>This style guide reflects the patterns and components of the current Databricks product. It aims to provide a unified language and consistent look and feel within the Databrick ecosystem.</p>
 					
-
 						<h3 class="section_title" id="DesignGuidelines">Design Guildlines</h3>
 						<p><strong>Clarity:</strong> People must be able to recognize and understand what it is, predict what will happen when they use it. </p>
 						<p><strong>Simplicity:</strong> Reduce cognitive load.</p>
@@ -66,282 +64,235 @@
 
 						<h3 class="section_title" id="Styles">Styles</h3>
 						<p class="para_title" id="color">Color</p>
-
-						<div class="row para_section">
-							<p>All the colors we use in Databricks:</p>
+						<div class="row para_section border">
 							<object type="image/svg+xml" data="img/ColorPalette.svg">
-  								Color Palette <!-- fallback image in CSS -->
+  								Color Palette 
 							</object>
 						</div>
 
-						<div class="row para_section">
-							<p>How we should use those colors (work in progress):</p><br>
-<!-- 							<ul>
-								<li><p><i class="fa  fa-circle-thin"></i>The gray and blue make up a majority of the product's interface.</p></li>					
-								<li><p><i class="fa  fa-circle-thin"></i>Other colors like red, orange, and green are used sparingly to visualize notifications and alerts.</p></li>
-								<li><p><i class="fa  fa-circle-thin"></i>For accessbility, follow AAA standards of a contrast ratio of 7:1 for normal text and 4.5:1 for large text. Compute the contrast ratio with <a href="http://leaverou.github.io/contrast-ratio/ " target="_blank">this tool</a>.</p></li>				
-							</ul>
-							 -->
-						
-
-							<div class="col-xs-6 col-sm-4">
-								<div class="col_title">Gray and Blue: </div>
-								<!-- <div class="color db_orange">#FF5224 <span class="desc">Logo</span></div> -->
-								<div class="color primary_text">#333333 <span class="desc">Text</span></div>
-								<div class="color sec_text">#000 52% <span class="desc">Secondery Text</span></div>
-								<div class="color hint_text">#000 34% <span class="desc">Hint & Disabled</span></div>
-								<div class="color btn_blue">#258bd2 <span class="desc">Button & Link</span></div>			
-							</div>
-
-							<div class="col-xs-6 col-sm-4">
-							
-								<div class="col_title">Gray Background & Border: </div>
-
-								<div class="color sidebar_bg">#464644 <span class="desc">Sidebar Bg</span></div>			
-								<!-- <div class="color welcome_bg">#fcfcfa<span class="desc">Welcome Bg</span></div> -->
-								<div class="color table_bg">#fafafa <span class="desc">Table Header Bg</span></div>
-								<div class="color table_border">#ccccc<span class="desc">Table Border</span></div>
-								<div class="color divider_border">#e6e8ea<span class="desc">Divider</span></div>
-							</div>
-
-							<div class="col-xs-6 col-sm-4">
-								<div class="col_title">Utility Colors: </div>
-								<div class="color invalid_bg">#ffecec<span class="desc">Invalid/Error Bg</span></div>
-								<div class="color error_text">#b63e2b <span class="desc">Error</span></div>
-								<div class="color-status"> 
-									<i class="fa fa-circle status_green"> #16B169</i>
-									<i class="fa fa-circle status_orange"> #FDBC40</i> <!-- ED770E -->
-									<i class="fa fa-spinner status_pink"> #F05E57</i> <!-- #FF4450 -->
-									<i class="fa fa-circle status_grey">rgba(0,0,0,0.25)</i>
-									<i class="fa fa-ban status_ban">rgba(0,0,0,0.8)</i> 
-								</div>
-							</div>							
-						</div>
-
-						<!-- <div class="row para_section">
-							<div class="col-xs-6 col-sm-4">
-								<div class="col_title">Brand Colors: </div>
-								<div class="color db_orange">#FF5224<span class="desc">Orange</span></div>
-								<div class="color db_red">#DB1905 <span class="desc">Red</span></div>
-								<div class="color db_darkred">#8B181A<span class="desc">Dark Red</span></div>
-								<div class="color db_lighttan">#E1DDD5<span class="desc">Light Tan</span></div>
-								<div class="color db_darktan">#DBD2C1<span class="desc">Dark Tan</span></div>
-							</div>	
-							<div class="col-xs-6 col-sm-4">
-								<div class="col_title">Brand Accent Colors: </div>	
-								<div class="color db_blue">#1CB1C2<span class="desc">Day Sky</span></div>
-								<div class="color db_deepblue">#0E6F84<span class="desc">Evening Sky</span></div>
-								<div class="color db_green">#16B169<span class="desc">Earth Green</span></div>
-								<div class="color db_orange">#ED770E<span class="desc">Utility Orange</span></div>
-
-							</div>	
-							<div class="col-xs-6 col-sm-4">
-								<div class="col_title">Brand Text Colors: </div>
-								<div class="color db_grey">#444444<span class="desc">Copy Grey</span></div>
-																
-							</div>
-
-						</div>
- -->
-
-
 						<p class="para_title" id="icons">Icons</p>
-						<div class="row para_section">
-							<div class="col-xs-6 col-sm-3">											
-								<div class="col_title">Sidebar: </div>
+						<div class="para_section row border">
+							<div >
+								<div class="col-xs-6 col-sm-3">
+									<div class="col_title">Sidebar: </div>
+									<span class="icon"><i class="fa"></i> Home </span><br> 
+									<!-- fa-home -->
+									<span class="icon"><i class="fa"></i> Workspace </span><br>
+									<!-- fa-folder-open-o -->
+									<span class="icon"><i class="fa "></i> Recent</span><br>
+									<!-- fa-clock-o -->
+									<span class="icon"><i class="fa "></i> Table</span><br>
+									<!-- fa-table -->
+									<span class="icon"><i class="fa "></i> Cluster</span><br>
+									<!-- fa-sitemap -->
+									<span class="icon"><i class="fa "></i> Job</span><br>
+									<!-- fa-calendar -->
+									<span class="icon"><i class="fa"></i> App</span><br>
+									<!--fa- fa-th-->
+									<span class="icon"><i class="fa"></i> Search</span><br>
+									<!-- fa-search-->
+								</div>
 
-								<span class="icon"><i class="fa"></i> Home </span><br> 
-								<!-- fa-home -->
-								<span class="icon"><i class="fa"></i> Workspace </span><br>
-								<!-- fa-folder-open-o -->
-								<span class="icon"><i class="fa "></i> Recent</span><br>
-								<!-- fa-clock-o -->
-								<span class="icon"><i class="fa "></i> Table</span><br>
-								<!-- fa-table -->
-								<span class="icon"><i class="fa "></i> Cluster</span><br>
-								<!-- fa-sitemap -->
-								<span class="icon"><i class="fa "></i> Job</span><br>
-								<!-- fa-calendar -->
-								<span class="icon"><i class="fa fa-th"></i> App</span><br>
-								<!--fa- fa-th-->
-								<span class="icon"><i class="fa"></i> Search</span><br>
-								<!-- fa-search-->
-							</div>
+								<div class="col-xs-6 col-sm-3">
+									<div class="col_title">Topbar: </div>
 
-							<div class="col-xs-6 col-sm-3">
-								<div class="col_title">Topbar: </div>
+									<span class="icon"><i class="fa  "></i> User</span><br>
+									<!-- fa-user -->
+									<span class="icon"><i class="fa "></i> Help</span><br>
+									<!-- fa-question -->
+									<span class="icon"><i class="fa "></i> Activity</span><br>
+									<!-- fa-clock-o -->
+									<span class="icon"><i class="fa "></i> Guide</span><br>
+									<!-- fa-book -->
+									<span class="icon"><i class="fa "></i> Contact Us</span><br>
+									<!-- fa-envelope -->
+									<span class="icon"><i class="fa"></i> Shortcut</span><br>
+									<!-- fa-keyboard-o -->
+									<span class="icon"><i class="fa"></i> Upgrade</span><br>
+									<!-- fa-arrow-circle-up -->
+									<span class="icon"><i class="fa"></i> Support</span><br>							 
+									<!-- fa-phone -->
+									<span class="icon"><i class="fa"></i> Notification</span><br>							 
+									<!-- fa-bell -->					
+								</div>
 
-								<span class="icon"><i class="fa "></i> User</span><br>
-								<!-- fa-user -->
-								<span class="icon"><i class="fa "></i> Help</span><br>
-								<!-- fa-question -->
-								<span class="icon"><i class="fa "></i> Activity</span><br>
-								<!-- fa-clock-o -->
-								<span class="icon"><i class="fa "></i> Guide</span><br>
-								<!-- fa-book -->
-								<span class="icon"><i class="fa "></i> Contact Us</span><br>
-								<!-- fa-envelope -->
-								<span class="icon"><i class="fa"></i> Shortcut</span><br>
-								<!-- fa-keyboard-o -->
-								<span class="icon"><i class="fa"></i> Upgrade</span><br>
-								<!-- fa-arrow-circle-up -->
-								<span class="icon"><i class="fa"></i> Support</span><br>							 
-								<!-- fa-phone -->
-								<span class="icon"><i class="fa"></i> Notification</span><br>							 
-								<!-- fa-bell -->
-							
-							</div>
+								<div class="col-xs-6 col-sm-3">
+									<div class="col_title">File Browser:</div>
 
-							<div class="col-xs-6 col-sm-3">
-								<div class="col_title">File Browser:</div>
+									<span class="icon"><i class="fa "></i>Code</span><br>
+									<!-- fa-code -->
+									<span class="icon"><i class="fa "></i>Training</span><br>
+									<!-- fa-graduation-cap -->
+									<span class="icon"><i class="fa "></i> Guide</span><br>
+									<!-- fa-question -->
+									<span class="icon"><i class="fa "></i> Shared</span><br>
+									<!-- fa-share-alt-square -->
+									<span class="icon"><i class="fa "></i> Users</span><br>
+									<!-- fa-users	 -->
+									<span class="icon"><i class="fa "></i> Folder </span><br>
+									<!-- fa-folder-o -->
+									<span class="icon"><i class="fa "></i> Owner's Folder </span><br>
+									<!-- fa-folder -->
+									<span class="icon"><i class="fa "></i> Library </span><br>
+									<!-- fa-book -->
+									<span class="icon"><i class="fa "></i> Home</span><br>
+									<!-- fa-home -->
+									<span class="icon"><i class="fa "></i> Actions</span><br>		
+									<!-- fa-chevron-down -->
+									<span class="icon"><i class="fa "></i>  Pin</span><br>	
+									<!-- fa-thumb-tack			 -->
+								</div>
 
-								<span class="icon"><i class="fa fa-code"></i>Code</span><br>
-								<span class="icon"><i class="fa fa-graduation-cap"></i>Training</span><br>
-								<span class="icon"><i class="fa fa-question"></i> Guide</span><br>
-								<span class="icon"><i class="fa fa-share-alt-square"></i> Shared</span><br>
-								<span class="icon"><i class="fa fa-users"></i> Users</span><br>
+								<div class="col-xs-6 col-sm-3">
+				            		<div class="col_title">Contextbar: </div>
 
-								<span class="icon"><i class="fa fa-folder-o"></i> Folder </span><br>
-								<span class="icon"><i class="fa fa-folder"></i> Owner's Folder </span><br>
-								<span class="icon"><i class="fa fa-book"></i> Library </span><br>
-								<span class="icon"><i class="fa fa-home"></i> Home</span><br>
-								<span class="icon"><i class="fa fa-chevron-down"></i> Actions</span><br>		
-								<span class="icon"><i class="fa fa-thumb-tack"></i>  Pin</span><br>				
-							</div>
+									<span class="icon"><i class="fa "></i> Cluster</span><br>
+									<!-- fa-sitemap -->
+									<span class="icon"><i class="fa "></i> View</span><br>
+									<!-- fa-image				 -->
+									<span class="icon"><i class="fa "></i>File</span><br>
+									<!-- fa-file-text-o -->
+									<span class="icon"><i class="fa  "></i> Run All</span><br>
+									<!-- fa-play-circle-o -->
+									<span class="icon"><i class="fa "></i> Permission</span><br>
+									<!-- fa-lock -->
+									<span class="icon"><i class="fa "></i> Unlock</span><br>
+									<!-- fa-unlock-alt -->
+									<span class="icon"><i class="fa "></i> Shortcut</span><br>
+									<!-- fa-keyboard-o -->
+									<span class="icon"><i class="fa "></i> Publish</span><br>
+									<!-- fa-share-square-o -->
+									<span class="icon"><i class="fa "></i> Comments</span><br>
+									<!-- fa-comments -->
+									<span class="icon"><i class="fa "></i> Revision</span><br>
+									<!-- fa-history -->
+									<span class="icon"><i class="fa "></i> Github</span><br>
+									<!-- fa-github -->
+									<span class="icon"><i class="fa "></i> Import</span><br>
+									<!-- fa-cloud-upload -->	
+								</div>
 
-							<div class="col-xs-6 col-sm-3">
-			            		<div class="col_title">Contextbar: </div>
+								<div class="col-xs-6 col-sm-3">
+				            		<div class="col_title">Notebook: </div>
 
-								<span class="icon"><i class="fa fa-sitemap"></i> Cluster</span><br>
-								<span class="icon"><i class="fa fa-image"></i> View</span><br>				
-								<span class="icon"><i class="fa fa-file-text-o"></i>File</span><br>
-								<span class="icon"><i class="fa  fa-play-circle-o"></i> Run All</span><br>
-								<span class="icon"><i class="fa fa-lock"></i> Permission</span><br>
-								<span class="icon"><i class="fa fa-unlock-alt"></i> Unlock</span><br>
-								<span class="icon"><i class="fa fa-keyboard-o"></i> Shortcut</span><br>
-								<span class="icon"><i class="fa fa-share-square-o"></i> Publish</span><br>
-								<span class="icon"><i class="fa fa-comments"></i> Comments</span><br>
-								<span class="icon"><i class="fa fa-history"></i> Revision</span><br>
-								<span class="icon"><i class="fa fa-github"></i> Github</span><br>
-								<span class="icon"><i class="fa fa-cloud-upload"></i> Import</span><br>
-								
-							</div>
-						</div>
-
-						<div class="row para_section">
-							<div class="col-xs-6 col-sm-3">	
-			          
-			            		<div class="col_title">Notebook: </div>
-
-			        			<span class="icon"><i class="fa fa-bar-chart"></i> Dashboard</span><br>
-			        			<span class="icon"><i class="fa fa-chevron-down"></i> Actions</span><br>
-								<span class="icon"><i class="fa fa-minus"></i> Minimize</span><br>
-								<span class="icon"><i class="fa fa-remove"></i> Delete</span><br>
-
-
-								<span class="icon"><i class="fa fa-pencil"></i> Edit</span><br>
-								<span class="icon"><i class="fa fa-play"></i> Present</span><br>
-								<span class="icon"><i class="fa fa-trash"></i> Delete</span><br>
-								
-								<span class="icon"><i class="fa fa-gear"></i> Settings</span><br>
-								<span class="icon"><i class="fa fa-search-plus"></i> Zoom in</span><br>
-								<span class="icon"><i class="fa fa-search-minus"></i> Zoom out</span><br>
-								<span class="icon"><i class="fa fa-expand"></i>Expand</span><br>	
-								
-								<span class="icon"><i class="fa fa-clipboard"></i>Paste cell</span><br>
-								<span class="icon"><i class="fa fa-comment-o"></i> Comments-o</span><br>		
-  								<span class="icon"><i class="fa fa-download"></i>Download</span><br>
-
-							
-							</div>
-
-							<div class="col-xs-6 col-sm-3">
-			        			<div class="col_title">Actions: </div>
-			        			<span class="icon"><i class="fa fa-plus"></i> Add New</span><br>
-
-								<span class="icon"><i class="fa fa-clone"></i> Clone </span><br>
-								<span class="icon"><i class="fa fa-refresh"></i> Restart </span><br>
-			            		
-								<span class="icon"><i class="fa fa-close"></i> Terminate </span><br>
-
-			            		<!-- <span class="icon"><i class="fa fa-angle-double-down"></i> More</span><br> -->
-								<span class="icon"><i class="fa fa-external-link"></i> External Link</span><br>
-
-								<span class="icon"><i class="fa fa-unsorted"></i> Selector</span><br>
-
-								<span class="icon"><i class="fa  fa-arrow-up"></i>  Sort up</span><br>
-								<span class="icon"><i class="fa  fa-arrow-down"></i> Sort down</span><br>
-
-								<span class="icon"><i class="fa  fa-angle-double-up"></i> Hide advanded</span><br>
-								<span class="icon"><i class="fa  fa-angle-double-down"></i> Show advanced</span><br>
-								
-							
-
-							</div>
-
-							<div class="col-xs-6 col-sm-3">			        			
-								<div class="col_title">Status: </div>
-			        			<span class="icon"><i class="fa fa-spinner"></i> Spinner </span><br>
-								<span class="icon"><i class="fa fa-check"></i> Selected</span><br>
-								<span class="icon"><i class="fa fa-circle"></i> Running</span><br>
-								<span class="icon"><i class="fa fa-ban"></i> No permission</span><br>
-								<span class="icon"><i class="fa fa-info-circle"></i> Info</span><br>
-								<span class="icon"><i class="fa fa-exclamation-circle"></i> Exclamation </span><br>	
-								<span class="icon"><i class="fa fa-question-circle"></i> Tooltip</span><br>
-								<span class="icon"><i class="fa fa-exclamation-triangle"></i> Warning</span><br>
-							</div>
-
-							<div class="col-xs-6 col-sm-3">
-			        			<div class="col_title">Others: </div>
-			    				<span class="icon"><i class="fa fa-caret-down"></i> Caret-down</span><br>
-								<span class="icon"><i class="fa fa-caret-right"></i> Caret-right</span><br>
-								<span class="icon"><i class="fa fa-chevron-right"></i> Chevron-right</span><br>
-								<span class="icon"><i class="fa fa-database"></i> Database</span><br>
-								<!-- <span class="icon"><i class="fa fa-angle-down"></i> angle-down </span><br> -->
-								<span class="icon"><i class="fa fa-cloud-download"></i>Cloud download</span><br>	
-								<span class="icon"><i class="fa fa-arrows"></i>Move</span><br>
-
-								<span class="icon"><i class="fa fa-caret-square-o-right"></i>Hide panel</span><br>	
-								<span class="icon"><i class="fa fa-caret-square-o-left"></i>Show panel</span><br>
-
-								<!-- <span class="icon"><i class="fa fa-link"></i>Link</span><br>	 -->
-								<!-- <span class="icon"><i class="fa fa-unlink"></i>Unlink</span><br> -->	
+				        			<span class="icon"><i class="fa "></i> Dashboard</span><br>
+				        			<!-- fa-bar-chart -->
+				        			<span class="icon"><i class="fa "></i> Actions</span><br>
+				        			<!-- fa-chevron-down -->
+									<span class="icon"><i class="fa "></i> Minimize</span><br>
+									<!-- fa-minus -->
+									<span class="icon"><i class="fa "></i> Delete</span><br>
+									<!-- fa-remove -->
 
 
-								<!-- <span class="icon"><i class="fa fa-chain"></i>Attach</span><br>	 -->
-								<span class="icon"><i class="fa fa-chain-broken"></i>Dettach</span><br>
-								<span class="icon"><i class="fa fa-code-forkf"></i>Fork</span><br>
-
-								<span class="icon"><i class="fa fa-edit"></i>Edit</span><br>
-								
-								<span class="icon"><i class="fa fa-filter"></i>Filter</span><br>
-								
-						
-								<!-- <span class="icon"><i class="fa fa-mobile"></i>2-Factor</span><br>	 -->								
-
-
-							</div>
-						</div>
+									<span class="icon"><i class="fa "></i> Edit</span><br>
+									<!-- fa-pencil -->
+									<span class="icon"><i class="fa "></i> Present</span><br>
+									<!-- fa-play -->
+									<span class="icon"><i class="fa "></i> Delete</span><br>
+									<!-- fa-trash -->
 									
+									<span class="icon"><i class="fa "></i> Settings</span><br>
+									<!-- fa-gear -->
+									<span class="icon"><i class="fa "></i> Zoom in</span><br>
+									<!-- fa-search-plus -->
+									<span class="icon"><i class="fa "></i> Zoom out</span><br>
+									<!-- fa-search-minus -->
+									<span class="icon"><i class="fa "></i>Expand</span><br>	
+									<!-- fa-expand -->
+									<span class="icon"><i class="fa "></i>Paste cell</span><br>
+									<!-- fa-clipboard  -->
+									<span class="icon"><i class="fa "></i> Comments-o</span><br>	
+									<!-- fa-comment-o	 -->
+	  								<span class="icon"><i class="fa "></i>Download</span><br>
+	  								<!-- fa-download -->	
+								</div>
 
-						<p class="para_title" id="typography">Typography</p><br>
-						<p>Different text styles we use in Databricks:</p><br>
-						<object type="image/svg+xml" data="img/TextStyles.svg">
-  								Text Styles <!-- fallback image in CSS -->
-						</object>
-						<!-- <div class="row para_section">
-						    <p class="typo_52px"> Welcome to - 52px</p>
-						    <p class="typo_26px"> Cluster/Job Title - 26px</p>
-						    <p class="typo_22px"> Sign In to Databricks - 22px</p>
-						    <p class="typo_18px"> Organization Name - 18px</p>
-						    <p class="typo_16px"> Tabs & Breadcrumb - 16px</p>
-						    <p class="typo_14px"> Normal Text - 14px</p>
-						    <p class="typo_13px"> Table/Dialog Text - 13px</p>
-						    <p class="typo_11px"> Sidebar Text - 11px</p>					   
-						</div> -->
+								<div class="col-xs-6 col-sm-3">
+				        			<div class="col_title">Actions: </div>
+				        			<span class="icon"><i class="fa "></i> Add New</span><br>
+				        			<!-- fa-plus -->
+									<span class="icon"><i class="fa"></i> Clone </span><br>
+									 <!-- fa-clone -->
+									<span class="icon"><i class="fa "></i> Restart </span><br>
+				            		<!-- fa-refresh -->
+									<span class="icon"><i class="fa "></i> Terminate </span><br>
+									<!-- fa-close -->
+				            		<span class="icon"><i class="fa "></i> Show advanced</span><br>
+				            		<!-- fa-angle-double-down -->
+				            		<span class="icon"><i class="fa "></i> Hide advanced</span><br>
+				            		<!-- fa-angle-double-up -->
+									<span class="icon"><i class="fa "></i> External Link</span><br>
+									<!-- fa-external-link -->
+									<span class="icon"><i class="fa "></i> Selector</span><br>
+									<!-- fa-unsorted -->
+									<span class="icon"><i class="fa "></i>  Sort up</span><br>
+									 <!-- fa-arrow-up -->
+									<span class="icon"><i class="fa  "></i> Sort down</span><br>
+									<!-- fa-arrow-down -->
+								</div>
+
+								<div class="col-xs-6 col-sm-3">
+									<div class="col_title">Status: </div>
+				        			<span class="icon"><i class="fa "></i> Spinner </span><br>
+				        			<!-- fa-spinner -->
+									<span class="icon"><i class="fa "></i> Selected</span><br>
+									<!-- fa-check -->
+									<span class="icon"><i class="fa "></i> Running</span><br>
+									<!-- fa-circle -->
+									<span class="icon"><i class="fa "></i> No permission</span><br>
+									<!-- fa-ban -->
+									<span class="icon"><i class="fa "></i> Info</span><br>
+									<!-- fa-info-circle -->
+									<span class="icon"><i class="fa "></i> Exclamation </span><br>	
+									<!-- fa-exclamation-circle -->
+									<span class="icon"><i class="fa "></i> Tooltip</span><br>
+									<!-- fa-question-circle -->
+									<span class="icon"><i class="fa "></i> Warning</span><br>
+									<!-- fa-exclamation-triangle -->
+								</div>
+
+								<div class="col-xs-6 col-sm-3">
+				        			<div class="col_title">Others: </div>
+				    				<span class="icon"><i class="fa "></i> Caret-down</span><br>
+				    				<!-- fa-caret-down -->
+									<span class="icon"><i class="fa "></i> Caret-right</span><br>
+									<!-- fa-caret-right -->
+									<span class="icon"><i class="fa "></i> Chevron-right</span><br>
+									<!-- fa-chevron-right -->
+									<span class="icon"><i class="fa "></i> Database</span><br>
+									<!-- fa-database -->
+									<span class="icon"><i class="fa "></i>Cloud download</span><br>
+									<!-- fa-cloud-download -->
+									<span class="icon"><i class="fa "></i>Move</span><br>
+									<!-- fa-arrows -->
+									<span class="icon"><i class="fa "></i>Hide panel</span><br>	
+									<!-- fa-caret-square-o-right -->
+									<span class="icon"><i class="fa "></i>Show panel</span><br>
+									<!-- fa-caret-square-o-left -->
+									<span class="icon"><i class="fa "></i>Dettach</span><br>
+									<!-- fa-chain-broken -->
+									<span class="icon"><i class="fa "></i>Fork</span><br>
+									<!-- fa-code-fork -->
+									<span class="icon"><i class="fa "></i>Edit</span><br>
+									<!-- fa-edit -->
+									<span class="icon"><i class="fa "></i>Filter</span><br>
+									<!-- fa-filter -->								
+									<span class="icon"><i class="fa "></i>2-Factor</span><br>
+									<!-- fa-mobile									 -->
+								</div>
+							</div>
+						</div>
+								
+						<p class="para_title" id="typography">Typography</p>
+						<div class="para_section border">
+							<object type="image/svg+xml" data="img/TextStyles.svg">
+	  								Text Styles <!-- fallback image in CSS -->
+							</object>
+						</div>
 
 						<p class="para_title" id="spacing">Spacing</p>	
-						<div class="para_section">				
+						<div class="para_section border">				
 							<p><strong>Component Height:</strong> Topbar:48px; Sidebar item:43px; File browser item:24px; Acitivity icon height:26px;</p>
 							<p><strong>Component Paddings:</strong> Dropdown paddings:3px,20px; Tooltip paddings:5px,10px; Buttons: 4px,12px; Tabs: 8px 12px;</p>
 							<p><strong>Table:</strong> Header height:26px; padding:3px 8px;</p>
@@ -351,7 +302,8 @@
 
 						<h3 class="section_title" id="Components">Components (work in progress)</h3>
 						<p class="para_title" id="buttons">Buttons</p>
-						<div class="para_section">	
+						<div class="para_section">
+
 							<div class="component_example">	
 							<div class = "example_ui">	
 							 	<p class="inline">
@@ -367,13 +319,16 @@
 							        <button type="button" class="btn  btn-link" disabled>Link</button>
 				      			</p>
 			      			</div>
-			      			<div class='example_code'>
-			      				<pre>
-						        	<button type="button" class="btn  btn-default">Default</button>
-							        <button type="button" class="btn  btn-primary">Primary</button>
-							        <button type="button" class="btn  btn-danger">Danger</button>
-							        <button type="button" class="btn  btn-link">Link</button>
-	
+			      			
+		      				<div class='example_code'>
+						    	<button class="copy_btn">
+						    		<i class="fa fa-clipboard"></i>Copy
+								</button>
+			      				<pre class="code">
+<button type="button" class="btn  btn-default">Default</button>
+<button type="button" class="btn  btn-primary">Primary</button>
+<button type="button" class="btn  btn-danger">Danger</button>
+<button type="button" class="btn  btn-link">Link</button>
 			      				</pre>
 			      			</div>
 		      			</div>
@@ -393,27 +348,42 @@
 								        </ul>
 								    </div>
 								 </div>
-							    <div class='example_code'>
-				      				<pre>
-							        	<div class="dropdown theme-dropdown clearfix">
-									        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-									          <li class="active"><a href="#">Action</a></li>
-									          <li><a href="#">Another action</a></li>
-									          <li><a href="#">Something else here</a></li>
-									          <li role="separator" class="divider"></li>
-									          <li><a href="#">Separated link</a></li>
-									        </ul>
-									    </div>
-		
-				      				</pre>
-				      			
+							   
+			      				<div class='example_code'>
+							    	<button class="copy_btn">
+							    		<i class="fa fa-clipboard"></i>Copy
+									</button>
+				      				<pre class="code">
+<div class="dropdown theme-dropdown clearfix">
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li class="active"><a href="#">Action</a></li>
+      <li><a href="#">Another action</a></li>
+      <li><a href="#">Something else here</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Separated link</a></li>
+    </ul>
+</div>
+				      				</pre>      			
 								</div>
 							</div>
 						</div>
 
 					    <p class="para_title" id="dialog">Dialog</p>
-					    <div class="para_section">			
-							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Open Modal</button>
+					    <div class="para_section">	
+					    	<div class="component_example">	
+								<div class = "example_ui">		
+									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Open Modal</button>
+								</div>
+
+			      				<div class='example_code'>
+							    	<button class="copy_btn">
+							    		<i class="fa fa-clipboard"></i>Copy
+									</button>
+				      				<pre class="code">
+code for mode
+				      				</pre>      			
+								</div>
+							</div>
 
 							<!-- Modal -->
 							<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
@@ -442,9 +412,21 @@
 
 						<p class="para_title" id="dialog">Badge</p>
 						<div class="para_section">
-							<p>
-								Invitation <span class="badge">2</span>
-							</p>
+							<div class="component_example">	
+								<div class = "example_ui">		
+									<p>Invitation <span class="badge">2</span></p>
+								</div>
+
+			      				<div class='example_code'>
+							    	<button class="copy_btn">
+							    		<i class="fa fa-clipboard"></i>Copy
+									</button>
+				      				<pre class="code">
+<p>Invitation <span class="badge">2</span></p>
+				      				</pre>      			
+								</div>
+							</div>
+							
 						</div>
 
 
@@ -460,69 +442,85 @@
   						</p>
   						<br>
   														
-							<p>The first one is used in Cluster list page, Jobs list page, and Admin page.</p>
-							<table class="table">
-					            <thead>
-					              <tr>
-					                <th>#</th>
-					                <th>First Name</th>
-					                <th>Last Name</th>
-					                <th>Username</th>
-					              </tr>
-					            </thead>
-					            <tbody>
-					              <tr>
-					                <td>1</td>
-					                <td>Mark</td>
-					                <td>Otto</td>
-					                <td>@mdo</td>
-					              </tr>
-					              <tr>
-					                <td>2</td>
-					                <td>Jacob</td>
-					                <td>Thornton</td>
-					                <td>@fat</td>
-					              </tr>
-					              <tr>
-					                <td>3</td>
-					                <td>Larry</td>
-					                <td>the Bird</td>
-					                <td>@twitter</td>
-					              </tr>
-					            </tbody>
-				          	</table>
+							<p>The first one is used in Cluster list page, Jobs list page, and Admin page.</p><br>
+							<div class="component_example">	
+								<div class = "example_ui">		
+									<table class="table">
+							            <thead>
+							              <tr>
+							                <th>#</th>
+							                <th>First Name</th>
+							                <th>Last Name</th>
+							                <th>Username</th>
+							              </tr>
+							            </thead>
+							            <tbody>
+							              <tr>
+							                <td>1</td>
+							                <td>Mark</td>
+							                <td>Otto</td>
+							                <td>@mdo</td>
+							              </tr>
+							              <tr>
+							                <td>2</td>
+							                <td>Jacob</td>
+							                <td>Thornton</td>
+							                <td>@fat</td>
+							              </tr>
+							              <tr>
+							                <td>3</td>
+							                <td>Larry</td>
+							                <td>the Bird</td>
+							                <td>@twitter</td>
+							              </tr>
+							            </tbody>
+						          	</table>
 
-				          	<p> The second one with veritcal divider is used in Tables.</p>
-				          	<table class="table table-col-bordered">
-					            <thead>
-					              <tr>
-					                <th>#</th>
-					                <th>First Name</th>
-					                <th>Last Name</th>
-					                <th>Username</th>
-					              </tr>
-					            </thead>
-					            <tbody>
-					              <tr>
-					                <td>1</td>
-					                <td>Mark</td>
-					                <td>Otto</td>
-					                <td>@mdo</td>
-					              </tr>
-					              <tr>
-					                <td>2</td>
-					                <td>Jacob</td>
-					                <td>Thornton</td>
-					                <td>@fat</td>
-					              </tr>
-					              <tr>
-					                <td>3</td>
-					                <td>Larry</td>
-					                <td>the Bird</td>
-					                <td>@twitter</td>
-					              </tr>
-					            </tbody>
-				          	</table>
+						          	<table class="table table-col-bordered">
+							            <thead>
+							              <tr>
+							                <th>#</th>
+							                <th>First Name</th>
+							                <th>Last Name</th>
+							                <th>Username</th>
+							              </tr>
+							            </thead>
+							            <tbody>
+							              <tr>
+							                <td>1</td>
+							                <td>Mark</td>
+							                <td>Otto</td>
+							                <td>@mdo</td>
+							              </tr>
+							              <tr>
+							                <td>2</td>
+							                <td>Jacob</td>
+							                <td>Thornton</td>
+							                <td>@fat</td>
+							              </tr>
+							              <tr>
+							                <td>3</td>
+							                <td>Larry</td>
+							                <td>the Bird</td>
+							                <td>@twitter</td>
+							              </tr>
+							            </tbody>
+						          	</table>
+								</div>
+
+								
+
+			      				<div class='example_code'>
+							    	<button class="copy_btn">
+							    		<i class="fa fa-clipboard"></i>Copy
+									</button>
+				      				<pre class="code">
+code for table
+
+				      				</pre>      			
+								</div>
+							</div>
+							
 				        </div>
 
 						<p class="para_title" id="tab">Tabs</p>	
@@ -530,61 +528,129 @@
 						<div class="para_section">
 							<p>The tabs logocially chunk the content and allow the users to alternate between views where they don't need to simultaneously see content from multiple tabs. </p>
 							<br>
-							<div>
-								<ul class="nav nav-tabs">
-								  <li class="tab-nav-item active"><a href="#">Users</a></li>
-								  <li class="tab-nav-item"><a href="#">Access Control</a></li>
-								  <li class="tab-nav-item"><a href="#">2-Factor Authentication</a></li>
-								</ul>
+
+							<div class="component_example">	
+								<div class = "example_ui">		
+									<ul class="nav nav-tabs">
+									  <li class="tab-nav-item active"><a href="#">Users</a></li>
+									  <li class="tab-nav-item"><a href="#">Access Control</a></li>
+									  <li class="tab-nav-item"><a href="#">2-Factor Authentication</a></li>
+									</ul>
+								</div>
+
+			      				<div class='example_code'>
+							    	<button class="copy_btn">
+							    		<i class="fa fa-clipboard"></i>Copy
+									</button>
+				      				<pre class="code">
+<ul class="nav nav-tabs">
+  <li class="tab-nav-item active"><a href="#">Users</a></li>
+  <li class="tab-nav-item"><a href="#">Access Control</a></li>
+  <li class="tab-nav-item"><a href="#">2-Factor Authentication</a></li>
+</ul>
+				      				</pre>      			
+								</div>
 							</div>
 						</div>
 
 
 						<p class="para_title" id="textfield">Form</p>
 						<div class="para_section">
-							<div class="theme_form">
-								<label>User Name </label><input type="text" class="form-control" placeholder="Input field">
-								<br>
-								<label>Comments</label><textarea class="form-control" rows="3"></textarea>
 
-								<div class="checkbox">
-									  <label>
-									    <input type="checkbox" value="">
-									    Use spot instance
-									  </label>
+							<div class="component_example">	
+								<div class = "example_ui">		
+									<div class="theme_form">
+										<label>User Name </label><input type="text" class="form-control" placeholder="Input field">
+										<br>
+										<label>Comments</label><textarea class="form-control" rows="3"></textarea>
+
+										<div class="checkbox">
+											  <label>
+											    <input type="checkbox" value="">
+											    Use spot instance
+											  </label>
+										</div>
+										<div class="radio">
+											  <label>
+											    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+											    Option one 
+											  </label>
+										</div>
+										<div class="radio">
+											  <label>
+											    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+											    Option two 
+											  </label>
+										</div> 
+									</div> <!-- end of form -->
 								</div>
-								<div class="radio">
-									  <label>
-									    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-									    Option one 
-									  </label>
+
+			      				<div class='example_code'>
+							    	<button class="copy_btn">
+							    		<i class="fa fa-clipboard"></i>Copy
+									</button>
+				      				<pre class="code">
+code about form
+				      				</pre>      			
 								</div>
-								<div class="radio">
-									  <label>
-									    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-									    Option two 
-									  </label>
-								</div>
-							</div>
+							</div>	
+							
 						</div>
 
 						<p class="para_title" id="tooltip">Tooltips</p>
 						<div class="para_section">
-							<i class="fa fa-question-circle"  data-toggle="tooltip" data-placement="right" title="Hooray!"></i>
+							<div class="component_example">	
+								<div class = "example_ui">		
+									<i class="fa fa-question-circle"  data-toggle="tooltip" data-placement="right" title="Hooray!"></i>
+								</div>
+
+			      				<div class='example_code'>
+							    	<button class="copy_btn">
+							    		<i class="fa fa-clipboard"></i>Copy
+									</button>
+				      				<pre class="code">
+<i class="fa fa-question-circle"  data-toggle="tooltip" data-placement="right" title="Hooray!"></i>
+				      				</pre>      			
+								</div>
+							</div>	
+
 						</div>
 
 						<p class="para_title" id="errors">Error Messages</p>
 						<div class="para_section">
-							<div class="alert alert-success" role="alert">
-							An email has been sent with further instructions.
-							</div>
-							<div class="alert alert-warning" role="alert">
-							You have made changes that you need to confirm.
-							</div>
-							<div class="alert alert-danger" role="alert">
-							Invalid email address.
-							</div>
-						</div>
+							<div class="component_example">	
+								<div class = "example_ui">	
+									<div class="alert alert-success" role="alert">
+									An email has been sent with further instructions.
+									</div>
+									<div class="alert alert-warning" role="alert">
+									You have made changes that you need to confirm.
+									</div>
+									<div class="alert alert-danger" role="alert">
+									Invalid email address.
+									</div>
+
+								</div>
+
+			      				<div class='example_code'>
+							    	<button class="copy_btn">
+							    		<i class="fa fa-clipboard"></i>Copy
+									</button>
+				      				<pre class="code">
+<div class="alert alert-success" role="alert">
+An email has been sent with further instructions.
+</div>
+<div class="alert alert-warning" role="alert">
+You have made changes that you need to confirm.
+</div>
+<div class="alert alert-danger" role="alert">
+Invalid email address.
+</div>
+				      				</pre>      			
+								</div>
+							</div>	
+
+						</div> <!-- end of comopnent_example -->
 					
 					</div> <!-- end of content container -->
 				</div> <!-- end of main_scrollable -->
@@ -596,7 +662,8 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		
+	<script src="js/clipboard.min.js"></script>
+
 	<script>
 	$(document).ready(function () {
 	  $('[data-toggle="offcanvas"]').click(function () {
@@ -609,11 +676,47 @@
 	});
 
 	// $(".example_code").text($(".example_code").html());
-	$(".example_code").each(function() {
-    $(this).html(
-        $(this).html().replace(/</g,'&lt;').replace(/>/g,'&gt;')
-    );
-});
+	$(".code").each(function() {
+	    $(this).html(
+	        $(this).html().replace(/</g,'&lt;').replace(/>/g,'&gt;')
+	    );
+	});
+
+	//clipboard
+	//clipboard
+	$('copy_btn').tooltip({
+	  trigger: 'click',
+	  placement: 'bottom'
+	});
+
+	function setTooltip(btn, message) {
+	  $(btn).tooltip('hide')
+	    .attr('data-original-title', message)
+	    .tooltip('show');
+	}
+
+	function hideTooltip(btn) {
+	  setTimeout(function() {
+	    $(btn).tooltip('hide');
+	  }, 1000);
+	}
+
+	var clipboard = new Clipboard('.copy_btn', {
+	    target: function(trigger) {
+	        return trigger.nextElementSibling;
+	    }
+    });
+
+	clipboard.on('success', function(e) {
+	    setTooltip(e.trigger, 'Copied!');
+			hideTooltip(e.trigger);
+	    e.clearSelection();
+	});
+
+	clipboard.on('error', function(e) {
+		setTooltip(e.trigger, 'Failed!');
+		hideTooltip(e.trigger);
+	});
 	</script>
 
 </body>

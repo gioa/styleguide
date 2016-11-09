@@ -8,146 +8,146 @@
         <g id="Text-Styles">
             <g id="Text-Style:-1">
                 <polygon id="Background" fill="#FFFFFF" points="0 0 820 0 820 155 0 155"></polygon>
-                <text id="@font-size-largest" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#333333">
-                    <tspan x="16.894" y="32">@font-size-largest</tspan>
+                <text id="@font-size-largest" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" line-spacing="20" fill="#333333">
+                    <tspan x="16.5" y="32">@font-size-largest</tspan>
                 </text>
                 <text id="Example" font-family="NewslabLight, Newslab" font-size="52" font-weight="300" line-spacing="72" fill-opacity="0.34" fill="#000000">
                     <tspan x="18" y="89">Welcome to </tspan>
                 </text>
-                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="17" font-weight="normal" fill="#333333">
-                    <tspan x="18" y="133">NewslabLight / 52 px / 72 px Leading / #000000 (34%)</tspan>
+                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="18" y="129">NewslabLight / 52 px / 72 px Leading / #000000 (34%)</tspan>
                 </text>
             </g>
             <g id="Text-Style:-2" transform="translate(0.000000, 155.000000)">
                 <polygon id="Background" fill="#FFFFFF" points="0 0 820 0 820 131 0 131"></polygon>
-                <text id="@font-size-larger" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#333333">
+                <text id="@font-size-larger" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" line-spacing="20" fill="#333333">
                     <tspan x="18" y="32">@font-size-larger</tspan>
                 </text>
                 <text id="Example" font-family="HelveticaNeue, Helvetica Neue" font-size="33" font-weight="normal" line-spacing="48" fill="#333333">
                     <tspan x="18" y="71">Workspace Access Control:</tspan>
                 </text>
-                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="17" font-weight="normal" fill="#333333">
-                    <tspan x="18" y="109">HelveticaNeue / 33 px / 48 px Leading / #333333</tspan>
+                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="18" y="105">HelveticaNeue / 33 px / 48 px Leading / #333333</tspan>
                 </text>
             </g>
             <g id="Text-Style:-3" transform="translate(0.000000, 286.000000)">
                 <polygon id="Background" fill="#FFFFFF" points="0 0 820 0 820 131 0 131"></polygon>
-                <text id="@font-size-larger" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#333333">
+                <text id="@font-size-larger" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" line-spacing="20" fill="#333333">
                     <tspan x="18" y="32">@font-size-larger </tspan>
                 </text>
                 <text id="Example" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="33" font-weight="bold" line-spacing="48" fill="#333333">
                     <tspan x="18" y="72">Enabled</tspan>
                 </text>
-                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="17" font-weight="normal" fill="#333333">
-                    <tspan x="18" y="109">HelveticaNeue-Bold / 33 px / 48 px Leading / #333333</tspan>
+                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="18" y="105">HelveticaNeue-Bold / 33 px / 48 px Leading / #333333</tspan>
                 </text>
             </g>
             <g id="Text-Style:-4" transform="translate(0.000000, 417.000000)">
                 <polygon id="Background" fill="#FFFFFF" points="0 0 820 0 820 119 0 119"></polygon>
-                <text id="@font-size-h1" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#333333">
+                <text id="@font-size-h1" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" line-spacing="20" fill="#333333">
                     <tspan x="18" y="32">@font-size-h1</tspan>
                 </text>
                 <text id="DailyRunJob" font-family="HelveticaNeue, Helvetica Neue" font-size="26" font-weight="normal" line-spacing="36" fill="#333333">
                     <tspan x="18" y="65">DailyRunJob</tspan>
                 </text>
-                <text id="HelveticaNeue-/-26-p" font-family="HelveticaNeue, Helvetica Neue" font-size="17" font-weight="normal" fill="#333333">
-                    <tspan x="18" y="97">HelveticaNeue / 26 px / 36 px Leading / #333333</tspan>
+                <text id="HelveticaNeue-/-26-p" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="18" y="93">HelveticaNeue / 26 px / 36 px Leading / #333333</tspan>
                 </text>
             </g>
             <g id="Text-Style:-5" transform="translate(0.000000, 536.000000)">
                 <polygon id="Background" points="0 0 820 0 820 115 0 115"></polygon>
-                <text id="@font-size-h1" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#333333">
+                <text id="@font-size-h1" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" line-spacing="20" fill="#333333">
                     <tspan x="18" y="32">@font-size-h1</tspan>
                 </text>
                 <text id="Example" font-family="HelveticaNeue, Helvetica Neue" font-size="22" font-weight="normal" line-spacing="32" fill="#9B9B9B">
                     <tspan x="18" y="61">Featured Notebooks</tspan>
                 </text>
-                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="17" font-weight="normal" fill="#333333">
-                    <tspan x="18" y="93">HelveticaNeue / 22 px / 32 px Leading / #9B9B9B</tspan>
+                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="18" y="89">HelveticaNeue / 22 px / 32 px Leading / #9B9B9B</tspan>
                 </text>
             </g>
             <g id="Text-Style:-6" transform="translate(0.000000, 651.000000)">
                 <polygon id="Background" fill="#FFFFFF" points="0 0 820 0 820 115 0 115"></polygon>
-                <text id="@font-size-h2" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#333333">
+                <text id="@font-size-h2" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" line-spacing="20" fill="#333333">
                     <tspan x="18" y="32">@font-size-h2</tspan>
                 </text>
                 <text id="Example" font-family="HelveticaNeue, Helvetica Neue" font-size="22" font-weight="normal" line-spacing="32" fill="#333333">
                     <tspan x="18" y="61">Sign In to Databricks</tspan>
                 </text>
-                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="17" font-weight="normal" fill="#333333">
-                    <tspan x="18" y="93">HelveticaNeue / 22 px / 32 px Leading / #333333</tspan>
+                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="18" y="89">HelveticaNeue / 22 px / 32 px Leading / #333333</tspan>
                 </text>
             </g>
             <g id="Text-Style:-7" transform="translate(0.000000, 766.000000)">
                 <polygon id="Background" fill="#FFFFFF" points="0 0 820 0 820 101 0 101"></polygon>
-                <text id="@font-size-h3" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#333333">
+                <text id="@font-size-h3" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" line-spacing="20" fill="#333333">
                     <tspan x="18" y="31">@font-size-h3</tspan>
                 </text>
                 <text id="Example" font-family="HelveticaNeue, Helvetica Neue" font-size="18" font-weight="normal" line-spacing="24" fill="#333333">
                     <tspan x="18" y="56">Sample data</tspan>
                 </text>
-                <text id="HelveticaNeue-/-18-p" font-family="HelveticaNeue, Helvetica Neue" font-size="17" font-weight="normal" fill="#333333">
-                    <tspan x="18" y="84">HelveticaNeue / 18 px / 24 px Leading / #333333</tspan>
+                <text id="HelveticaNeue-/-18-p" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="18" y="80">HelveticaNeue / 18 px / 24 px Leading / #333333</tspan>
                 </text>
             </g>
             <g id="Text-Style:-8" transform="translate(0.000000, 867.000000)">
                 <polygon id="Background" fill="#FFFFFF" points="0 0 820 0 820 107 0 107"></polygon>
-                <text id="@font-size-h4" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#333333">
+                <text id="@font-size-h4" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" line-spacing="20" fill="#333333">
                     <tspan x="18" y="32">@font-size-h4</tspan>
                 </text>
                 <text id="Example" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
                     <tspan x="18" y="55">Tab Name</tspan>
                 </text>
-                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="17" font-weight="normal" fill="#333333">
-                    <tspan x="18" y="85">HelveticaNeue / 16 px / 24 px Leading / #333333</tspan>
+                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="18" y="81">HelveticaNeue / 16 px / 24 px Leading / #333333</tspan>
                 </text>
             </g>
             <g id="Text-Style:-10" transform="translate(0.000000, 974.000000)">
                 <polygon id="Background" fill="#FFFFFF" points="0 0 820 0 820 103 0 103"></polygon>
-                <text id="@font-size-h5" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#333333">
+                <text id="@font-size-h5" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" line-spacing="20" fill="#333333">
                     <tspan x="18" y="32">@font-size-h5</tspan>
                 </text>
                 <text id="Example" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" line-spacing="20" fill="#333333">
                     <tspan x="18" y="53">Normal text</tspan>
                 </text>
-                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="17" font-weight="normal" fill="#333333">
-                    <tspan x="18" y="81">HelveticaNeue / 14 px / 20 px Leading / #333333</tspan>
+                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="18" y="77">HelveticaNeue / 14 px / 20 px Leading / #333333</tspan>
                 </text>
             </g>
             <g id="Text-Style:-12" transform="translate(0.000000, 1077.000000)">
                 <polygon id="Background" fill="#FFFFFF" points="0 0 820 0 820 103 0 103"></polygon>
-                <text id="@font-size-h6" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#333333">
+                <text id="@font-size-h6" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" line-spacing="20" fill="#333333">
                     <tspan x="18" y="32">@font-size-h6</tspan>
                 </text>
                 <text id="Example" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="20" fill="#333333">
                     <tspan x="18" y="52">Dialog text</tspan>
                 </text>
-                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="17" font-weight="normal" fill="#333333">
-                    <tspan x="18" y="81">HelveticaNeue / 13 px / 20 px Leading / #333333</tspan>
+                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="18" y="77">HelveticaNeue / 13 px / 20 px Leading / #333333</tspan>
                 </text>
             </g>
             <g id="Text-Style:-14" transform="translate(0.000000, 1180.000000)">
                 <polygon id="Background" fill="#FFFFFF" points="0 0 820 0 820 103 0 103"></polygon>
-                <text id="@font-size-smaller" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#333333">
+                <text id="@font-size-smaller" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" line-spacing="20" fill="#333333">
                     <tspan x="18" y="32">@font-size-smaller</tspan>
                 </text>
                 <text id="Example" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" line-spacing="20" fill="#333333">
                     <tspan x="18" y="51">language</tspan>
                 </text>
-                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="17" font-weight="normal" fill="#333333">
-                    <tspan x="18" y="81">HelveticaNeue / 12 px / 20 px Leading / #333333</tspan>
+                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="18" y="77">HelveticaNeue / 12 px / 20 px Leading / #333333</tspan>
                 </text>
             </g>
             <g id="Text-Style:-15" transform="translate(0.000000, 1283.000000)">
                 <polygon id="Background" fill="#FFFFFF" points="0 0 820 0 820 99 0 99"></polygon>
-                <text id="@font-size-smallest" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#333333">
+                <text id="@font-size-smallest" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" line-spacing="20" fill="#333333">
                     <tspan x="18" y="32">@font-size-smallest</tspan>
                 </text>
                 <text id="Example" font-family="HelveticaNeue, Helvetica Neue" font-size="11" font-weight="normal" line-spacing="16" fill="#464644">
                     <tspan x="18" y="50">Home</tspan>
                 </text>
-                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="17" font-weight="normal" fill="#333333">
-                    <tspan x="18" y="77">HelveticaNeue / 11 px / 16 px Leading / #464644</tspan>
+                <text id="Settings" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" line-spacing="24" fill="#333333">
+                    <tspan x="18" y="73">HelveticaNeue / 11 px / 16 px Leading / #464644</tspan>
                 </text>
             </g>
         </g>

@@ -19,11 +19,11 @@
 @black-alpha-200:     				rgba(0, 0, 0, 0.25); // #bfbfbf
 @black-alpha-100:     				rgba(0, 0, 0, 0.12); // #e0e0e0 
 
-@gray-900:							#272727;    //tooltip bg						
+@gray-900:							#272727;    //tooltip bg, banner bg						
 @gray-800:              			#333333;	//primary text 
 @gray-700:              			#464644;   	//sidebar bg - rgb(70, 70, 68);
-@gray-600:							#797979;	//secondary text
-@gray-500:							#9b9b9b;	//tertiary text
+@gray-600:							#797979;	//secondary text (file tree)
+@gray-500:							#9b9b9b;	//tertiary text (notebook menu item, welcome section title, github, )
 @gray-400:              			#cccccc;    //dark border
 @gray-300:							#dddddd;	//table border
 @gray-200:            				#eeeeee;	//light bg	
@@ -42,15 +42,16 @@
 
 @red:								#db1905;    //replace #da4f49
 @red-dark:							#b63e2b;	//replace #bd362f 
-@red-light:							#f05e57;
+@red-light:							#f05e57;	//replace FF4450;
 @red-lighter:						#ffecec;
 
 @yellow:							#fdbc40;
-@yellow-dark:						#F0C36D;
+@yellow-dark:						#F0C36D;	
 @yellow-darker:						#B37900;
 @yellow-lighter:					#F9EDBE;
 
-@orange:							#FF5224;
+@orange:							#FF5224;	
+@orange-utility:					#ED770E;
 @blue-green:						#1CB1C2;
 
 //== Colors used in products
@@ -79,12 +80,12 @@
 
 // btn
 @btn-default-color:					@gray-800;
-@btn-default-border:				@gray-400;
+@btn-default-border:				@gray-300;
 @btn-default-bg:					@gray-100;
 @btn-default-hover:					@gray-200;
 
 @btn-primary-color:    				@white;
-@btn-primary-border:				@blue-dark;
+@btn-primary-border:				@blue-dark; //?  
 @btn-primary-bg:					@blue;
 @btn-primary-hover:					@blue-dark;
 
@@ -200,7 +201,7 @@
 @table-header-bg-color:				@gray-50;
 @table-header-text-color:			@gray-600;
 @table-row-hover-color:				@gray-100;
-@table-border-color:				@gray-500;
+@table-border-color:				@gray-400;
 
 //tab color
 
@@ -271,52 +272,18 @@
 //
 @btn-font-weight:					@font-base-weight;
 
-/*
+
 
 //== Dropdowns
 //
-//## Dropdown menu container and contents.
 
-//** Background for the dropdown menu.
-@dropdown-bg:                    #fff;
-//** Dropdown menu `border-color`.
-@dropdown-border:                rgba(0,0,0,.15);
-//** Dropdown menu `border-color` **for IE8**.
-@dropdown-fallback-border:       #ccc;
 //** Divider color for between dropdown items.
-@dropdown-divider-bg:            #e5e5e5;
-
-
-//** Global color for active items (e.g., navs or dropdowns).
-@component-active-color:    #fff;
-//** Global background color for active items (e.g., navs or dropdowns).
-@component-active-bg:       @link-hover-color;
-
-//** Width of the `border` for generating carets that indicator dropdowns.
-@caret-width-base:          4px;
-//** Carets increase slightly in size for larger components.
-@caret-width-large:         5px;
-
-//** Dropdown link text color.
-@dropdown-link-color:            @gray-dark;
-//** Hover color for dropdown links.
-@dropdown-link-hover-color:      darken(@gray-dark, 5%);
-//** Hover background for dropdown links.
-@dropdown-link-hover-bg:         #f5f5f5;
-
+@dropdown-divider-bg:            @border-default-color;
 //** Active dropdown menu item text color.
-@dropdown-link-active-color:     @component-active-color;
+@dropdown-link-active-color:     @white;
 //** Active dropdown menu item background color.
-@dropdown-link-active-bg:        @component-active-bg;
+@dropdown-link-active-bg:        @link-hover-color;
 
-//** Disabled dropdown menu item background color.
-@dropdown-link-disabled-color:   @gray-light;
-
-//** Text color for headers within dropdown menus.
-@dropdown-header-color:          @gray-light;
-
-//** Deprecated `@dropdown-caret-color` as of v3.1.0
-@dropdown-caret-color:           #000;
 
 //-- Z-index master list
 //
@@ -401,7 +368,7 @@
 //## Define alert colors, border radius, and padding.
 
 @badge-color:				  #fff;
-@badge-bg:					  @gray-light;
+@badge-bg:					  @gray-400;
 @badge-border-radius:		  10px;
 // @badge-line-height:
 
@@ -430,12 +397,12 @@
 @table-header-text:				#888;
 @table-header-padding:    		@table-condensed-cell-padding;
 
-//=== Shared nav styles
-@nav-link-padding:                          10px 15px;
-@nav-link-hover-bg:                         @gray-lighter;
+// //=== Shared nav styles
+// @nav-link-padding:                          10px 15px;
+// @nav-link-hover-bg:                         @gray-lighter;
 
-@nav-disabled-link-color:                   @gray-light;
-@nav-disabled-link-hover-color:             @gray-light;
+// @nav-disabled-link-color:                   @gray-light;
+// @nav-disabled-link-hover-color:             @gray-light;
 
 
 //== Tabs
@@ -460,54 +427,54 @@
 //** `<input>` background color
 @input-bg:                       #fff;
 //** `<input disabled>` background color
-@input-bg-disabled:              @gray-lighter;
+// @input-bg-disabled:              @gray-lighter;
 
-@label-color: 					 @gray-light;
-@label-font-size: 				 @font-size-small;	
+// @label-color: 					 @gray-light;
+// @label-font-size: 				 @font-size-small;	
 
-//** Text color for `<input>`s
-@input-color:                    @gray;
+// //** Text color for `<input>`s
+// @input-color:                    @gray;
 //** `<input>` border color
 @input-border:                   #ccc;
 
 // TODO: Rename `@input-border-radius` to `@input-border-radius-base` in v4
 //** Default `.form-control` border radius
 // This has no effect on `<select>`s in some browsers, due to the limited stylability of `<select>`s in CSS.
-@input-border-radius:            @border-radius-base;
-//** Large `.form-control` border radius
-@input-border-radius-large:      @border-radius-large;
-//** Small `.form-control` border radius
-@input-border-radius-small:      @border-radius-small;
+// @input-border-radius:            @border-radius-base;
+// //** Large `.form-control` border radius
+// @input-border-radius-large:      @border-radius-large;
+// //** Small `.form-control` border radius
+// @input-border-radius-small:      @border-radius-small;
 
-//** Border color for inputs on focus
-@input-border-focus:             #66afe9;
+// //** Border color for inputs on focus
+// @input-border-focus:             #66afe9;
 
-//** Placeholder text color
-@input-color-placeholder:        #999;
+// //** Placeholder text color
+// @input-color-placeholder:        #999;
 
-//** Default `.form-control` height
-@input-height-base:              30px;//(@line-height-computed + (@padding-base-vertical * 2) + 2);
-//** Large `.form-control` height
-@input-height-large:             (ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) + 2);
-//** Small `.form-control` height
-@input-height-small:             (floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2);
+// //** Default `.form-control` height
+// @input-height-base:              30px;//(@line-height-computed + (@padding-base-vertical * 2) + 2);
+// //** Large `.form-control` height
+// @input-height-large:             (ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) + 2);
+// //** Small `.form-control` height
+// @input-height-small:             (floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2);
 
-//== Tooltips
-//
-//##
+// //== Tooltips
+// //
+// //##
 
-//** Tooltip max width
-@tooltip-max-width:           200px;
-//** Tooltip text color
-@tooltip-color:               #fff;
-//** Tooltip background color
-@tooltip-bg:                  #000;
-@tooltip-opacity:             .9;
+// //** Tooltip max width
+// @tooltip-max-width:           200px;
+// //** Tooltip text color
+// @tooltip-color:               #fff;
+// //** Tooltip background color
+// @tooltip-bg:                  #000;
+// @tooltip-opacity:             .9;
 
-//** Tooltip arrow width
-@tooltip-arrow-width:         5px;
-//** Tooltip arrow color
-@tooltip-arrow-color:         @tooltip-bg;
+// //** Tooltip arrow width
+// @tooltip-arrow-width:         5px;
+// //** Tooltip arrow color
+// @tooltip-arrow-color:         @tooltip-bg;
 
 
 
@@ -549,6 +516,6 @@
 @screen-sm-max:              (@screen-md-min - 1);
 @screen-md-max:              (@screen-lg-min - 1);
 
-*/
+
 //== Others
 @cursor-disabled:                not-allowed;
