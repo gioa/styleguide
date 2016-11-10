@@ -31,7 +31,7 @@
 @gray-100:          				#f5f5f5; 	//lighter bg
 @gray-50:         					#fafafa;	//lightest bg - replace #fcfcfb rgba(252, 252, 250, 0.8);
 
-@blue:								#2568d2;	//rgba(37, 139, 210, 1.0);
+@blue:								#258BD2;	//rgba(37, 139, 210, 1.0);
 @blue-dark:							#1B69A0;    //rgb(27, 105, 160);
 @blue-light:						#64c3ff;    //rgba(100,195,255);
 
@@ -201,7 +201,8 @@
 @table-header-bg-color:				@gray-50;
 @table-header-text-color:			@gray-600;
 @table-row-hover-color:				@gray-100;
-@table-border-color:				@gray-400;
+@table-border-color:				@gray-300;
+@table-header-text:					@gray-600;
 
 //tab color
 
@@ -236,8 +237,9 @@
 
 // weight
 @font-base-weight:          		400;
-@font-light-weight:          		400;
+@font-light-weight:          		300;
 @font-lighter-weight:				200;
+@font-bold-weight:					600;
 
 //== Icons
 //
@@ -250,13 +252,17 @@
 
 //== Spacing
 //
-@spacing-unit-base: 				8px;
+@spacing-unit-zero:				    0px;
 @spacing-unit-sm:					4px;
+@spacing-unit-base: 				8px;
+@spacing-unit-md:				   12px;
 @spacing-unit-lg:				   16px;
+
 
 @padding-base-vertical:				@spacing-unit-sm;
 @padding-base-horizontal:			@spacing-unit-base;	
 
+@margin-base:						@spacing-unit-lg;
 
 //== Misc
 //
@@ -337,32 +343,6 @@
 //##
 
 
-
-//== Alerts
-//
-//## Define alert colors, border radius, and padding.
-
-@alert-padding:               10px;
-@alert-border-radius:         @border-radius-base;
-
-
-@alert-success-bg:            @state-success-bg;
-@alert-success-text:          @state-success-text;
-@alert-success-border:        @state-success-border;
-
-@alert-info-bg:               @state-info-bg;
-@alert-info-text:             @state-info-text;
-@alert-info-border:           @state-info-border;
-
-@alert-warning-bg:            @state-warning-bg;
-@alert-warning-text:          @state-warning-text;
-@alert-warning-border:        @state-warning-border;
-
-@alert-danger-bg:             @state-danger-bg;
-@alert-danger-text:           @state-danger-text;
-@alert-danger-border:         @state-danger-border;
-
-
 //== Badge
 //
 //## Define alert colors, border radius, and padding.
@@ -377,46 +357,20 @@
 //## Customizes the `.table` component with basic values, each used across all table variations.
 
 //** Padding for `<th>`s and `<td>`s.
-@table-cell-padding:            5px;
-//** Padding for cells in `.table-condensed`.
-@table-condensed-cell-padding:  3px;
-@table-header-size:				13px;
-
-//** Default background color used for all tables.
-@table-bg:                      transparent;
-//** Background color used for `.table-striped`.
-@table-bg-accent:               #f9f9f9;
-//** Background color used for `.table-hover`.
-@table-bg-hover:                #f5f5f5;
-@table-bg-active:               @table-bg-hover;
-
-//** Border color for table and cell borders.
-@table-border-color:            #ddd;
-
-@table-header-bg:				#fafafa;
-@table-header-text:				#888;
+@table-cell-padding:            @spacing-unit-sm @spacing-unit-base;
+@table-condensed-cell-padding:  @spacing-unit-sm;
+@table-header-size:				@font-size-h6;
 @table-header-padding:    		@table-condensed-cell-padding;
 
-// //=== Shared nav styles
-// @nav-link-padding:                          10px 15px;
-// @nav-link-hover-bg:                         @gray-lighter;
-
-// @nav-disabled-link-color:                   @gray-light;
-// @nav-disabled-link-hover-color:             @gray-light;
 
 
 //== Tabs
-@nav-tabs-border-color:                     #ddd;
+@nav-tabs-border-color:                     @gray-300;
+@nav-tabs-active-link-bottom-border-color:  @gray-800;
+@nav-tabs-font-size:						@font-size-h4;
+@nav-link-padding:                          @spacing-unit-base @spacing-unit-md;                     
 
-// @nav-tabs-link-hover-border-color:          @gray-lighter;
-
-// @nav-tabs-active-link-hover-bg:             @body-bg;
-// @nav-tabs-active-link-hover-color:          @gray;
-@nav-tabs-active-link-bottom-border-color:  @text-color;
-
-// @nav-tabs-justified-link-border-color:            #ddd;
-// @nav-tabs-justified-active-link-border-color:     @body-bg;
-@nav-tabs-font-size:						16px;
+@nav-disabled-link-color:                   @disabled-text;
 
 
 
