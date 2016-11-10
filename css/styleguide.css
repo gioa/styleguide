@@ -20,6 +20,12 @@ a{
 	text-decoration: none; 	
 	color:#258BD2;
 }
+a:active,
+a:focus,
+a:hover{
+	outline: 0;
+	text-decoration: none;
+}
 
 /*
 	responsive styles
