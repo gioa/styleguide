@@ -46,21 +46,10 @@
 
 // alert
 .alert{
-	padding: @padding-base-vertical @padding-base-horizontal;
-	border: 1px solid transparent;
+	padding: @state-padding;
+  border: 1px solid transparent;
 	border-radius: @border-radius-base;
   display: inline-block;
-}
-
-.alert-dismiss{
-	padding-right: (@padding-base-horizontal + 20);
-
-	.close {
-		position:relative;
-		top:-2px;
-		right: -21px;
-		color: inherit;
-	}
 }
 
 .alert-success{
@@ -84,32 +73,26 @@
 .alert-danger {
 	background-color: @state-danger-bg;
 	border-color: @state-danger-border; 
-	color: @state-danger-text;
-  
+	color: @state-danger-text;  
 }
 
 
-// // badge.less
-// .badge{
-// 	display: inline-block;
-// 	color: @badge-color;
-// 	border-radius: @badge-border-radius;
-// 	background-color: @badge-bg;
-// 	font-size: @font-size-h6;	
-// 	// line-height: @badge-line-height;
-// 	padding: @padding-small;
-// 	text-align: center;
-
-// }
+// badge.less
+.badge{
+	display: inline-block;
+	color: @badge-text;
+	border-radius: @badge-border-radius;
+	background-color: @badge-bg;
+	font-size: @badge-font-size;	
+	text-align: center;
+}
 
 // button.less
-
-
 .btn{
 	display: inline-block;
-	padding: @padding-base-vertical @padding-base-horizontal;
-	font-size: @font-size-base;
-	border-radius: @border-radius-base;
+	padding: @btn-padding;
+	font-size: @btn-font-size;
+	border-radius: @btn-border-radius;
 
 	&:focus{
 		outline: 0;
@@ -119,7 +102,7 @@
   	&[disabled],
   	fieldset[disabled] & {
 	    cursor: @cursor-disabled;
-	    opacity:@disable-opacity;
+	    opacity: @disable-opacity;
   	}
 
 	a& {
@@ -130,13 +113,13 @@
 	}
 
   & .fa{
-    padding: @spacing-unit-sm @spacing-unit-zero;
+    padding: @spacing-small @spacing-zero;
   }
 }
 
 
 .btn-default {
-  	color: @btn-default-color; 
+  	color: @btn-default-text; 
   	background-color: @btn-default-bg; 
   	border-color:@btn-default-border;
 
@@ -151,7 +134,7 @@
 
 // Action button highlighted 
 .btn-primary {
-	 color: @btn-primary-color; 
+	 color: @btn-primary-text; 
   	background-color: @btn-primary-bg; 
   	border-color:@btn-primary-border;
 
@@ -163,13 +146,13 @@
     }
 
     & .fa{
-      color: @btn-primary-color; 
+      color: @btn-primary-text; 
     }
 }
 
 // Danger and error appear as red
 .btn-danger {
-	color: @btn-danger-color; 
+	color: @btn-danger-text; 
   	background-color: @btn-danger-bg; 
   	border-color:@btn-danger-border;
 
@@ -182,14 +165,14 @@
 }
 
 .btn-link{
-	color: @link-color;
+	color: @link-text;
 	border-radius: 0;
 	background-color: transparent;
 
   	&:hover,
     &:focus{
     	&:not([disabled]){
-    		color:@link-hover-color;
+    		color:@link-hover-text;
     	}
     }
 }
@@ -489,7 +472,7 @@
 .table {
   width: 100%;
   max-width: 100%;
-  border: 1px solid @table-border-color;
+  border: 1px solid @table-border;
 
   // Cells
   > thead,
@@ -508,21 +491,21 @@
   }
 
   > thead {
-  	background-color: @table-header-bg-color;
-  	color:@table-header-text-color;
+  	background-color: @table-header-bg;
+  	color:@table-header-text;
   	padding: @table-header-padding;
 
   	> tr > th {
     	vertical-align: bottom;
-    	border-bottom: 1px solid @table-border-color;
-  		font-size: @table-header-size;	
-  		font-weight: @font-bold-weight;
+    	border-bottom: 1px solid @table-border;
+  		font-size: @table-header-font-size;	
+  		font-weight: @table-header-font-weight;
   	}
   }
 
   .table-hover {
   	> tbody > tr:hover {
-    	background-color: @table-row-hover-color;
+    	background-color: @table-row-hover-bg;
   	}
   }
 }
@@ -535,7 +518,7 @@
     width: 100%;
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid @table-border-color;
+    border: 1px solid @table-border;
 
     // Tighten up spacing
     > .table {
@@ -593,7 +576,7 @@
 
 .table-col-bordered{
 	
-					border-left: 1px solid @table-border-color;
+					border-left: 1px solid @table-border;
 					& :first-child{
 					border-left: none;
 					}
@@ -604,7 +587,7 @@
     > tr {
       > th,
       > td {
-		border-left: 1px solid @table-border-color;
+		border-left: 1px solid @table-border;
 		// & :first-child{
 		// border-left: none;
 		// }
@@ -635,11 +618,11 @@
       position: relative;
       display: block;
       padding: @nav-link-padding;
-      color: @link-color;
+      color: @link-text;
       &:hover,
       &:focus {
         text-decoration: none;
-        color:@link-hover-color;
+        color:@link-hover-text;
         background-color: transparent;
         border: 0;
       }
@@ -647,11 +630,11 @@
 
     // Disabled state sets text to gray and nukes hover/tab effects
     &.disabled > a {
-      color: @nav-disabled-link-color;
+      color: @nav-disabled-link-text;
 
       &:hover,
       &:focus {
-        color: @nav-disabled-link-color;
+        color: @nav-disabled-link-text;
         text-decoration: none;
         background-color: transparent;
         cursor: @cursor-disabled;
@@ -661,7 +644,7 @@
  }
 
 .nav-tabs {
-  border-bottom: 1px solid @nav-tabs-border-color;
+  border-bottom: 1px solid @nav-tabs-border;
 
 
   > li {
@@ -669,7 +652,7 @@
     // Make the list-items overlay the bottom border
     margin-bottom: -1px;
 
-    color: @link-color;
+    color: @link-text;
     font-size: @nav-tabs-font-size;
 
     > a {
@@ -692,12 +675,12 @@
       &,
       &:hover,
       &:focus {
-        color: @nav-tabs-active-link-bottom-border-color;
+        color: @nav-tabs-active-link-bottom-border;
         // background-color: @nav-tabs-active-link-hover-bg;
 
         border: 0;
         // border-bottom-color: transparent;
-        border-bottom: 3px solid  @nav-tabs-active-link-bottom-border-color;
+        border-bottom: 3px solid  @nav-tabs-active-link-bottom-border;
         cursor: default;
       }
     }

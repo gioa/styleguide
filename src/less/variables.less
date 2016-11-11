@@ -31,445 +31,381 @@
 @gray-100:          				#f5f5f5; 	//lighter bg
 @gray-50:         					#fafafa;	//lightest bg - replace #fcfcfb rgba(252, 252, 250, 0.8);
 
-@blue:								#258BD2;	//rgba(37, 139, 210, 1.0);
-@blue-dark:							#1B69A0;    //rgb(27, 105, 160);
-@blue-light:						#64c3ff;    //rgba(100,195,255);
+@blue-500:							#258BD2;	//rgba(37, 139, 210, 1.0);
+@blue-700:							#1B69A0;    //rgb(27, 105, 160);
+@blue-200:							#64c3ff;    //rgba(100,195,255);
 
-@green:								#16b169;
-@green-dark:						#468847;
-@green-light:						#D6E9C6;
-@green-lighter:						#ECFDEC;
+@blue-green:						#1CB1C2;	//branding 
 
-@red:								#db1905;    //replace #da4f49
-@red-dark:							#b63e2b;	//replace #bd362f 
-@red-light:							#f05e57;	//replace FF4450;
-@red-lighter:						#ffecec;
+@green-500:							#16b169;
+@green-700:							#468847;
+@green-200:							#D6E9C6;
+@green-100:							#ECFDEC;
 
-@yellow:							#fdbc40;
-@yellow-dark:						#F0C36D;	
-@yellow-darker:						#B37900;
-@yellow-lighter:					#F9EDBE;
+@red-500:							#db1905;    //replace #da4f49
+@red-700:							#b63e2b;	//replace #bd362f 
+@red-200:							#f05e57;	//replace FF4450;
+@red-100:							#ffecec;
 
-@orange:							#FF5224;	
-@orange-utility:					#ED770E;
-@blue-green:						#1CB1C2;
+@yellow-500:						#fdbc40;    
+@yellow-600:						#F0C36D;	
+@yellow-700:						#B37900;
+@yellow-100:						#F9EDBE;
+
+@orange-500:						#FF5224;	
+@orange-700:						#ED770E;
+
 
 //== Colors used in products
+//== naming rules: componentName-state-border/bg/text
 //
-@primary-bg-color: 					@white;
-@brand-primary:         			@orange; 
+@bg-primary: 						@white;
+@brand-primary:         			@orange-500; 
 
 //text colors 
-@text-color:						@black-alpha-800;
-@secondary-text:					@black-alpha-500;
-@disabled-text:						@black-alpha-300;
+@text-default:						@black-alpha-800; //#333
+@text-secondary:					@black-alpha-500;
+@text-disabled:						@black-alpha-300;
+@text-error:						@red-700;
 
-@link-color:						@blue;
-@link-hover-color:					@blue-dark;
-@link-tooltip-color:				@blue-light;
-
-@error-text:						@red-dark;
+//link text colors
+@link-text:							@blue-500;
+@link-hover-text:					@blue-700;
+@link-tooltip-text:					@blue-200;
 
 //default light border colors
-@border-default-color:				@gray-150;
+@border-default:					@gray-150;  
 
 //default light background colors
-@bg-default-color:					@gray-50;
-@bg-default-hover-color:			@gray-100;
+@bg-default:						@gray-50;
+@bg-default-hover:					@gray-100;
 
+//component colors are defined in the component section
 
-// btn
-@btn-default-color:					@gray-800;
-@btn-default-border:				@gray-300;
-@btn-default-bg:					@gray-100;
-@btn-default-hover:					@gray-200;
-
-@btn-primary-color:    				@white;
-@btn-primary-border:				@blue-dark; //?  
-@btn-primary-bg:					@blue;
-@btn-primary-hover:					@blue-dark;
-
-@btn-danger-color:	    			@white;
-@btn-danger-border:					@red-dark;
-@btn-danger-bg:						@red;
-@btn-danger-hover:					@red-dark;
-
-//menu
-@menu-hover-bg-color:				@blue-dark;
-@menu-hover-text-color:				@white;
-
-//form
-@input-disabled-bg-color:			@gray-100;
-@dropdown-divider-color:			@border-default-color;
-
-@checkbox-checked-color:			@blue;
-
-// status 
-@state-success-text:            	@green-dark;
-@state-success-bg:             	 	@green-lighter;
-@state-success-border:          	@green-light; //darken(spin(@state-success-bg, -10), 10%);
-
-@state-info-text:               	@text-color;
-@state-info-bg:                 	@gray-700;
-@state-info-border:             	@gray-800;//darken(spin(@state-info-bg, -10), 7%);
-
-@state-warning-text:            	@text-color;
-@state-warning-bg:             	 	@yellow-lighter;
-@state-warning-border:          	@yellow-dark;
-
-@state-danger-text:            		@red-dark;  
-@state-danger-bg:               	@red-lighter;
-@state-danger-border:          	 	@red-light; 
-
-//sign in: sign in form, choose organization
-@signin-bg-color:					@gray-50;
-@signin-org-active-color:			@gray-100;
-@signin-border-color:   			@gray-400;
-   
-//sidebar
-@sidebar-bg-color:					@gray-700;
-@sidebar-border-color:  			@border-default-color;
-
-@sidebar-btn-text-color:			@white-alpha-500;
-@sidebar-btn-icon-color:			@white-alpha-500;
-@sidebar-btn-outline-color:			@white-alpha-100;
-@sidebar-btn-bg-color:				@white-alpha-50;
-
-@sidebar-btn-hover-color:			@gray-50;//for all text, icon and outline colors. Replace rgba(252, 252, 250, 0.8) 
-
-@sidebar-btn-selected-text-color:	@white-alpha-500;
-@sidebar-btn-selected-icon-color:	@gray-700;
-@sidebar-btn-selected-outline-color:@gray-50;
-@sidebar-btn-selected-bg-color:		@gray-50;
-
-//filetree: pin, caret, search spinner...
-@filetree-head-text-color:			@gray-700;
-@filetree-divider-color:			@gray-150;
-	
-@filetree-section-title-bg-color:	@gray-50;  
-@filetree-item-hover-color:			@gray-100;
-@filetree-item-selected-color:  	@gray-200;
-
-@filetree-primary-text-color:		@gray-600;   //! sidebar color low contrast < 3.8
-@filetree-secondary-text-color: 	@gray-400;  //replace domain(#dbdbdb),search placeholder with #cccccc.
-
-@filetree-caret-color:				@gray-400;
-
-//topbar
-@topbar-breadcrumb-active-color:	@black-alpha-500;
-@topbar-breadcrumb-inactive-color: 	@black-alpha-300;
-@topbar-icon-color:					@gray-800;
-@topbar-icon-active-color:			@blue-dark;
-
-@topbar-presence-border-color:		@gray-400;
-@topbar-presence-bg-color:			@gray-100;  //replace #fcfcfc
-
-@usermenu-invite-bg-color:			@black-alpha-500;
-@helpmenu-text-color:				@gray-600;
-
-//homeview
-@welcome-section-title-color:		@gray-500; //replace #919191 with #9b9b9b
-@welcome-section-news-color:		@gray-600;
-@welcome-section-bg-color:			@gray-50;
-@welcome-section-border-color:  	@gray-150;
-@welcome-text-color:				@black-alpha-300;
-@welcome-lastlogin-color:			@black-alpha-500;
-
-//notebook
-@nb-menu-text-color:				@gray-500;	//fontcolor
-@nb-menu-text-active-color: 		@gray-600;   
-
-//cells
-@nb-cells-bg-color:					@gray-50;
-@nb-cells-divider-color:			@gray-150;
-
-//panel
-@github-icon-color:					@gray-500;
-@github-icon-hover-color:			@gray-600;
-@github-icon-success-color:			@green;
-@github-icon-error-color:			@red;
-@github-icon-warning-color:			@yellow;
-@github-timestamp-color:			@gray-400;
-
-@history-diff-insert-color:			@green-lighter;
-@history-diff-delete-color:			@red-lighter;
-
-@shortcut-command-key-color:		@yellow-darker;
-@shortcut-command-key-bg-color:		@gray-50;
-
-//table 
-@table-header-bg-color:				@gray-50;
-@table-header-text-color:			@gray-600;
-@table-row-hover-color:				@gray-100;
-@table-border-color:				@gray-300;
-@table-header-text:					@gray-600;
-
-//tab color
-
-//tooltip color
-@tooltip-bg-color:					@gray-900;
 
 //== Typography
 //
-
 @text-font:				 			"Helvetica Neue", "Helvetica", "Arial", sans-serif;
 @code-font: 			 			"Source Code Pro", "Menlo", monospace;
 @newslab-font: 			 			"Newslab", serif;
 
-//size
+//font size
 @font-size-base:          			14px;
 
-@font-size-largest:       			52px; //welcome to
-@font-size-larger:		  			33px;// workspace access control
+@font-size-x-large:       			52px; //welcome to
+@font-size-large:		  			33px;// workspace access control
 @font-size-h1:            			26px; //page title, modal title
 @font-size-h2:            			22px; //sign in to Databricks, choose organization
 @font-size-h3:            			18px; //section title
 @font-size-h4:            			16px; 
 @font-size-h5:           			@font-size-base;
 @font-size-h6:            			13px; // file tree title, notebook menu, user menu, dialog text.
-@font-size-smaller:       			12px; //language, shift+enter to run
-@font-size-smallest:      			11px; //sidebar text
+@font-size-small:       			12px; //language, shift+enter to run
+@font-size-x-small:      			11px; //sidebar text
 
 //line height
 @line-height-base:         			1.428571429; // 20/14
-@line-height-small:         		1.3333333; // extra decimals for Win 8.1 Chrome
-@line-height-large:        			1.5;
+
+@line-height-x-large:				72px;
+@line-height-large:					48px;
+@line-height-h1:					36px;
+@line-height-h2:					32px;
+@line-height-h3:					24px;
+@line-height-h4:					24px;
+@line-height-h5:					20px;
+@line-height-h6:					20px;
+@line-height-small:					20px;
+@line-height-x-small:				16px;
 
 // weight
-@font-base-weight:          		400;
-@font-light-weight:          		300;
-@font-lighter-weight:				200;
-@font-bold-weight:					600;
+@font-weight-base:          		400;
+@font-weight-small:	          		300;
+@font-weight-x-small:				200;
+@font-weight-large:					600;
+
 
 //== Icons
 //
 @icon-mini-width: 					16px;
 @icon-mini-height: 					16px;
 
+
 //== Layout
 //
 @sidebar-width: 					76px;
 
+
 //== Spacing
 //
-@spacing-unit-zero:				    0px;
-@spacing-unit-sm:					4px;
-@spacing-unit-base: 				8px;
-@spacing-unit-md:				   12px;
-@spacing-unit-lg:				   16px;
+@spacing-base: 						8px;
 
+@spacing-zero:				    	0px;
+@spacing-small:						4px;
+@spacing-medium:			   		12px;
+@spacing-large:				   		16px;
+@spacing-x-large:			   		24px;
+@spacing-xx-large:			   		32px;
+@spacing-xxx-large:			   		48px;
 
-@padding-base-vertical:				@spacing-unit-sm;
-@padding-base-horizontal:			@spacing-unit-base;	
+@padding-base-vertical:				@spacing-small;
+@padding-base-horizontal:			@spacing-base;	
 
-@margin-base:						@spacing-unit-lg;
+@margin-base:						@spacing-large;
+
 
 //== Misc
 //
 @border-radius-base:        		4px;
+@disable-opacity:					0.34;
+@cursor-disabled:                not-allowed;
 
+//Z-index master list
+@zindex-navbar:            			1000;
+@zindex-dropdown:          			1000;
+@zindex-popover:           			1060;
+@zindex-tooltip:           			1070;
+@zindex-navbar-fixed:      			1030;
+@zindex-modal-background:  			1040;
+@zindex-modal:             			1050;
 
 
 //== Components
+//naming rules for other styles besides color:  componentName-styleName
 //
-@disable-opacity:					0.34;
+//btn  
+@btn-default-text:					@gray-800;   
+@btn-default-border:				@gray-300;
+@btn-default-bg:					@gray-100;
+@btn-default-hover:					@gray-200;
 
-//== Buttons
+@btn-primary-text:    				@white;
+@btn-primary-border:				@blue-700; //?  
+@btn-primary-bg:					@blue-500;
+@btn-primary-hover:					@blue-700;
+
+@btn-danger-text:	    			@white;
+@btn-danger-border:					@red-700;
+@btn-danger-bg:						@red-500;
+@btn-danger-hover:					@red-700;
+
+@btn-font-size:						@font-size-h6;
+@btn-line-height:					@line-height-h6;
+@btn-font-weight:					@font-weight-base;
+@btn-padding:						@spacing-small @spacing-base;
+@btn-border-radius:					@border-radius-base;
+
+//badge
+@badge-text:				  		@white;
+@badge-bg:					  		@gray-400;
+@badge-border-radius:		  		@spacing-medium; //12px
+
+@badge-font-size:					@font-size-small;
+
+//checkbox
+@checkbox-checked-bg:				@blue-500;
+
+//dropdowns
+@dropdown-divider:            		@border-default;
+@dropdown-item-active-text:    	    @white;
+@dropdown-item-active-bg:        	@blue-700;
+
+//input field
+@input-bg:                          @white;
+@input-border:                      @gray-400;//#ccc;
+
+@input-label-text: 					@black-alpha-300;
+@input-placeholder-text:       		@gray-600; //#9b9b9b to replace #999?
+
+@input-active-border:             	@blue-200; //#66afe9;
+@input-error-bg:					@red-100;
+@input-error-border:				@red-200;
+@input-disabled-bg:					@gray-100;
+
+@input-border-radius:		      	@border-radius-base; //4px
+@input-label-font-size: 			@font-size-h5;	
+
+//menu
+@menu-hover-text:					@white;
+@menu-hover-bg:						@blue-700;
+
+//modals
+@modal-content-bg:                  @white;
+@modal-content-border:              @border-default; //rgba(0,0,0,.2);
+@modal-backdrop-bg:           		@black;
+@modal-backdrop-opacity:      		@black-alpha-200;
+
+@modal-inner-padding:         		@spacing-large;  //16px
+@modal-title-padding:         		@spacing-large;	 //16px
+@modal-title-line-height:     		@line-height-h1; //36px
+@modal-header-border:   			@border-default;
+@modal-footer-border: 	  			@border-default;
+
+@modal-lg:		                    900px;
+@modal-md:      	        	   	600px;
+@modal-sm:          		        300px;
+
+//status 
+@state-success-text:            	@green-700;
+@state-success-bg:             	 	@green-100;
+@state-success-border:          	@green-200; //darken(spin(@state-success-bg, -10), 10%);
+
+@state-info-text:               	@text-default;
+@state-info-bg:                 	@gray-700;
+@state-info-border:             	@gray-800;//darken(spin(@state-info-bg, -10), 7%);
+
+@state-warning-text:            	@text-default;
+@state-warning-bg:             	 	@yellow-100;
+@state-warning-border:          	@yellow-600;
+
+@state-danger-text:            		@red-700;  
+@state-danger-bg:               	@red-100;
+@state-danger-border:          	 	@red-200; 
+
+@state-padding:						@spacing-small @spacing-base;
+
+//table 
+@table-border:						@gray-300;
+@table-header-bg:					@gray-50;
+@table-header-text:					@gray-600;
+@table-row-hover-bg:				@gray-100;
+
+@table-header-font-size:			@font-size-h6;
+@table-header-font-weight:			@font-weight-large;
+
+@table-cell-padding:            	@spacing-small @spacing-base; //4px 8px
+@table-condensed-cell-padding:  	@spacing-small;
+@table-header-padding:    			@table-condensed-cell-padding;
+
+//tabs
+@nav-tabs-font-size:	    		@font-size-h4;
+@nav-tabs-border:                   @gray-300;
+@nav-link-padding:                  @spacing-base @spacing-medium;                     
+@nav-tabs-active-link-bottom-border:@gray-800;
+@nav-disabled-link-text:           	@text-disabled;
+
+//tooltip 
+@tooltip-bg:						@gray-900;
+@tooltip-text:						@white;
+@tooltip-font-size:					@font-size-small;
+
+@tooltip-max-width:           		400px;
+@tooltip-base-width:           		260px;
+
+@tooltip-arrow-width:         		5px;
+@tooltip-arrow-color:         		@tooltip-bg;
+
+//== Organisms in product
 //
-@btn-font-weight:					@font-base-weight;
+//sign in: sign in form, choose organization
+@signin-bg:							@gray-50;
+@signin-org-bg:						@gray-50;
+@signin-org-active-bg:				@gray-100;
+@signin-border:			   			@gray-400;
+   
+//sidebar
+@sidebar-bg:						@gray-700;
+@sidebar-border:  					@border-default;
+
+@sidebar-btn-text:					@white-alpha-500;
+@sidebar-btn-icon:					@white-alpha-500;
+@sidebar-btn-outline:				@white-alpha-100;
+@sidebar-btn-bg:					@white-alpha-50;
+
+@sidebar-btn-hover:					@gray-50;//for all text, icon and outline colors. Replace rgba(252, 252, 250, 0.8) 
+
+@sidebar-btn-selected-text:			@white-alpha-500;
+@sidebar-btn-selected-icon:			@gray-700;
+@sidebar-btn-selected-outline:		@gray-50;
+@sidebar-btn-selected-bg:			@gray-50;
+
+//filetree: pin, caret, search spinner...
+@filetree-header-text:				@gray-700;
+@filetree-header-caret:				@gray-400;
+@filetree-divider:					@gray-150;
+	
+@filetree-section-title-bg:			@gray-50;	// search output  
+@filetree-item-hover:				@gray-100;
+@filetree-item-selected:  			@gray-200;
+
+@filetree-item-primary-text:		@gray-600;  //! sidebar color low contrast < 3.8
+@filetree-item-secondary-text: 		@gray-400;  //replace domain(#dbdbdb),search placeholder with #cccccc.
+@filetree-item-caret:				@gray-400;
+
+@filetree-pin:						@gray-600; 	//replace #686261
+@filetree-pin-active:				@gray-700; 	//? sidebar bg
+
+@filetree-width:					196px;
+
+//topbar
+@topbar-breadcrumb-active:			@black-alpha-500;
+@topbar-breadcrumb-inactive: 		@black-alpha-300;
+@topbar-icon:						@gray-800;
+@topbar-icon-active:				@blue-700;
+
+@topbar-presence-border:			@gray-400;
+@topbar-presence-bg:				@gray-100;  //replace #fcfcfc
+
+@usermenu-invite-bg:				@black-alpha-500;
+@helpmenu-text:						@gray-600;
+
+@topbar-breadcrumb-font-size:		@font-size-h5;
+@topbar-breadcrumb-line-height:		@line-height-h5;
+
+//homeview
+@welcome-title:						@black-alpha-300; // for "Welcome to" only
+@welcome-section-title:				@gray-500; //replace #919191 with #9b9b9b
+@welcome-section-text-secondary:	@gray-600; // what's new ul li
+@welcome-section-bg:				@gray-50;
+@welcome-section-border:		  	@gray-150;
+@welcome-lastlogin:					@black-alpha-500;
+
+//notebook
+@nb-menu-text:						@gray-500;	//fontcolor
+@nb-menu-text-active: 				@gray-600;   
+
+//cells
+@nb-cells-bg:						@gray-50;
+@nb-cells-divider:					@gray-150;
+
+//panel  
+@github-icon:						@gray-500;
+@github-icon-hover:					@gray-600;
+@github-icon-success:				@green-500;
+@github-icon-error:					@red-500;
+@github-icon-warning:				@yellow-500;
+@github-timestamp-text:				@gray-400;
+
+@history-diff-insert-bg:			@green-100;
+@history-diff-delete-bg:			@red-100;
+
+@shortcut-command-key-text:			@yellow-700;
+@shortcut-command-key-bg:			@gray-50;
 
 
-
-//== Dropdowns
-//
-
-//** Divider color for between dropdown items.
-@dropdown-divider-bg:            @border-default-color;
-//** Active dropdown menu item text color.
-@dropdown-link-active-color:     @white;
-//** Active dropdown menu item background color.
-@dropdown-link-active-bg:        @link-hover-color;
-
-
-//-- Z-index master list
-//
-// Warning: Avoid customizing these values. They're used for a bird's eye view
-// of components dependent on the z-axis and are designed to all work together.
-//
-// Note: These variables are not generated into the Customizer.
-
-@zindex-navbar:            1000;
-@zindex-dropdown:          1000;
-@zindex-popover:           1060;
-@zindex-tooltip:           1070;
-@zindex-navbar-fixed:      1030;
-@zindex-modal-background:  1040;
-@zindex-modal:             1050;
-
-//== Modals
-//
-//##
-
-//** Padding applied to the modal body
-@modal-inner-padding:         15px;
-
-//** Padding applied to the modal title
-@modal-title-padding:         15px;
-//** Modal title line-height
-@modal-title-line-height:     @line-height-base;
-
-//** Background color of modal content area
-@modal-content-bg:                             #fff;
-//** Modal content border color
-@modal-content-border-color:                   rgba(0,0,0,.2);
-//** Modal content border color **for IE8**
-@modal-content-fallback-border-color:          #999;
-
-//** Modal backdrop background color
-@modal-backdrop-bg:           #000;
-//** Modal backdrop opacity
-@modal-backdrop-opacity:      .5;
-//** Modal header border color
-@modal-header-border-color:   #e5e5e5;
-//** Modal footer border color
-@modal-footer-border-color:   @modal-header-border-color;
-
-@modal-lg:                    900px;
-@modal-md:                    600px;
-@modal-sm:                    300px;
-
-//== Tooltips
-//
-//##
-
-
-//== Badge
-//
-//## Define alert colors, border radius, and padding.
-
-@badge-color:				  #fff;
-@badge-bg:					  @gray-400;
-@badge-border-radius:		  10px;
-// @badge-line-height:
-
-//== Tables
-//
-//## Customizes the `.table` component with basic values, each used across all table variations.
-
-//** Padding for `<th>`s and `<td>`s.
-@table-cell-padding:            @spacing-unit-sm @spacing-unit-base;
-@table-condensed-cell-padding:  @spacing-unit-sm;
-@table-header-size:				@font-size-h6;
-@table-header-padding:    		@table-condensed-cell-padding;
-
-
-
-//== Tabs
-@nav-tabs-border-color:                     @gray-300;
-@nav-tabs-active-link-bottom-border-color:  @gray-800;
-@nav-tabs-font-size:						@font-size-h4;
-@nav-link-padding:                          @spacing-unit-base @spacing-unit-md;                     
-
-@nav-disabled-link-color:                   @disabled-text;
-
-
-
-//== Forms
-//
-//##
-
-//** `<input>` background color
-@input-bg:                       #fff;
-//** `<input disabled>` background color
-// @input-bg-disabled:              @gray-lighter;
-
-// @label-color: 					 @gray-light;
-// @label-font-size: 				 @font-size-small;	
-
-// //** Text color for `<input>`s
-// @input-color:                    @gray;
-//** `<input>` border color
-@input-border:                   #ccc;
-
-// TODO: Rename `@input-border-radius` to `@input-border-radius-base` in v4
-//** Default `.form-control` border radius
-// This has no effect on `<select>`s in some browsers, due to the limited stylability of `<select>`s in CSS.
-// @input-border-radius:            @border-radius-base;
-// //** Large `.form-control` border radius
-// @input-border-radius-large:      @border-radius-large;
-// //** Small `.form-control` border radius
-// @input-border-radius-small:      @border-radius-small;
-
-// //** Border color for inputs on focus
-// @input-border-focus:             #66afe9;
-
-// //** Placeholder text color
-// @input-color-placeholder:        #999;
-
-// //** Default `.form-control` height
-// @input-height-base:              30px;//(@line-height-computed + (@padding-base-vertical * 2) + 2);
-// //** Large `.form-control` height
-// @input-height-large:             (ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) + 2);
-// //** Small `.form-control` height
-// @input-height-small:             (floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2);
-
-// //== Tooltips
-// //
-// //##
-
-// //** Tooltip max width
-// @tooltip-max-width:           200px;
-// //** Tooltip text color
-// @tooltip-color:               #fff;
-// //** Tooltip background color
-// @tooltip-bg:                  #000;
-// @tooltip-opacity:             .9;
-
-// //** Tooltip arrow width
-// @tooltip-arrow-width:         5px;
-// //** Tooltip arrow color
-// @tooltip-arrow-color:         @tooltip-bg;
-
-
-
-//== Media queries breakpoints
+//== Media queries breakpoints 
 //
 //## Define the breakpoints at which your layout will change, adapting to different screen sizes.
-
 // Extra small screen / phone
-//** Deprecated `@screen-xs` as of v3.0.1
-@screen-xs:                  480px;
-//** Deprecated `@screen-xs-min` as of v3.2.0
-@screen-xs-min:              @screen-xs;
-//** Deprecated `@screen-phone` as of v3.0.1
-@screen-phone:               @screen-xs-min;
+@screen-xs:                  		480px;
+@screen-xs-min:             		@screen-xs;
+@screen-phone:               		@screen-xs-min;
 
 // Small screen / tablet
-//** Deprecated `@screen-sm` as of v3.0.1
-@screen-sm:                  768px;
-@screen-sm-min:              @screen-sm;
-//** Deprecated `@screen-tablet` as of v3.0.1
-@screen-tablet:              @screen-sm-min;
+@screen-sm:                  		768px;
+@screen-sm-min:              		@screen-sm;
+@screen-tablet:              		@screen-sm-min;
 
 // Medium screen / desktop
-//** Deprecated `@screen-md` as of v3.0.1
-@screen-md:                  992px;
-@screen-md-min:              @screen-md;
-//** Deprecated `@screen-desktop` as of v3.0.1
-@screen-desktop:             @screen-md-min;
+@screen-md:                  		992px;
+@screen-md-min:              		@screen-md;
+@screen-desktop:             		@screen-md-min;
 
 // Large screen / wide desktop
-//** Deprecated `@screen-lg` as of v3.0.1
-@screen-lg:                  1200px;
-@screen-lg-min:              @screen-lg;
-//** Deprecated `@screen-lg-desktop` as of v3.0.1
-@screen-lg-desktop:          @screen-lg-min;
+@screen-lg:                  		1200px;
+@screen-lg-min:              		@screen-lg;
+@screen-lg-desktop:          		@screen-lg-min;
 
 // So media queries don't overlap when required, provide a maximum
-@screen-xs-max:              (@screen-sm-min - 1);
-@screen-sm-max:              (@screen-md-min - 1);
-@screen-md-max:              (@screen-lg-min - 1);
-
-
-//== Others
-@cursor-disabled:                not-allowed;
+@screen-xs-max:              		(@screen-sm-min - 1);
+@screen-sm-max:              		(@screen-md-min - 1);
+@screen-md-max:              		(@screen-lg-min - 1);
