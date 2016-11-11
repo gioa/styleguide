@@ -239,6 +239,17 @@ a:hover{
 }
 /*end of clipboard*/
 
+/*svg responsive*/
+#collapseColorSection,
+#collapseTypeSection{
+  width: 100%;
+  margin: 0 auto;
+
+}
+.main object{
+	width: 100%;
+}
+
 /*icons*/
 .fa{
 	color:#333;
