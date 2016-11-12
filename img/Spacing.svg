@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="820px" height="448px" viewBox="0 0 820 448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Spacing</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Styles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Spacing">
+            <g id="Group-2" transform="translate(39.000000, 35.000000)">
+                <rect id="Rectangle-3" fill="#F9EDBE" x="0" y="19" width="240" height="4"></rect>
+                <text id="4px" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#333333">
+                    <tspan x="218" y="12">4px</tspan>
+                </text>
+                <text id="@spacing-small" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#333333">
+                    <tspan x="0" y="12">@spacing-small</tspan>
+                </text>
+            </g>
+            <g id="Group-3" transform="translate(39.000000, 74.000000)">
+                <rect id="Rectangle-3" fill="#F9EDBE" x="0" y="19" width="240" height="8"></rect>
+                <text id="@spacing-base" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#333333">
+                    <tspan x="0" y="12">@spacing-base</tspan>
+                </text>
+                <text id="8px" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#333333">
+                    <tspan x="218" y="12">8px</tspan>
+                </text>
+            </g>
+            <g id="Group-4" transform="translate(39.000000, 117.000000)">
+                <rect id="Rectangle-3" fill="#F9EDBE" x="0" y="19" width="240" height="12"></rect>
+                <text id="@spacing-medium" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#333333">
+                    <tspan x="0" y="12">@spacing-medium</tspan>
+                </text>
+                <text id="12px" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#333333">
+                    <tspan x="211" y="12">12px</tspan>
+                </text>
+            </g>
+            <g id="Group-5" transform="translate(39.000000, 164.000000)">
+                <rect id="Rectangle-3" fill="#F9EDBE" x="0" y="19" width="240" height="16"></rect>
+                <text id="@spacing-large" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#333333">
+                    <tspan x="0" y="12">@spacing-large</tspan>
+                </text>
+                <text id="16px" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#333333">
+                    <tspan x="211" y="12">16px</tspan>
+                </text>
+            </g>
+            <g id="Group-6" transform="translate(39.000000, 215.000000)">
+                <rect id="Rectangle-3" fill="#F9EDBE" x="0" y="19" width="240" height="24"></rect>
+                <text id="@spacing-x-large" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#333333">
+                    <tspan x="0" y="12">@spacing-x-large</tspan>
+                </text>
+                <text id="24px" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#333333">
+                    <tspan x="211" y="12">24px</tspan>
+                </text>
+            </g>
+            <g id="Group-7" transform="translate(39.000000, 274.000000)">
+                <rect id="Rectangle-3" fill="#F9EDBE" x="0" y="19" width="240" height="32"></rect>
+                <text id="@spacing-xx-large" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#333333">
+                    <tspan x="0" y="12">@spacing-xx-large</tspan>
+                </text>
+                <text id="32px" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#333333">
+                    <tspan x="211" y="12">32px</tspan>
+                </text>
+            </g>
+            <g id="Group-8" transform="translate(39.000000, 341.000000)">
+                <rect id="Rectangle-3" fill="#F9EDBE" x="0" y="19" width="240" height="32"></rect>
+                <text id="@spacing-xxx-large" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#333333">
+                    <tspan x="0" y="12">@spacing-xxx-large</tspan>
+                </text>
+                <text id="48px" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" fill="#333333">
+                    <tspan x="211" y="12">48px</tspan>
+                </text>
+            </g>
+            <g id="Group-16" transform="translate(369.000000, 37.000000)">
+                <rect id="Rectangle" fill="#F0C36D" x="11" y="9" width="148" height="28"></rect>
+                <rect id="Rectangle" fill="#F9EDBE" x="19" y="13" width="132" height="20"></rect>
+                <g id="TOP#BBA94D92-F79B-47A4-A9DD-40FC78594BCC#AC261263-04D5-4508-8A7E-CB4184658285" transform="translate(46.000000, 0.000000)">
+                    <rect id="ruler-start" fill="#50E3C2" x="0" y="9" width="5" height="1"></rect>
+                    <rect id="ruler-end" fill="#50E3C2" x="0" y="12" width="5" height="1"></rect>
+                    <rect id="ruler-line" fill="#50E3C2" x="2" y="9" width="1" height="4"></rect>
+                    <polygon id="label-arrow" fill="#50E3C2" points="5 11 9 7 13 11 9 15"></polygon>
+                    <rect id="label-box" fill="#50E3C2" x="9" y="0" width="29" height="22" rx="2"></rect>
+                    <text id="label-text" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="13.498" y="15">4px</tspan>
+                    </text>
+                </g>
+                <g id="LEFT#BBA94D92-F79B-47A4-A9DD-40FC78594BCC#AC261263-04D5-4508-8A7E-CB4184658285" transform="translate(0.000000, 20.000000)">
+                    <rect id="ruler-start" fill="#50E3C2" x="11" y="0" width="1" height="5"></rect>
+                    <rect id="ruler-end" fill="#50E3C2" x="18" y="0" width="1" height="5"></rect>
+                    <rect id="ruler-line" fill="#50E3C2" x="11" y="2" width="8" height="1"></rect>
+                    <polygon id="label-arrow" fill="#50E3C2" points="11 9 15 5 19 9 15 13"></polygon>
+                    <rect id="label-box" fill="#50E3C2" x="0" y="9" width="29" height="22" rx="2"></rect>
+                    <text id="label-text" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="4.498" y="24">8px</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-17" transform="translate(369.000000, 110.000000)">
+                <g id="Group-15">
+                    <rect id="Rectangle" fill="#F0C36D" x="12" y="7" width="224" height="56"></rect>
+                    <rect id="Rectangle" fill="#F9EDBE" x="24" y="15" width="200" height="40"></rect>
+                    <g id="TOP#CBE41510-23F2-4277-8178-365C3156473B#52FF724B-0D62-450B-9922-C0A8DBFFF488" transform="translate(121.000000, 0.000000)">
+                        <rect id="ruler-start" fill="#50E3C2" x="0" y="7" width="5" height="1"></rect>
+                        <rect id="ruler-end" fill="#50E3C2" x="0" y="14" width="5" height="1"></rect>
+                        <rect id="ruler-line" fill="#50E3C2" x="2" y="7" width="1" height="8"></rect>
+                        <polygon id="label-arrow" fill="#50E3C2" points="5 11 9 7 13 11 9 15"></polygon>
+                        <rect id="label-box" fill="#50E3C2" x="9" y="0" width="29" height="22" rx="2"></rect>
+                        <text id="label-text" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="13.498" y="15">8px</tspan>
+                        </text>
+                    </g>
+                    <g id="LEFT#CBE41510-23F2-4277-8178-365C3156473B#52FF724B-0D62-450B-9922-C0A8DBFFF488" transform="translate(0.000000, 32.000000)">
+                        <rect id="ruler-start" fill="#50E3C2" x="12" y="0" width="1" height="5"></rect>
+                        <rect id="ruler-end" fill="#50E3C2" x="23" y="0" width="1" height="5"></rect>
+                        <rect id="ruler-line" fill="#50E3C2" x="12" y="2" width="12" height="1"></rect>
+                        <polygon id="label-arrow" fill="#50E3C2" points="14 9 18 5 22 9 18 13"></polygon>
+                        <rect id="label-box" fill="#50E3C2" x="0" y="9" width="35" height="22" rx="2"></rect>
+                        <text id="label-text" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="4.162" y="24">12px</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="Group" transform="translate(369.000000, 215.000000)">
+                <rect id="Rectangle" fill="#F0C36D" x="10" y="3" width="400" height="182"></rect>
+                <rect id="Rectangle" fill="#F9EDBE" x="26" y="19" width="368" height="150"></rect>
+                <g id="TOP#10D277A3-DDC7-418C-9A54-9600D0DFE135#A20C96CE-8D1B-4C84-9BD1-3640150D380E" transform="translate(168.000000, 0.000000)">
+                    <rect id="ruler-start" fill="#50E3C2" x="39" y="3" width="5" height="1"></rect>
+                    <rect id="ruler-end" fill="#50E3C2" x="39" y="18" width="5" height="1"></rect>
+                    <rect id="ruler-line" fill="#50E3C2" x="41" y="3" width="1" height="16"></rect>
+                    <polygon id="label-arrow" fill="#50E3C2" points="31 11 35 7 39 11 35 15"></polygon>
+                    <rect id="label-box" fill="#50E3C2" x="0" y="0" width="35" height="22" rx="2"></rect>
+                    <text id="label-text" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="4.162" y="15">16px</tspan>
+                    </text>
+                </g>
+                <g id="RIGHT#10D277A3-DDC7-418C-9A54-9600D0DFE135#A20C96CE-8D1B-4C84-9BD1-3640150D380E" transform="translate(384.000000, 91.000000)">
+                    <rect id="ruler-start" fill="#50E3C2" x="10" y="0" width="1" height="5"></rect>
+                    <rect id="ruler-end" fill="#50E3C2" x="25" y="0" width="1" height="5"></rect>
+                    <rect id="ruler-line" fill="#50E3C2" x="10" y="2" width="16" height="1"></rect>
+                    <polygon id="label-arrow" fill="#50E3C2" points="14 9 18 5 22 9 18 13"></polygon>
+                    <rect id="label-box" fill="#50E3C2" x="0" y="9" width="35" height="22" rx="2"></rect>
+                    <text id="label-text" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="4.162" y="24">16px</tspan>
+                    </text>
+                </g>
+                <g id="BOTTOM#10D277A3-DDC7-418C-9A54-9600D0DFE135#A20C96CE-8D1B-4C84-9BD1-3640150D380E" transform="translate(168.000000, 166.000000)">
+                    <rect id="ruler-start" fill="#50E3C2" x="39" y="3" width="5" height="1"></rect>
+                    <rect id="ruler-end" fill="#50E3C2" x="39" y="18" width="5" height="1"></rect>
+                    <rect id="ruler-line" fill="#50E3C2" x="41" y="3" width="1" height="16"></rect>
+                    <polygon id="label-arrow" fill="#50E3C2" points="31 11 35 7 39 11 35 15"></polygon>
+                    <rect id="label-box" fill="#50E3C2" x="0" y="0" width="35" height="22" rx="2"></rect>
+                    <text id="label-text" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="4.162" y="15">16px</tspan>
+                    </text>
+                </g>
+                <g id="LEFT#10D277A3-DDC7-418C-9A54-9600D0DFE135#A20C96CE-8D1B-4C84-9BD1-3640150D380E" transform="translate(0.000000, 91.000000)">
+                    <rect id="ruler-start" fill="#50E3C2" x="10" y="0" width="1" height="5"></rect>
+                    <rect id="ruler-end" fill="#50E3C2" x="25" y="0" width="1" height="5"></rect>
+                    <rect id="ruler-line" fill="#50E3C2" x="10" y="2" width="16" height="1"></rect>
+                    <polygon id="label-arrow" fill="#50E3C2" points="14 9 18 5 22 9 18 13"></polygon>
+                    <rect id="label-box" fill="#50E3C2" x="0" y="9" width="35" height="22" rx="2"></rect>
+                    <text id="label-text" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="4.162" y="24">16px</tspan>
+                    </text>
+                </g>
+            </g>
+            <text id="Model-Content" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="26" font-weight="300" fill="#343434">
+                <tspan x="502" y="315">Model Content</tspan>
+            </text>
+            <text id="Tooltip,-Tab,-Notes…" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" line-spacing="20" fill="#333333">
+                <tspan x="423" y="147">Tooltip, Tab, Notes…</tspan>
+            </text>
+            <text id="Button,-Inputs,-Aler" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#333333">
+                <tspan x="392" y="64">Button, Inputs, Alerts…</tspan>
+            </text>
+            <text id="(padding-only)" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill-opacity="0.34" fill="#000000">
+                <tspan x="152" y="128">(padding only)</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

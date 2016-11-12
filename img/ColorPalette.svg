@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="820px" height="2520px" viewBox="0 0 820 2520" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Color Palette</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <polygon id="path-3" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <polygon id="path-5" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <polygon id="path-7" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <polygon id="path-9" points="0 0 180 0 180 130 0 130"></polygon>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="130" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <polygon id="path-11" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <polygon id="path-13" points="0 0 180 0 180 130 0 130"></polygon>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="130" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <polygon id="path-15" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+        <polygon id="path-17" points="0 0 180 0 180 130 0 130"></polygon>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="130" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+        <polygon id="path-19" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-20" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-19"></use>
+        </mask>
+        <polygon id="path-21" points="0 0 180 0 180 130 0 130"></polygon>
+        <mask id="mask-22" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="130" fill="white">
+            <use xlink:href="#path-21"></use>
+        </mask>
+        <polygon id="path-23" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-24" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-23"></use>
+        </mask>
+        <polygon id="path-25" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-26" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-25"></use>
+        </mask>
+        <polygon id="path-27" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-28" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-27"></use>
+        </mask>
+        <polygon id="path-29" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-30" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-29"></use>
+        </mask>
+        <polygon id="path-31" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-32" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-31"></use>
+        </mask>
+        <polygon id="path-33" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-34" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-33"></use>
+        </mask>
+        <polygon id="path-35" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-36" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-35"></use>
+        </mask>
+        <polygon id="path-37" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-38" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-37"></use>
+        </mask>
+        <polygon id="path-39" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-40" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-39"></use>
+        </mask>
+        <polygon id="path-41" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-42" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-41"></use>
+        </mask>
+        <polygon id="path-43" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-44" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-43"></use>
+        </mask>
+        <polygon id="path-45" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-46" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-45"></use>
+        </mask>
+        <polygon id="path-47" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-48" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-47"></use>
+        </mask>
+        <polygon id="path-49" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-50" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-49"></use>
+        </mask>
+        <polygon id="path-51" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-52" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-51"></use>
+        </mask>
+        <polygon id="path-53" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-54" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-53"></use>
+        </mask>
+        <polygon id="path-55" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-56" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-55"></use>
+        </mask>
+        <polygon id="path-57" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-58" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-57"></use>
+        </mask>
+        <polygon id="path-59" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-60" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-59"></use>
+        </mask>
+        <polygon id="path-61" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-62" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-61"></use>
+        </mask>
+        <polygon id="path-63" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-64" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-63"></use>
+        </mask>
+        <polygon id="path-65" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-66" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-65"></use>
+        </mask>
+        <polygon id="path-67" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-68" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-67"></use>
+        </mask>
+        <polygon id="path-69" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-70" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-69"></use>
+        </mask>
+        <polygon id="path-71" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-72" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-71"></use>
+        </mask>
+        <polygon id="path-73" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-74" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-73"></use>
+        </mask>
+        <polygon id="path-75" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-76" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-75"></use>
+        </mask>
+        <polygon id="path-77" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-78" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-77"></use>
+        </mask>
+        <polygon id="path-79" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-80" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-79"></use>
+        </mask>
+        <polygon id="path-81" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-82" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-81"></use>
+        </mask>
+        <polygon id="path-83" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-84" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-83"></use>
+        </mask>
+        <polygon id="path-85" points="0 0 180 0 180 200 0 200"></polygon>
+        <mask id="mask-86" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="200" fill="white">
+            <use xlink:href="#path-85"></use>
+        </mask>
+    </defs>
+    <g id="Styles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Color-Palette">
+            <g id="Swatch:-#333333" transform="translate(220.000000, 20.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                <polygon id="#333333" fill="#333333" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="gray-800" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="152">gray-800</tspan>
+                </text>
+                <text id="#333333" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#333333</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(51, 51, 51, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#333333" transform="translate(20.000000, 20.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-4)" stroke-width="2" xlink:href="#path-3"></use>
+                <polygon id="#333333" fill="#272727" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="gray-800" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="152">gray-900</tspan>
+                </text>
+                <text id="#272727" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#272727</tspan>
+                </text>
+                <text id="rgba(39,-39,-39,-1)" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(39, 39, 39, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#797979" transform="translate(620.000000, 20.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-6)" stroke-width="2" xlink:href="#path-5"></use>
+                <polygon id="#797979" fill="#797979" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="gray-600" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="152">gray-600</tspan>
+                </text>
+                <text id="#797979" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#797979</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(121, 121, 121, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#FFFFFF" transform="translate(21.000000, 1160.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-8)" stroke-width="2" xlink:href="#path-7"></use>
+                <use id="#FFFFFF" stroke="#DEDEDE" mask="url(#mask-10)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-9"></use>
+                <text id="white" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">white</tspan>
+                </text>
+                <text id="#FFFFFF" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#FFFFFF</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(255, 255, 255, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#FFFFFF-Copy" transform="translate(221.000000, 920.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-12)" stroke-width="2" xlink:href="#path-11"></use>
+                <use id="#FFFFFF" stroke="#DEDEDE" mask="url(#mask-14)" stroke-width="2" fill-opacity="0.5" fill="#FFFFFF" xlink:href="#path-13"></use>
+                <text id="white-alpha-500" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">white-alpha-500</tspan>
+                </text>
+                <text id="#FFFFFF" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#FFFFFF</tspan>
+                </text>
+                <text id="rgba(255,-255,-255," font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(255, 255, 255, 0.5)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#FFFFFF-Copy-2" transform="translate(421.000000, 920.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-16)" stroke-width="2" xlink:href="#path-15"></use>
+                <use id="#FFFFFF" stroke="#DEDEDE" mask="url(#mask-18)" stroke-width="2" fill-opacity="0.12" fill="#FFFFFF" xlink:href="#path-17"></use>
+                <text id="white-alpha-100" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">white-alpha-100</tspan>
+                </text>
+                <text id="#FFFFFF" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#FFFFFF</tspan>
+                </text>
+                <text id="rgba(255,-255,-255," font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(255, 255, 255, 0.12)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#FFFFFF-Copy-3" transform="translate(621.000000, 920.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-20)" stroke-width="2" xlink:href="#path-19"></use>
+                <use id="#FFFFFF" stroke="#DEDEDE" mask="url(#mask-22)" stroke-width="2" fill-opacity="0.05" fill="#FFFFFF" xlink:href="#path-21"></use>
+                <text id="white-alpha-50" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">white-alpha-50</tspan>
+                </text>
+                <text id="#FFFFFF" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#FFFFFF</tspan>
+                </text>
+                <text id="rgba(255,-255,-255," font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(255, 255, 255, 0.05)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#000000" transform="translate(221.000000, 700.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-24)" stroke-width="2" xlink:href="#path-23"></use>
+                <polygon id="#000000" fill-opacity="0.52" fill="#000000" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="black-alpha-500" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">black-alpha-500</tspan>
+                </text>
+                <text id="#7a7a7a" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#7a7a7a</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(0, 0, 0, 0.52)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#E6E8EA" transform="translate(20.000000, 460.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-26)" stroke-width="2" xlink:href="#path-25"></use>
+                <polygon id="#E6E8EA" fill="#E6E8EA" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="gray-150" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="152">gray-150</tspan>
+                </text>
+                <text id="#E6E8EA" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#E6E8EA</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(230, 232, 234, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#F5A623" transform="translate(620.000000, 2060.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-28)" stroke-width="2" xlink:href="#path-27"></use>
+                <polygon id="#F5A623" fill="#B37900" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="yellow-700" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">yellow-700</tspan>
+                </text>
+                <text id="#B37900" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="171">#B37900</tspan>
+                </text>
+                <text id="rgba(179,-120,-0,-1)" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="191">rgba(179, 120, 0, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#000000" transform="translate(421.000000, 700.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-30)" stroke-width="2" xlink:href="#path-29"></use>
+                <polygon id="#000000" fill-opacity="0.34" fill="#000000" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="black-alpha-300" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">black-alpha-300</tspan>
+                </text>
+                <text id="#a8a8a8" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#a8a8a8</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(0, 0, 0, 0.34)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#258BD2" transform="translate(20.000000, 1399.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-32)" stroke-width="2" xlink:href="#path-31"></use>
+                <polygon id="#258BD2" fill="#258BD2" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="blue-500" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">blue-500</tspan>
+                </text>
+                <text id="#258BD2" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#258BD2</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(37, 139, 210, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#CCCCCC" transform="translate(220.000000, 240.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-34)" stroke-width="2" xlink:href="#path-33"></use>
+                <polygon id="#CCCCCC" fill="#CCCCCC" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="gray-400" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="152">gray-400</tspan>
+                </text>
+                <text id="#CCCCCC" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#CCCCCC</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(204, 204, 204, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#FAFAFA" transform="translate(421.000000, 460.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-36)" stroke-width="2" xlink:href="#path-35"></use>
+                <polygon id="#FAFAFA" fill="#FAFAFA" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="gray-50" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="152">gray-50</tspan>
+                </text>
+                <text id="#FAFAFA" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#FAFAFA</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(250, 250, 250, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#9B9B9B" transform="translate(20.000000, 240.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-38)" stroke-width="2" xlink:href="#path-37"></use>
+                <polygon id="#9B9B9B" fill="#9B9B9B" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="gray-500" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="152">gray-500</tspan>
+                </text>
+                <text id="#9B9B9B" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#9B9B9B</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(155, 155, 155, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#F1F1F1" transform="translate(620.000000, 240.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-40)" stroke-width="2" xlink:href="#path-39"></use>
+                <polygon id="#F1F1F1" fill="#EEEEEE" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="gray-200" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="152">gray-200</tspan>
+                </text>
+                <text id="#EEEEEE" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#EEEEEE</tspan>
+                </text>
+                <text id="rgba(238,-238,-238," font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(238, 238, 238, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#EE532D" transform="translate(20.000000, 2060.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-42)" stroke-width="2" xlink:href="#path-41"></use>
+                <polygon id="#EE532D" fill="#FDBC40" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="yellow-500" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">yellow-500</tspan>
+                </text>
+                <text id="#FDBC40" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="171">#FDBC40</tspan>
+                </text>
+                <text id="rgba(253,-188,-64,-1" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="191">rgba(253, 188, 64, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#EE532D-Copy" transform="translate(220.000000, 2060.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-44)" stroke-width="2" xlink:href="#path-43"></use>
+                <polygon id="#EE532D" fill="#F0C36D" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="yellow-600" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">yellow-600</tspan>
+                </text>
+                <text id="#F0C36D" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="171">#F0C36D</tspan>
+                </text>
+                <text id="rgba(240,-195,-109," font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="191">rgba(240, 195, 109, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#444444" transform="translate(420.000000, 20.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-46)" stroke-width="2" xlink:href="#path-45"></use>
+                <polygon id="#444444" fill="#464644" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="gray-700" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="152">gray-700</tspan>
+                </text>
+                <text id="#464644" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#464644</tspan>
+                </text>
+                <text id="rgba(70,-70,-68,-1)" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(70, 70, 68, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#F5F5F5" transform="translate(221.000000, 460.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-48)" stroke-width="2" xlink:href="#path-47"></use>
+                <polygon id="#F5F5F5" fill="#F5F5F5" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="gray-100" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="152">gray-100</tspan>
+                </text>
+                <text id="#F5F5F5" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#F5F5F5</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(245, 245, 245, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#000000" transform="translate(20.000000, 700.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-50)" stroke-width="2" xlink:href="#path-49"></use>
+                <polygon id="#000000" fill-opacity="0.8" fill="#000000" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="black-alpha-800" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">black-alpha-800</tspan>
+                </text>
+                <text id="#333333" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#333333</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(0, 0, 0, 0.8)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#000000" transform="translate(221.000000, 1160.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-52)" stroke-width="2" xlink:href="#path-51"></use>
+                <polygon id="#000000" fill="#000000" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="black" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">black</tspan>
+                </text>
+                <text id="#000000" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#000000</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(0, 0, 0, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#000000" transform="translate(20.000000, 920.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-54)" stroke-width="2" xlink:href="#path-53"></use>
+                <polygon id="#000000" fill-opacity="0.12" fill="#000000" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="black-alpha-100" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">black-alpha-100</tspan>
+                </text>
+                <text id="#000000" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#000000</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(0, 0, 0, 0.12)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#000000" transform="translate(620.000000, 700.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-56)" stroke-width="2" xlink:href="#path-55"></use>
+                <polygon id="#000000" fill-opacity="0.25" fill="#000000" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="black-alpha-200" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">black-alpha-200</tspan>
+                </text>
+                <text id="#bfbfbf" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#bfbfbf</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(0, 0, 0, 0.25)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#217DBC" transform="translate(220.000000, 1399.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-58)" stroke-width="2" xlink:href="#path-57"></use>
+                <polygon id="#217DBC" fill="#64C3FF" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="blue-200" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">blue-200</tspan>
+                </text>
+                <text id="#64C3FF" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#64C3FF</tspan>
+                </text>
+                <text id="rgba(100,-195,-255," font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(100, 195, 255, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#23B26D" transform="translate(21.000000, 1620.109373)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-60)" stroke-width="2" xlink:href="#path-59"></use>
+                <polygon id="#23B26D" fill="#16B169" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="green-500" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">green-500</tspan>
+                </text>
+                <text id="#16B169" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#16B169</tspan>
+                </text>
+                <text id="rgba(22,-177,-105,-1" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(22, 177, 105, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#FF5224" transform="translate(19.000000, 2298.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-62)" stroke-width="2" xlink:href="#path-61"></use>
+                <polygon id="#FF5224" fill="#FF5224" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="orange-500" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">orange-500</tspan>
+                </text>
+                <text id="#FF5224" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#FF5224</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(255, 82, 36, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#FF5224-Copy-2" transform="translate(220.000000, 2298.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-64)" stroke-width="2" xlink:href="#path-63"></use>
+                <polygon id="#FF5224" fill="#ED770E" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="orange-700" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">orange-700</tspan>
+                </text>
+                <text id="#ED770E" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="171">#ED770E</tspan>
+                </text>
+                <text id="rgba(237,-119,-14,-1" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="191">rgba(237, 119, 14, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#FF5224-Copy" transform="translate(618.000000, 1399.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-66)" stroke-width="2" xlink:href="#path-65"></use>
+                <polygon id="#FF5224" fill="#1CB1C2" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="blue-green" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">blue-green</tspan>
+                </text>
+                <text id="#1CB1C2" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#1CB1C2</tspan>
+                </text>
+                <text id="rgba(28,-177,-194,-1" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(28, 177, 194, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#FFECEC" transform="translate(420.000000, 1840.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-68)" stroke-width="2" xlink:href="#path-67"></use>
+                <polygon id="#FFECEC" fill="#FFECEC" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="red-100" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">red-100</tspan>
+                </text>
+                <text id="#FFECEC" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="171">#FFECEC</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="191">rgba(255, 236, 236, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#DFF0D8" transform="translate(420.000000, 1620.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-70)" stroke-width="2" xlink:href="#path-69"></use>
+                <polygon id="#DFF0D8" fill="#ECFDEC" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="green-100" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">green-100</tspan>
+                </text>
+                <text id="#ECFDEC" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#ECFDEC</tspan>
+                </text>
+                <text id="rgba(236,-253,-236," font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(236, 253, 236, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#FBBC05" transform="translate(420.000000, 2060.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-72)" stroke-width="2" xlink:href="#path-71"></use>
+                <polygon id="#FBBC05" fill="#F9EDBE" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="yellow-100" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">yellow-100</tspan>
+                </text>
+                <text id="#F9EDBE" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="171">#F9EDBE</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="191">rgba(251, 188, 5, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#007CBE" transform="translate(421.000000, 1399.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-74)" stroke-width="2" xlink:href="#path-73"></use>
+                <polygon id="#007CBE" fill="#1B69A0" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="blue-700" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">blue-700</tspan>
+                </text>
+                <text id="#1B69A0" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#1B69A0</tspan>
+                </text>
+                <text id="rgba(27,-105,-160,-1" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(27, 105, 160, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#B63E2B" transform="translate(618.000000, 1840.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-76)" stroke-width="2" xlink:href="#path-75"></use>
+                <polygon id="#B63E2B" fill="#B63E2B" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="red-700" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">red-700</tspan>
+                </text>
+                <text id="#B63E2B" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="171">#B63E2B</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="191">rgba(182, 62, 43, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#F05E57" transform="translate(220.000000, 1840.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-78)" stroke-width="2" xlink:href="#path-77"></use>
+                <polygon id="#F05E57" fill="#F05E57" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="red-200" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">red-200</tspan>
+                </text>
+                <text id="#F05E57" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="171">#F05E57</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="191">rgba(240, 94, 87, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#D6E9C6" transform="translate(220.000000, 1620.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-80)" stroke-width="2" xlink:href="#path-79"></use>
+                <polygon id="#D6E9C6" fill="#D6E9C6" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="green-200" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">green-200</tspan>
+                </text>
+                <text id="#D6E9C6" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#D6E9C6</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(214, 233, 198, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#DDDDDD" transform="translate(419.000000, 240.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-82)" stroke-width="2" xlink:href="#path-81"></use>
+                <polygon id="#DDDDDD" fill="#DDDDDD" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="gray-300" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="152">gray-300</tspan>
+                </text>
+                <text id="#DDDDDD" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#DDDDDD</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(221, 221, 221, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#468847" transform="translate(618.000000, 1620.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-84)" stroke-width="2" xlink:href="#path-83"></use>
+                <polygon id="#468847" fill="#468847" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="green-700" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">green-700</tspan>
+                </text>
+                <text id="#468847" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="173">#468847</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="193">rgba(70, 136, 71, 1)</tspan>
+                </text>
+            </g>
+            <g id="Swatch:-#DB1905" transform="translate(20.000000, 1840.000000)">
+                <use id="border" stroke="#DEDEDE" mask="url(#mask-86)" stroke-width="2" xlink:href="#path-85"></use>
+                <polygon id="#DB1905" fill="#DB1905" points="0 0 180 0 180 130 0 130"></polygon>
+                <text id="red-500" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="8" y="153">red-500</tspan>
+                </text>
+                <text id="#DB1905" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="171">#DB1905</tspan>
+                </text>
+                <text id="RGB-Value" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal" line-spacing="16" fill-opacity="0.52" fill="#000000">
+                    <tspan x="8" y="191">rgba(219, 25, 5, 1)</tspan>
+                </text>
+            </g>
+            <path d="M1.80167754,679.109373 L819.136119,679.109373" id="Path-2" stroke="#E6E8EA"></path>
+            <path d="M1.80167754,1139.10937 L819.136119,1139.10937" id="Path-2" stroke="#E6E8EA"></path>
+            <path d="M1.80167754,1379.10937 L819.136119,1379.10937" id="Path-2" stroke="#E6E8EA"></path>
+            <path d="M1,2279 L818.334442,2279" id="Path-2" stroke="#E6E8EA"></path>
+        </g>
+    </g>
+</svg>
