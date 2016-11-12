@@ -19,26 +19,30 @@
 						<a href="#"><div class="logo"></div></a>
 					</li>
 					<li>
-						<a href="#DesignGuidelines">Design Guidelines</a>
+						<a href="#DesignGuidelines">Design Principles</a>
 					</li>
 					<li><a href="#Styles">Styles</a>
 			     		<ul>
 							<li><a href="#color">Color</a></li> 
 							<li><a href="#icons">Icons</a></li>
 							<li><a href="#typography">Typography</a></li>
-							<li><a href="#spacing">Spacing</a></li>						
+							<li><a href="#spacing">Spacing</a></li>	
+							<li><a href="#writing">Writing</a></li>						
 						</ul> 
 					</li>
 					<li><a href="#Components">Components</a>
 			     	 	<ul>
-			     	 		<li><a href="#buttons">Buttons</a></li> 
+			     	 		<li><a href="#errors">Alerts</a></li>
+			     	 		<li><a href="#badge">Badge</a></li>
+							<li><a href="#dialog">Breadcrumb</a></li>
+							<li><a href="#buttons">Buttons</a></li> 
 							<li><a href="#menu">Context Menu</a></li>
 							<li><a href="#dialog">Dialog</a></li> 
+							<li><a href="#textfield">Form</a></li>
+							<li><a href="#stateIndicator">State Indicator</a></li>
 							<li><a href="#table">Table</a></li>
 							<li><a href="#tab">Tabs</a></li>
-							<li><a href="#textfield">Form</a></li>
-							<li><a href="#tooltip">Tooltips</a></li>
-							<li><a href="#errors">Error Messages</a></li>
+							<li><a href="#tooltip">Tooltips</a></li>					
 						</ul> 
 					</li>
 				</ul> <!-- end of sidebar-nav -->
@@ -57,7 +61,7 @@
 						<h2 class="page_title">Databricks Style Guide</h2>
 						<p>This style guide reflects the patterns and components of the current Databricks product. It aims to provide a unified language and consistent look and feel within the Databrick ecosystem.</p>
 					
-						<h3 class="section_title" id="DesignGuidelines">Design Guildlines</h3>
+						<h3 class="section_title" id="DesignGuidelines">Design Principles</h3>
 						<p><strong>Clarity:</strong> People must be able to recognize and understand what it is, predict what will happen when they use it. </p>
 						<p><strong>Simplicity:</strong> Reduce cognitive load.</p>
 						<p><strong>Efficiency:</strong> Optimize workflows. Provide shortcuts to help people work faster.</p>
@@ -307,32 +311,130 @@
 						<div class="para_section border">	
 							<a class="show_hide" data-toggle="collapse" href="#collapseSpacingSection" aria-expanded="false" aria-controls="collapseSpacingSection">Show/Hide</a>
 							<div id="collapseSpacingSection" class="collapse in" >
+								<br>
 								<ul>
-									<li>Basic principle: 4px base unit</li>
-									<li>Typical horizontal spacing: 8px, 12px, 20px</li>
-									<li>Typical vertical spacing: 4px, 16px, 24px, 32px</li>
+									<li><strong>The 8px Grid: </strong>Spacing on the site is based on a 4px grid. Use multiples of 8 to define margin of blocks, multiples of 4 for element paddings. Learn more about <a href="https://spec.fm/specifics/8-pt-grid" target="_blank">8-pt Grid.</a>
+										<object type="image/svg+xml" data="img/Spacing.svg">
+			  								 <!-- fallback image in CSS -->
+										</object>
+									</li><br>
+
+									<li><strong>Proximity: </strong>When items are in close proximity to each other, they become one visual unit. For separate units, their distance should be large. 								
+<!-- 										<object type="image/svg+xml" data="img/Spacing-example.svg">
+										</object>-->
+										<img src="img/Spacing-example.jpg"></img>
+ 									</li>
+									
 								<ul>	
-								<object type="image/svg+xml" data="img/Spacing.svg">
-		  								 <!-- fallback image in CSS -->
-								</object>
-								<object type="image/svg+xml" data="img/Horizontal.svg">
-		  								 <!-- fallback image in CSS -->
-								</object>
-								<object type="image/svg+xml" data="img/Vertical.svg">
-		  								 <!-- fallback image in CSS -->
-								</object>		
-								<!-- <p><strong>Component Height:</strong> Topbar:48px; Sidebar item:32px; File browser item:28px; Acitivity icon height:26px;</p>
-								<p><strong>Component Paddings:</strong> Dropdown paddings:3px,20px; Tooltip paddings:5px,10px; Buttons: 4px,12px; Tabs: 8px 12px;</p>
-								<p><strong>Table:</strong> Header height:26px; padding:3px 8px;</p>
-								<p><strong>Margin & Paddings:</strong> 10px; Table bottown in Job detail page:20px;</p> -->
+							</div>
+						</div>
+
+						<p class="para_title" id="writing">Writing</p>	
+						<div class="para_section border">	
+							<a class="show_hide" data-toggle="collapse" href="#collapseWritingSection" aria-expanded="false" aria-controls="collapseWritingSection">Show/Hide</a>
+							<div id="collapseWritingSection" class="collapse in" >
+								<br>
+								<strong>Capitalization: </strong><br><br>
+								<ul>
+									<li><strong>Title case: </strong>Capitalize the first letter of every word except for articles (a, an, the), prepositions of less than three letters(of, in), or conjunctions (and, or). One exception: The first or last world should always be capitalized. Learn more on <a href="https://medium.com/@jsaito/making-a-case-for-letter-case-19d09f653c98#.oqn00rhou" target="_blank" >Title Case vesus Sentence Case</a>.
+									</li>
+
+									<li><strong>Use title case for: </strong> All the titles (page, dialog, and section titles), button, input labels, tab labels, table column labels, and group headings.</li>
+									<li> <strong>Use sentence case for:</strong> Tooltips, intro paragraphs, and checkbox labels. Learn more on <a href="http://www.patternfly.org/styles/terminology-and-wording/#_" target="_blank" >Patternfly writing guidelines</a>.   
+									</li><br>
+								</ul>	
+
+								<p>
+									<strong> Write simple, concise and direct messages, </strong>some guidelines: <a href="https://material.google.com/style/writing.html" target="_blank" >Writing from Google material design</a>, <a href="https://material.google.com/style/writing.html" target="_blank" >How to design words</a>. 
+								</p>
+									
 							</div>
 						</div>
 
 
 						<h3 class="section_title" id="Components">Components (work in progress)</h3>
+
+						<!-- Alerts -->
+							<p class="para_title" id="errors">Alerts</p>
+						<div class="para_section">
+							<div class="component_example">	
+								<div class = "example_ui">	
+									<div class="alert alert-success" role="alert">
+									An email has been sent with further instructions.
+									</div> <br>
+									<div class="alert alert-warning" role="alert">
+									You have made changes that you need to confirm.
+									</div><br>
+									<div class="alert alert-danger" role="alert">
+									Invalid email address.
+									</div>
+
+								</div>
+
+			      				<div class='example_code'>
+							    	<button class="copy_btn">
+							    		<i class="fa fa-clipboard"></i>Copy
+									</button>
+				      				<pre class="code">
+<div class="alert alert-success" role="alert">
+	An email has been sent with further instructions.
+</div>
+<div class="alert alert-warning" role="alert">
+	You have made changes that you need to confirm.
+</div>
+<div class="alert alert-danger" role="alert">
+	Invalid email address.
+</div>
+				      				</pre>      			
+								</div>
+							</div>	
+
+						</div> <!-- end of comopnent_example -->
+
+						<!-- badge -->
+						<p class="para_title" id="badge">Badge</p>
+						<div class="para_section">
+							<div class="component_example">	
+								<div class = "example_ui">		
+									<p>Invitation <span class="badge">2</span></p>
+								</div>
+
+			      				<div class='example_code'>
+							    	<button class="copy_btn">
+							    		<i class="fa fa-clipboard"></i>Copy
+									</button>
+				      				<pre class="code">
+<p>Invitation <span class="badge">2</span></p>
+				      				</pre>      			
+								</div>
+							</div>
+							
+						</div>
+
+						<!-- breadcrumb -->
+	<p class="para_title" id="breadcrumb">Breadcrumb</p>
+						<div class="para_section">
+							<div class="component_example">	
+								<div class = "example_ui">		
+									<p class="breadcrumb"><a class="breadcrumb-clickable">Clusters/</a>Create Cluster</p>
+								</div>
+
+			      				<div class='example_code'>
+							    	<button class="copy_btn">
+							    		<i class="fa fa-clipboard"></i>Copy
+									</button>
+				      				<pre class="code">
+<p class="breadcrumb"><span class="breadcrumb-clickable">Clusters/</span>Create Cluster</p>
+				      				</pre>      			
+								</div>
+							</div>
+							
+						</div>
+
+						<!-- end of breadcrumb -->
+
 						<p class="para_title" id="buttons">Buttons</p>
 						<div class="para_section">
-
 							<div class="component_example">	
 							<div class = "example_ui">	
 							 	<p class="inline">
@@ -428,6 +530,8 @@ code for mode
 								</div>
 							</div>
 
+
+
 							<!-- Modal -->
 							<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
 							  <div class="modal-dialog">
@@ -453,11 +557,20 @@ code for mode
 						</div>
 
 
-						<p class="para_title" id="dialog">Badge</p>
+							<!-- status -->
+
+						<p class="para_title" id="stateIndicator">State Indicator</p>
 						<div class="para_section">
 							<div class="component_example">	
-								<div class = "example_ui">		
-									<p>Invitation <span class="badge">2</span></p>
+								<div class = "example_ui">	
+									<div class="state">
+										<i class="fa fa-circle running"></i>Running<br>
+										<i class="fa fa-spinner  pending"></i>Pending<br>
+										<i class="fa fa-ban  nopermission"></i>No permission<br>
+										<i class="fa fa-spinner  terminating"></i>Terminating<br>
+										<i class="fa fa-circle terminated"></i>Terminated<br>
+									</div>
+
 								</div>
 
 			      				<div class='example_code'>
@@ -465,13 +578,13 @@ code for mode
 							    		<i class="fa fa-clipboard"></i>Copy
 									</button>
 				      				<pre class="code">
-<p>Invitation <span class="badge">2</span></p>
+code for status
 				      				</pre>      			
 								</div>
-							</div>
-							
-						</div>
+							</div>	
 
+						</div> <!-- end of comopnent_example -->
+						
 
 						<p class="para_title" id="table">Table</p>	
 						<div class="para_section">	
@@ -479,13 +592,11 @@ code for mode
 						When implementing a new table, please use 
 						<a href="https://github.com/databricks/universe/blob/master/webapp/web/js/ui_building_blocks/tables/ReactTable.jsx">this abstraction</a>. 
 
-						For example usage, see here:
+						<!-- For example usage, see here:
 						<a href="https://github.com/databricks/universe/blob/master/webapp/web/js/clusters/ClusterDetailsList.jsx" target="_blank">Wrapper component</a>, 
-  						<a href="https://github.com/databricks/universe/blob/master/webapp/web/js/clusters/ClusterDetailsListView.jsx" target="_blank">Presentational component</a>.
+  						<a href="https://github.com/databricks/universe/blob/master/webapp/web/js/clusters/ClusterDetailsListView.jsx" target="_blank">Presentational component</a>. -->
   						</p>
   						<br>
-  														
-							<p>The first one is used in Cluster list page, Jobs list page, and Admin page.</p><br>
 							<div class="component_example">	
 								<div class = "example_ui">		
 									<table class="table">
@@ -597,48 +708,6 @@ code for table
 						</div>
 
 
-						<p class="para_title" id="textfield">Form</p>
-						<div class="para_section">
-
-							<div class="component_example">	
-								<div class = "example_ui">		
-									<div class="theme_form">
-										<label>User Name </label><input type="text" class="form-control" placeholder="Input field">
-										<br>
-										<label>Comments</label><textarea class="form-control" rows="3"></textarea>
-
-										<div class="checkbox">
-											  <label>
-											    <input type="checkbox" value="">
-											    Use spot instance
-											  </label>
-										</div>
-										<div class="radio">
-											  <label>
-											    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-											    Option one 
-											  </label>
-										</div>
-										<div class="radio">
-											  <label>
-											    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-											    Option two 
-											  </label>
-										</div> 
-									</div> <!-- end of form -->
-								</div>
-
-			      				<div class='example_code'>
-							    	<button class="copy_btn">
-							    		<i class="fa fa-clipboard"></i>Copy
-									</button>
-				      				<pre class="code">
-code about form
-				      				</pre>      			
-								</div>
-							</div>	
-							
-						</div>
 
 						<p class="para_title" id="tooltip">Tooltips</p>
 						<div class="para_section">
@@ -659,41 +728,8 @@ code about form
 
 						</div>
 
-						<p class="para_title" id="errors">Error Messages</p>
-						<div class="para_section">
-							<div class="component_example">	
-								<div class = "example_ui">	
-									<div class="alert alert-success" role="alert">
-									An email has been sent with further instructions.
-									</div> <br>
-									<div class="alert alert-warning" role="alert">
-									You have made changes that you need to confirm.
-									</div><br>
-									<div class="alert alert-danger" role="alert">
-									Invalid email address.
-									</div>
 
-								</div>
-
-			      				<div class='example_code'>
-							    	<button class="copy_btn">
-							    		<i class="fa fa-clipboard"></i>Copy
-									</button>
-				      				<pre class="code">
-<div class="alert alert-success" role="alert">
-An email has been sent with further instructions.
-</div>
-<div class="alert alert-warning" role="alert">
-You have made changes that you need to confirm.
-</div>
-<div class="alert alert-danger" role="alert">
-Invalid email address.
-</div>
-				      				</pre>      			
-								</div>
-							</div>	
-
-						</div> <!-- end of comopnent_example -->
+					
 					
 					</div> <!-- end of content container -->
 				</div> <!-- end of main_scrollable -->

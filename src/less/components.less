@@ -597,6 +597,56 @@
   }
 }
 
+// breadcrumb
+.breadcrumb{
+  background-color: inherit;
+  font-size: @topbar-breadcrumb-font-size;
+  line-height:  @topbar-breadcrumb-line-height;
+  color: @topbar-breadcrumb-inactive;
+
+  > .breadcrumb-clickable{
+     color:@topbar-breadcrumb-clickable;
+
+     &:hover,
+     &:focus{
+      color: @topbar-breadcrumb-clickable-active;
+     }
+  }
+
+}
+
+
+// icon state
+.state{
+  > i {
+    padding-bottom: 8px;
+  }
+  > .running,
+  > .pending {
+    color: @green-500;
+  }
+
+  > .terminating {
+    color: @red-200;
+  }
+
+  > .nopermission{
+    color: @gray-800;
+  }
+
+  > .error{
+    color: @red-500;
+  }
+  
+  > .warning{
+      color: @orange-700;
+  }
+
+  > .terminated{
+    color: @black-alpha-200;
+  }
+
+}
 
 
 // // Tabs
